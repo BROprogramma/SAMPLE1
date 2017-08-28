@@ -1,2 +1,5 @@
-# sample1
-Test repo voor het linken van BRO catalogi
+Sample1 repo
+
+Voor het testen van het linken van 2 catalogi. 
+
+https://geonovum.github.io/sample1
