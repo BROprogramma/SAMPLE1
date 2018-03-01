@@ -1,5 +1,3 @@
-Sample1 repo
+Sample1 
 
-Voor het testen van het linken van 2 catalogi. 
-
-https://BROprogramma.github.io/SAMPLE1
+gereserveerd voor EPL tests
