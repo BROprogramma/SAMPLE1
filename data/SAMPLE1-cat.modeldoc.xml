@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <book name="EPL experiment (SAMPLE1)"
-      subpath="Conceptual model/EPL experiment (SAMPLE1)/20180312"
+      subpath="Conceptual model/EPL experiment (SAMPLE1)/20180301"
       type="BASISMODEL"
       id="EAPK_491FA2C0_2621_4d18_B9BA_D66964A4BFBD"
-      generator-version="1.42.1 - EVALUATION VERSION, PLEASE REGISTER!"
-      generator-date="2018-03-12T13:06:25Z">
+      generator-version="1.42.2"
+      generator-date="2018-03-12T14:48:27Z">
    <section type="DOMAIN" name="brocommon" id="global_package_Brocommon">
       <section type="IMAGEMAPS"
                name="brocommon-imagemap"
@@ -1284,25 +1284,9 @@
                   <item>Naam</item>
                   <item>Af te staan gebied</item>
                </part>
-               <part type="CFG-DOC-ALTERNATIEVENAAM">
-                  <item>Alternatieve naam</item>
-                  <item>AfTeStaanGebied</item>
-               </part>
-               <part type="CFG-DOC-HERKOMST">
-                  <item>Herkomst</item>
-                  <item>Mij</item>
-               </part>
                <part type="CFG-DOC-DEFINITIE">
                   <item>Definitie</item>
-                  <item>Iets</item>
-               </part>
-               <part type="CFG-DOC-HERKOMSTDEFINITIE">
-                  <item>Herkomst definitie</item>
-                  <item>Mijn kladblok</item>
-               </part>
-               <part type="CFG-DOC-TOELICHTING">
-                  <item>Toelichting</item>
-                  <item>Geen toelichting</item>
+                  <item>Een deel van het vergunninggebied waarop de houder ingevolge de wijziging geen recht meer zal hebben.</item>
                </part>
             </content>
             <section type="SHORT-ATTRIBUTES">
@@ -1328,9 +1312,9 @@
                         <item type="detail"
                               idref="detail_attribute_Eplcommon_AfTeStaanGebied_oppervlakte">oppervlakte</item>
                      </item>
-                     <item>Iets</item>
+                     <item>De oppervlakte van het gebied.</item>
                      <item>
-                        <item type="global" idref="global_class_Brocommon_Getalswaarde4">Getalswaarde4</item>
+                        <item type="global" idref="global_class_Brocommon_Getalswaarde5">Getalswaarde5</item>
                      </item>
                      <item>1</item>
                   </part>
@@ -2966,53 +2950,29 @@
                         <item>Naam</item>
                         <item>oppervlakte</item>
                      </part>
-                     <part type="CFG-DOC-HERKOMST">
-                        <item>Herkomst</item>
-                        <item>Mij</item>
-                     </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
-                        <item>Iets</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
-                        <item>Herkomst definitie</item>
-                        <item>Mijn kladblok</item>
-                     </part>
-                     <part type="CFG-DOC-TOELICHTING">
-                        <item>Toelichting</item>
-                        <item>De geprojecteerde oppervlakte</item>
+                        <item>De oppervlakte van het gebied.</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
-                        <item>Ja</item>
+                        <item>Nee</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
                         <item>Indicatie materiële historie</item>
-                        <item>Ja</item>
+                        <item>Nee</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
                         <item>Indicatie formele historie</item>
-                        <item>Ja</item>
+                        <item>Nee</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                         <item>Indicatie kardinaliteit</item>
                         <item>1</item>
                      </part>
-                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
-                        <item>Indicatie authentiek</item>
-                        <item>Ja</item>
-                     </part>
-                     <part type="CFG-DOC-REGELS">
-                        <item>Regels</item>
-                        <item>Groter dan 100 kleiner dan 9543</item>
-                     </part>
-                     <part type="CFG-DOC-PATROON">
-                        <item>Patroon</item>
-                        <item>NnNn</item>
-                     </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
-                        <item>Getalswaarde4</item>
+                        <item>Getalswaarde5</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                         <item>Indicatie afleidbaar</item>
