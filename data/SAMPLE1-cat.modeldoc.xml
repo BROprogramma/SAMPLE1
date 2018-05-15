@@ -1,11 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <book name="EPL experiment (SAMPLE1)"
-      subpath="Domein model/EPL experiment (SAMPLE1)/20180301"
+      subpath="Conceptual model/EPL experiment (SAMPLE1)/20180301"
       type="BASISMODEL"
       id="EAPK_491FA2C0_2621_4d18_B9BA_D66964A4BFBD"
-      generator-version="1.42.4 - EVALUATION VERSION, PLEASE REGISTER!"
-      generator-date="2018-05-03T08:55:58Z">
+      generator-version="1.42.4"
+      generator-date="2018-05-15T10:20:55Z">
    <section type="DOMAIN" name="brocommon" id="global_package_Brocommon">
+      <section type="IMAGEMAPS"
+               name="brocommon-imagemap"
+               id="imagemap_package_Brocommon">
+         <section type="IMAGEMAP"
+                  name="brocommon"
+                  id="EAID_77231535_EAA4_4050_BF1C_456FC60B440E">
+            <content>
+               <part type="CFG-DOC-NAAM">
+                  <item>Naam</item>
+                  <item>brocommon</item>
+               </part>
+               <part type="CFG-DOC-DESCRIPTION">
+                  <item>Omschrijving</item>
+                  <item/>
+               </part>
+            </content>
+         </section>
+      </section>
       <section type="OVERVIEW-OBJECTTYPE">
          <section name="Registratieobject"
                   type="OBJECTTYPE"
@@ -1283,6 +1301,24 @@
       </section>
    </section>
    <section type="DOMAIN" name="eplcommon" id="global_package_Eplcommon">
+      <section type="IMAGEMAPS"
+               name="eplcommon-imagemap"
+               id="imagemap_package_Eplcommon">
+         <section type="IMAGEMAP"
+                  name="Domeinmodel BRO mijnbouwwetvergunning"
+                  id="EAID_7373A932_73E5_4eca_8BA3_F05FC5852A3E">
+            <content>
+               <part type="CFG-DOC-NAAM">
+                  <item>Naam</item>
+                  <item>Domeinmodel BRO mijnbouwwetvergunning</item>
+               </part>
+               <part type="CFG-DOC-DESCRIPTION">
+                  <item>Omschrijving</item>
+                  <item/>
+               </part>
+            </content>
+         </section>
+      </section>
       <section type="OVERVIEW-OBJECTTYPE">
          <section name="Af te staan gebied"
                   type="OBJECTTYPE"
