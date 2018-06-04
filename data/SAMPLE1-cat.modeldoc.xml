@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_491FA2C0_2621_4d18_B9BA_D66964A4BFBD"
       generator-version="1.45.0"
-      generator-date="2018-06-04T14:19:37Z">
+      generator-date="2018-06-04T14:48:22Z">
    <section type="DOMAIN" name="brocommon" id="global_package_Brocommon">
       <section type="IMAGEMAPS"
                name="brocommon-imagemap"
@@ -10045,7 +10045,7 @@ De gestandaardiseerde begrenzing van het gebied is gedefinieerd in ETRS89.</item
                   <part>
                      <item/>
                      <item>RDNAPTRANS2008MV0</item>
-                     <item/>
+                     <item>De gegevens zijn getransformeerd van RD naar ETRS89, gebruikmakend van de transformatie RDNAPTRANS?, versie 2008. De positie van het aardoppervlak is onbekend, bij transformatie is uitgegaan van 0 m NAP. RDNAPTRANS? is de officiële transformatie tussen RD/NAP en ETRS89 afkomstig van het Kadaster.</item>
                   </part>
                </content>
             </section>
@@ -10067,17 +10067,17 @@ De gestandaardiseerde begrenzing van het gebied is gedefinieerd in ETRS89.</item
                   <part>
                      <item/>
                      <item>koolwaterstoffen</item>
-                     <item/>
+                     <item>De verzamelnaam voor de delfstoffen aardolie, condensaat en aardgas.</item>
                   </part>
                   <part>
                      <item/>
                      <item>steenkool</item>
-                     <item/>
+                     <item>Steenkool.</item>
                   </part>
                   <part>
                      <item/>
                      <item>steenzout</item>
-                     <item/>
+                     <item>Steenzout.</item>
                   </part>
                </content>
             </section>
@@ -10099,82 +10099,82 @@ De gestandaardiseerde begrenzing van het gebied is gedefinieerd in ETRS89.</item
                   <part>
                      <item/>
                      <item>basisAltenaGroep</item>
-                     <item/>
+                     <item>De basis van de Altena Groep (code AT). De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland (versie 2013) in het Engels. De Engelse naam is Altena Group.</item>
                   </part>
                   <part>
                      <item/>
                      <item>basisChalkGroep</item>
-                     <item/>
+                     <item>De basis van de Chalk Groep (code CK). De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland (versie 2013) in het Engels. De Engelse naam is Chalk Group.</item>
                   </part>
                   <part>
                      <item/>
                      <item>basisEpenFormatie</item>
-                     <item/>
+                     <item>De basis van de Epen Formatie (code DCGE). De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland (versie 2013) in het Engels. De Engelse naam is Epen Formation.</item>
                   </part>
                   <part>
                      <item/>
                      <item>basisHollandFormatie</item>
-                     <item/>
+                     <item>De basis van de Holland Formatie (code KNGL). De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland (versie 2013) in het Engels. De Engelse naam is Holland Formation.</item>
                   </part>
                   <part>
                      <item/>
                      <item>basisJura</item>
-                     <item/>
+                     <item>De basis van het Jura. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland (versie 2013) in het Engels. De Engelse naam is Jurassic.</item>
                   </part>
                   <part>
                      <item/>
                      <item>basisLimburgGroep</item>
-                     <item/>
+                     <item>De basis van de Limburg Groep (code DC). De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland (versie 2013) in het Engels. De Engelse naam is Limburg Group.</item>
                   </part>
                   <part>
                      <item/>
                      <item>basisPerm</item>
-                     <item/>
+                     <item>De basis van het Perm. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland (versie 2013) in het Engels. De Engelse naam is Permian.</item>
                   </part>
                   <part>
                      <item/>
                      <item>basisTrias</item>
-                     <item/>
+                     <item>De basis van het Trias. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland (versie 2013) in het Engels. De Engelse naam is Triassic.</item>
                   </part>
                   <part>
                      <item/>
                      <item>basisVlielandKleisteenFormatie</item>
-                     <item/>
+                     <item>De basis van de Vlieland Kleisteen Formatie (code KNNC). De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland (versie 2013) in het Engels. De Engelse naam is Vlieland Claystone Formation.</item>
                   </part>
                   <part>
                      <item/>
                      <item>topAltenaGroep</item>
-                     <item/>
+                     <item>De top van de Altena Groep (code AT). De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland (versie 2013) in het Engels. De Engelse naam is Altena Group.</item>
                   </part>
                   <part>
                      <item/>
                      <item>topChalkGroep</item>
-                     <item/>
+                     <item>De top van de Chalk Groep (code CK). De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland (versie 2013) in het Engels. De Engelse naam is Chalk Group.</item>
                   </part>
                   <part>
                      <item/>
                      <item>topHollandFormatie</item>
-                     <item/>
+                     <item>De top van de Holland Formatie (code KNGL). De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland (versie 2013) in het Engels. De Engelse naam is Holland Formation.</item>
                   </part>
                   <part>
                      <item/>
                      <item>topNamurien</item>
-                     <item/>
+                     <item>De top van het Namurien. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland (versie 2013) in het Engels. De Engelse naam is Namurian.</item>
                   </part>
                   <part>
                      <item/>
                      <item>topOnderBontzandsteenFormatie</item>
-                     <item/>
+                     <item>De top van de Onder-Bontzandsteen Formatie (code RBSH). De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland (versie 2013) in het Engels. De Engelse naam is Lower Buntsandstein Formation.</item>
                   </part>
                   <part>
                      <item/>
                      <item>topTrias</item>
-                     <item/>
+                     <item>De top van het Trias. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland (versie 2013) in het Engels. De Engelse naam is Triassic.</item>
                   </part>
                   <part>
                      <item/>
                      <item>topVlielandKleisteenFormatie</item>
-                     <item/>
+                     <item>De top van de Vlieland Kleisteen Formatie (code KNNC). De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland (versie 2013) in het Engels. De Engelse naam is Vlieland Claystone Formation.</item>
                   </part>
                </content>
             </section>
@@ -10196,32 +10196,32 @@ De gestandaardiseerde begrenzing van het gebied is gedefinieerd in ETRS89.</item
                   <part>
                      <item/>
                      <item>MBW2003</item>
-                     <item/>
+                     <item>De gegevens zijn aangeleverd in het kader van de Mijnbouwwet. De wet is op 1 januari 2003 in werking getreden.</item>
                   </part>
                   <part>
                      <item/>
                      <item>MBW2008</item>
-                     <item/>
+                     <item>De gegevens zijn aangeleverd in het kader van de Mijnbouwwet. De wet is op 1 januari 2003 in werking en gewijzigd per 8 augustus 2008.</item>
                   </part>
                   <part>
                      <item/>
                      <item>MBW2010</item>
-                     <item/>
+                     <item>De gegevens zijn aangeleverd in het kader van de Mijnbouwwet. De wet is op 1 januari 2003 in werking getreden en gewijzigd per 1 januari 2010.</item>
                   </part>
                   <part>
                      <item/>
                      <item>MBW2011</item>
-                     <item/>
+                     <item>De gegevens zijn aangeleverd in het kader van de Mijnbouwwet. De wet is op 1 januari 2003 in werking getreden en gewijzigd per 10 september 2011.</item>
                   </part>
                   <part>
                      <item/>
                      <item>MBW2016</item>
-                     <item/>
+                     <item>De gegevens zijn aangeleverd in het kader van de Mijnbouwwet. De wet is op 1 januari 2003 in werking getreden en gewijzigd per 31 december 2016.</item>
                   </part>
                   <part>
                      <item/>
                      <item>MBW2017</item>
-                     <item/>
+                     <item>De gegevens zijn aangeleverd in het kader van de Mijnbouwwet. De wet is op 1 januari 2003 in werking getreden en gewijzigd per 1 januari 2017.</item>
                   </part>
                </content>
             </section>
@@ -10243,42 +10243,42 @@ De gestandaardiseerde begrenzing van het gebied is gedefinieerd in ETRS89.</item
                   <part>
                      <item/>
                      <item>onderzoekMijnbouw</item>
-                     <item/>
+                     <item>Het opsporen of winnen van delfstoffen om gegevens te verzamelen voor wetenschappelijk onderzoek of beleid.</item>
                   </part>
                   <part>
                      <item/>
                      <item>opslaanCO2</item>
-                     <item/>
+                     <item>Het permanent opslaan van CO2.</item>
                   </part>
                   <part>
                      <item/>
                      <item>opslaanStof</item>
-                     <item/>
+                     <item>Het opslaan van stoffen op een diepte van meer dan 100 meter beneden het aardoppervlakte.</item>
                   </part>
                   <part>
                      <item/>
                      <item>opsporenAardwarmte</item>
-                     <item/>
+                     <item>Het opsporen van aardwarmte op een diepte van meer dan 500 meter beneden het aardoppervlak.</item>
                   </part>
                   <part>
                      <item/>
                      <item>opsporenOpslagcomplex</item>
-                     <item/>
+                     <item>Het opsporen van CO2-opslagcomplexen.</item>
                   </part>
                   <part>
                      <item/>
                      <item>opsporenDelfstof</item>
-                     <item/>
+                     <item>Het opsporen van delfstoffen op een diepte van meer dan 100 meter beneden het aardoppervlak.</item>
                   </part>
                   <part>
                      <item/>
                      <item>winnenAardwarmte</item>
-                     <item/>
+                     <item>Het winnen van aardwarmte op een diepte van meer dan 500 meter beneden het aardoppervlak.</item>
                   </part>
                   <part>
                      <item/>
                      <item>winnenDelfstof</item>
-                     <item/>
+                     <item>Het winnen, alsmede het opsporen, van delfstoffen op een diepte van meer dan 100 meter beneden het aardoppervlak.</item>
                   </part>
                </content>
             </section>
@@ -10420,92 +10420,92 @@ De gestandaardiseerde begrenzing van het gebied is gedefinieerd in ETRS89.</item
                   <part>
                      <item/>
                      <item>vergunningIngegaan</item>
-                     <item/>
+                     <item>De minister deelt mee dat de verleende vergunning ingaat omdat de vergunninghouder aan de gestelde voorwaarden heeft voldaan dan wel omdat de eerder vastgestelde datum van ingang is bereikt.</item>
                   </part>
                   <part>
                      <item/>
                      <item>vergunningVerlopen</item>
-                     <item/>
+                     <item>De minister deelt mee dat de geldigheid van de vergunning is verlopen. De vergunning is daarmee beëindigd.</item>
                   </part>
                   <part>
                      <item/>
                      <item>vergunningVervallen</item>
-                     <item/>
+                     <item>De minister deelt mee dat de vergunning van rechtswege is vervallen. De vergunning is daarmee beëindigd.</item>
                   </part>
                   <part>
                      <item/>
                      <item>verlengingOpgeheven</item>
-                     <item/>
+                     <item>De minister deelt mee dat de tijdelijk verlenging van de vergunning is opgeheven, omdat de procedure die dit nodig maakte is afgesloten.</item>
                   </part>
                   <part>
                      <item/>
                      <item>verleningBijgesteld</item>
-                     <item/>
+                     <item>De minister heeft het besluit genomen tot het bijstellen van een eerder genomen besluit tot het verlenen van een vergunning.</item>
                   </part>
                   <part>
                      <item/>
                      <item>verleningGestart</item>
-                     <item/>
+                     <item>De minister heeft het besluit genomen aan een bepaalde partij een vergunning te willen verlenen. Het proces van verlening is daarmee gestart of het besluit volgt het voorafgaande ontwerpbesluit op.</item>
                   </part>
                   <part>
                      <item/>
                      <item>verleningVoltooid</item>
-                     <item/>
+                     <item>De minister heeft besloten de vergunning te verlenen; het besluit is onherroepelijk. De vergunning is daarmee verleend.</item>
                   </part>
                   <part>
                      <item/>
                      <item>verleningVoorbereid</item>
-                     <item/>
+                     <item>De minister heeft een ontwerpbesluit genomen, waarin hij bekend maakt dat hij voornemens is een vergunning aan een bepaalde partij te willen verlenen. Het proces van verlening is gestart met de voorbereiding van het besluit.</item>
                   </part>
                   <part>
                      <item/>
                      <item>vervolgAfgebroken</item>
-                     <item/>
+                     <item>De minister deelt mee dat hij de vervolgvergunning definitief niet heeft verleend.</item>
                   </part>
                   <part>
                      <item/>
                      <item>vervolgGestart</item>
-                     <item/>
+                     <item>De minister deelt mee dat de vergunninghouder een aanvraag heeft ingediend voor een vergunning voor een vervolg activiteit in het gebied. De vergunning blijft geldig zolang de procedures lopen.</item>
                   </part>
                   <part>
                      <item/>
                      <item>vervolgVoltooid</item>
-                     <item/>
+                     <item>De minister deelt mee dat hij de vervolgvergunning definitief heeft verleend. De vergunning is daarmee beëindigd.</item>
                   </part>
                   <part>
                      <item/>
                      <item>weigeringGestart</item>
-                     <item/>
+                     <item>De minister heeft besloten dat hij de vergunning wil weigeren. De beëindiging van het verleningsproces is daarmee gestart.</item>
                   </part>
                   <part>
                      <item/>
                      <item>weigeringVastgesteld</item>
-                     <item/>
+                     <item>De minister deelt mee dat de weigering van de vergunning definitief is geworden. De vergunning is daarmee voortijdig beëindigd.</item>
                   </part>
                   <part>
                      <item/>
                      <item>wijzigingBijgesteld</item>
-                     <item/>
+                     <item>De minister heeft het besluit genomen tot het bijstellen van een eerder genomen besluit tot het wijzigen van een verleende vergunning.</item>
                   </part>
                   <part>
                      <item/>
                      <item>wijzigingGestart</item>
-                     <item/>
+                     <item>De minister heeft het besluit genomen dat hij een verleende vergunning wil wijzigen. Het wijzigingsproces is daarmee gestart.</item>
                   </part>
                   <part>
                      <item/>
                      <item>wijzigingIngegaan</item>
-                     <item/>
+                     <item>De minister deelt mee dat de wijziging ingaat omdat de vergunninghouder aan de gestelde voorwaarden heeft voldaan dan wel omdat de eerder vastgestelde datum van ingang is bereikt. De vergunning is daarmee gewijzigd.</item>
                   </part>
                   <part>
                      <item/>
                      <item>wijzigingTeruggedraaid</item>
-                     <item/>
+                     <item>De minister deelt mee dat hij zijn eerdere besluit tot wijziging heeft ingetrokken.</item>
                   </part>
                   <part>
                      <item/>
                      <item>wijzigingVastgesteld</item>
-                     <item/>
+                     <item>De minister heeft besloten de verleende vergunning te wijzigen; het besluit is onherroepelijk. De ingangsdatum van de wijziging bepaalt of de vergunning gewijzigd is of dat de wijziging later zal ingaan.</item>
                   </part>
                </content>
             </section>
@@ -10527,17 +10527,17 @@ De gestandaardiseerde begrenzing van het gebied is gedefinieerd in ETRS89.</item
                   <part>
                      <item/>
                      <item>aquifer</item>
-                     <item/>
+                     <item>Een watervoerende laag.</item>
                   </part>
                   <part>
                      <item/>
                      <item>koolwaterstofvoorkomen</item>
-                     <item/>
+                     <item>Een aardgas- of aardolievoorkomen waarin door eerdere winning opslagcapaciteit is ontstaan.</item>
                   </part>
                   <part>
                      <item/>
                      <item>zoutcaverne</item>
-                     <item/>
+                     <item>Een holte ontstaan door het winnen van steenzout.</item>
                   </part>
                </content>
             </section>
@@ -10559,27 +10559,27 @@ De gestandaardiseerde begrenzing van het gebied is gedefinieerd in ETRS89.</item
                   <part>
                      <item/>
                      <item>Alkmaar</item>
-                     <item/>
+                     <item>Een koolwaterstofvoorkomen waarin door eerdere winning opslagcapaciteit is ontstaan.</item>
                   </part>
                   <part>
                      <item/>
                      <item>Bergermeer</item>
-                     <item/>
+                     <item>Een koolwaterstofvoorkomen waarin door eerdere winning opslagcapaciteit is ontstaan.</item>
                   </part>
                   <part>
                      <item/>
                      <item>Grijpskerk</item>
-                     <item/>
+                     <item>Een koolwaterstofvoorkomen waarin door eerdere winning opslagcapaciteit is ontstaan.</item>
                   </part>
                   <part>
                      <item/>
                      <item>Norg</item>
-                     <item/>
+                     <item>Een koolwaterstofvoorkomen waarin door eerdere winning opslagcapaciteit is ontstaan.</item>
                   </part>
                   <part>
                      <item/>
                      <item>P18_4</item>
-                     <item/>
+                     <item>Een koolwaterstofvoorkomen waarin door eerdere winning opslagcapaciteit is ontstaan.</item>
                   </part>
                </content>
             </section>
@@ -10601,92 +10601,92 @@ De gestandaardiseerde begrenzing van het gebied is gedefinieerd in ETRS89.</item
                   <part>
                      <item/>
                      <item>AnnerveenRotliegend</item>
-                     <item/>
+                     <item>Het koolwaterstofvoorkomen Annerveen Rotliegend.</item>
                   </part>
                   <part>
                      <item/>
                      <item>F03B_LowerMiddleGraben</item>
-                     <item/>
+                     <item>Het koolwaterstofvoorkomen F03B Lower/Middle Graben.</item>
                   </part>
                   <part>
                      <item/>
                      <item>GrijpskerkRotliegend</item>
-                     <item/>
+                     <item>Het koolwaterstofvoorkomen Grijpskerk Rotliegend.</item>
                   </part>
                   <part>
                      <item/>
                      <item>GroetOostRotliegend</item>
-                     <item/>
+                     <item>Het koolwaterstofvoorkomen Groet-Oost Rotliegend.</item>
                   </part>
                   <part>
                      <item/>
                      <item>GrootegastRO</item>
-                     <item/>
+                     <item>Het koolwaterstofvoorkomen Grootegast RO.</item>
                   </part>
                   <part>
                      <item/>
                      <item>K11B_Rotliegend</item>
-                     <item/>
+                     <item>Het koolwaterstofvoorkomen K11-B Rotliegend.</item>
                   </part>
                   <part>
                      <item/>
                      <item>KollumUpperSlochterenMember</item>
-                     <item/>
+                     <item>Het koolwaterstofvoorkomen Kollum Upper Slochteren Member.</item>
                   </part>
                   <part>
                      <item/>
                      <item>KollumNoordUpperSlochterenMember</item>
-                     <item/>
+                     <item>Het koolwaterstofvoorkomen Kollum-Noord Upper Slochteren Member.</item>
                   </part>
                   <part>
                      <item/>
                      <item>KommerzijlRotliegend</item>
-                     <item/>
+                     <item>Het koolwaterstofvoorkomen Kommerzijl Rotliegend.</item>
                   </part>
                   <part>
                      <item/>
                      <item>L10M</item>
-                     <item/>
+                     <item>Het koolwaterstofvoorkomen L10-M.</item>
                   </part>
                   <part>
                      <item/>
                      <item>L16A_Rotliegend</item>
-                     <item/>
+                     <item>Het koolwaterstofvoorkomen L16-A Rotliegend.</item>
                   </part>
                   <part>
                      <item/>
                      <item>MunnekezijlRotliegend</item>
-                     <item/>
+                     <item>Het koolwaterstofvoorkomen Munnekezijl Rotliegend.</item>
                   </part>
                   <part>
                      <item/>
                      <item>NijensleekZEZ2C</item>
-                     <item/>
+                     <item>Het koolwaterstofvoorkomen Nijensleek ZEZ2C.</item>
                   </part>
                   <part>
                      <item/>
                      <item>P08aHorizonWestRijnMb</item>
-                     <item/>
+                     <item>Het koolwaterstofvoorkomen P08a Horizon-West Rijn Mb.</item>
                   </part>
                   <part>
                      <item/>
                      <item>P09ABunter</item>
-                     <item/>
+                     <item>Het koolwaterstofvoorkomen P09-A Bunter.</item>
                   </part>
                   <part>
                      <item/>
                      <item>P09BBunter</item>
-                     <item/>
+                     <item>Het koolwaterstofvoorkomen P09-B Bunter.</item>
                   </part>
                   <part>
                      <item/>
                      <item>SurhuisterveenRotliegend</item>
-                     <item/>
+                     <item>Het koolwaterstofvoorkomen Surhuisterveen Rotliegend.</item>
                   </part>
                   <part>
                      <item/>
                      <item>VierhuizenZuidUpperSlochterenMember</item>
-                     <item/>
+                     <item>Het koolwaterstofvoorkomen Vierhuizen-Zuid Upper Slochteren Member.</item>
                   </part>
                </content>
             </section>
@@ -10708,17 +10708,17 @@ De gestandaardiseerde begrenzing van het gebied is gedefinieerd in ETRS89.</item
                   <part>
                      <item/>
                      <item>besluitMinister</item>
-                     <item/>
+                     <item>Het gebied is afgestaan op initiatief van de houder omdat hij niet langer gebruik wilde maken van het hem gegeven recht of omdat de minister daar ambtshalve toe heeft besloten.</item>
                   </part>
                   <part>
                      <item/>
                      <item>onbenut</item>
-                     <item/>
+                     <item>Het gebied is afgestaan omdat er sprake was van weinig of geen activiteit.</item>
                   </part>
                   <part>
                      <item/>
                      <item>vervolgActiviteit</item>
-                     <item/>
+                     <item>Het gebied is afgestaan om daar onder een nieuwe vergunning een vervolg mijnbouwactiviteit uit te voeren.</item>
                   </part>
                </content>
             </section>
@@ -10740,47 +10740,47 @@ De gestandaardiseerde begrenzing van het gebied is gedefinieerd in ETRS89.</item
                   <part>
                      <item/>
                      <item>aanvraagIngetrokken</item>
-                     <item/>
+                     <item>De aanvraag is tijdens het verleningsproces door de vergunninghouder ingetrokken.</item>
                   </part>
                   <part>
                      <item/>
                      <item>activiteitVervolgd</item>
-                     <item/>
+                     <item>De vergunning is vervangen door een nieuwe omdat de activiteit veranderd is van opsporen in winnen of opslaan of van winnen in opslaan.</item>
                   </part>
                   <part>
                      <item/>
                      <item>afstandGedaan</item>
-                     <item/>
+                     <item>De vergunninghouder heeft afstand gedaan van de opsporingsvergunning.</item>
                   </part>
                   <part>
                      <item/>
                      <item>gesplitst</item>
-                     <item/>
+                     <item>De vergunning is gesplitst in twee of meer nieuwe vergunningen.</item>
                   </part>
                   <part>
                      <item/>
                      <item>geweigerd</item>
-                     <item/>
+                     <item>De vergunning is tijdens het verleningsproces geweigerd door de minister.</item>
                   </part>
                   <part>
                      <item/>
                      <item>ingetrokken</item>
-                     <item/>
+                     <item>De vergunning is ingetrokken door de minister.</item>
                   </part>
                   <part>
                      <item/>
                      <item>rechtswegeBeeindigd</item>
-                     <item/>
+                     <item>De vergunning is van rechtswege vervallen, omdat de vergunninghouder niet langer bestaat.</item>
                   </part>
                   <part>
                      <item/>
                      <item>samengevoegd</item>
-                     <item/>
+                     <item>De vergunning is samengevoegd met een of meer andere vergunningen tot een nieuwe vergunning.</item>
                   </part>
                   <part>
                      <item/>
                      <item>verlopen</item>
-                     <item/>
+                     <item>De geldigheid van de vergunning is verlopen.</item>
                   </part>
                </content>
             </section>
@@ -10802,22 +10802,22 @@ De gestandaardiseerde begrenzing van het gebied is gedefinieerd in ETRS89.</item
                   <part>
                      <item/>
                      <item>ambtshalve</item>
-                     <item/>
+                     <item>De minister heeft een nieuw besluit genomen.</item>
                   </part>
                   <part>
                      <item/>
                      <item>rechtsmiddelDerden</item>
-                     <item/>
+                     <item>De minister heeft een nieuw besluit genomen n.a.v. een aangewend rechtsmiddel door derden.</item>
                   </part>
                   <part>
                      <item/>
                      <item>rechtsmiddelHouder</item>
-                     <item/>
+                     <item>De minister heeft een nieuw besluit genomen n.a.v. een aangewend rechtsmiddel door de vergunninghouder.</item>
                   </part>
                   <part>
                      <item/>
                      <item>verzoek</item>
-                     <item/>
+                     <item>De minister heeft een nieuw besluit genomen op verzoek van de vergunninghouder.</item>
                   </part>
                </content>
             </section>
@@ -10839,12 +10839,12 @@ De gestandaardiseerde begrenzing van het gebied is gedefinieerd in ETRS89.</item
                   <part>
                      <item/>
                      <item>ETRS89</item>
-                     <item/>
+                     <item>European Terrestrial Reference System 1989 (EPSG 4258).</item>
                   </part>
                   <part>
                      <item/>
                      <item>RD</item>
-                     <item/>
+                     <item>Rijks Driehoeksmeting ? Amersfoort RD New (EPSG 28992).</item>
                   </part>
                </content>
             </section>
@@ -10866,17 +10866,17 @@ De gestandaardiseerde begrenzing van het gebied is gedefinieerd in ETRS89.</item
                   <part>
                      <item/>
                      <item>geregistreerd</item>
-                     <item/>
+                     <item>Het registeren van de gegevens van het object is gestart. De gegevens uit het eerste brondocument zijn in de registratie ondergrond vastgelegd. Er zijn daarna geen nieuwe gegevens geregistreerd.</item>
                   </part>
                   <part>
                      <item/>
                      <item>aangevuld</item>
-                     <item/>
+                     <item>Het registeren van de gegevens van het object heeft na de start van de registratie een vervolg gekregen. De gegevens in de registratie ondergrond zijn minimaal een keer aangevuld met nieuwe gegevens.</item>
                   </part>
                   <part>
                      <item/>
                      <item>voltooid</item>
-                     <item/>
+                     <item>Het registeren van de gegevens van het object is voltooid. Alle gegevens zijn in de registratie ondergrond vastgelegd en er kunnen geen nieuwe gegevens meer worden geregistreerd.</item>
                   </part>
                </content>
             </section>
@@ -10898,17 +10898,17 @@ De gestandaardiseerde begrenzing van het gebied is gedefinieerd in ETRS89.</item
                   <part>
                      <item/>
                      <item>40</item>
-                     <item/>
+                     <item>De staat neemt deel voor 40% in de kosten en baten van de mijnbouwwerkzaamheden.</item>
                   </part>
                   <part>
                      <item/>
                      <item>50</item>
-                     <item/>
+                     <item>De staat neemt voor 50% deel in de kosten en baten van de mijnbouwwerkzaamheden.</item>
                   </part>
                   <part>
                      <item/>
                      <item>geen</item>
-                     <item/>
+                     <item>De staat neemt niet deel in de kosten en baten van de mijnbouwwerkzaamheden of de minister heeft nog niet definitief ingestemd met de samenwerkingsovereenkomst.</item>
                   </part>
                </content>
             </section>
@@ -10930,22 +10930,22 @@ De gestandaardiseerde begrenzing van het gebied is gedefinieerd in ETRS89.</item
                   <part>
                      <item/>
                      <item>aardgas</item>
-                     <item/>
+                     <item>Aardgas.</item>
                   </part>
                   <part>
                      <item/>
                      <item>gasolie</item>
-                     <item/>
+                     <item>Gasolie (dieselolie).</item>
                   </part>
                   <part>
                      <item/>
                      <item>stikstof</item>
-                     <item/>
+                     <item>Stikstof.</item>
                   </part>
                   <part>
                      <item/>
                      <item>vulstof</item>
-                     <item/>
+                     <item>Een stof om een lege ruimte in de ondergrond op te vullen.</item>
                   </part>
                </content>
             </section>
