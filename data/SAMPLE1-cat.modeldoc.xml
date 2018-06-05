@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_491FA2C0_2621_4d18_B9BA_D66964A4BFBD"
       generator-version="1.45.1"
-      generator-date="2018-06-05T13:26:13Z">
+      generator-date="2018-06-05T14:09:43Z">
    <section type="DOMAIN" name="brocommon" id="global_package_Brocommon">
       <section type="IMAGEMAPS"
                name="brocommon-imagemap"
@@ -3898,79 +3898,79 @@ Een wijziging van de vergunninghouder wordt zelden eerst geregistreerd als een l
                <item id="global_class_Eplcommon_KaderAanlevering"
                      uuid="EAID_E33C9BAE_FD54_4382_8077_E8DD37757E15"
                      idref="detail_class_Eplcommon_KaderAanlevering">KaderAanlevering</item>
-               <item/>
+               <item>Keuzelijst met de rechtsgrond op basis waarvan, of bij afwezigheid daarvan de activiteit naar aanleiding waarvan, een object is aangeleverd aan de basisregistratie ondergrond. De lijst met waarden is een uitbreidbare opsomming van waarden.</item>
             </part>
             <part>
                <item id="global_class_Eplcommon_Mijnbouwactiviteit"
                      uuid="EAID_493577F6_39D7_443b_AAF4_01C2DE6CF1D9"
                      idref="detail_class_Eplcommon_Mijnbouwactiviteit">Mijnbouwactiviteit</item>
-               <item/>
+               <item>Keuzelijst met de Mijnbouwactiviteit. De lijst met waarden is een uitbreidbare opsomming van waarden.</item>
             </part>
             <part>
                <item id="global_class_Eplcommon_NaamGebeurtenis"
                      uuid="EAID_CCBF45AE_3D87_4d1b_A1D6_528D4DEA1CDD"
                      idref="detail_class_Eplcommon_NaamGebeurtenis">NaamGebeurtenis</item>
-               <item/>
+               <item>Keuzelijst met de benaming van een gebeurtenis. De lijst met waarden is een uitbreidbare opsomming van waarden.</item>
             </part>
             <part>
                <item id="global_class_Eplcommon_Opslagruimte"
                      uuid="EAID_45795311_3D88_4c42_8471_FA67FD62E677"
                      idref="detail_class_Eplcommon_Opslagruimte">Opslagruimte</item>
-               <item/>
+               <item>Keuzelijst met de typering van de ondergrondse ruimte waarin een stof wordt opgeslagen. De lijst met waarden is een uitbreidbare opsomming van waarden.</item>
             </part>
             <part>
                <item id="global_class_Eplcommon_Opslagvoorkomen"
                      uuid="EAID_90624FCB_4831_457f_8A21_3057D650A37F"
                      idref="detail_class_Eplcommon_Opslagvoorkomen">Opslagvoorkomen</item>
-               <item/>
+               <item>Keuzelijst met de naam van het voorkomen waarin de stof wordt opgeslagen. De lijst met waarden is een uitbreidbare opsomming van waarden.</item>
             </part>
             <part>
                <item id="global_class_Eplcommon_OverschrijdendVoorkomen"
                      uuid="EAID_EA39681F_A6EE_45c8_9C78_CA01E6805DCE"
                      idref="detail_class_Eplcommon_OverschrijdendVoorkomen">OverschrijdendVoorkomen</item>
-               <item/>
+               <item>Keuzelijst met de benaming van het voorkomen waaruit gezamenlijk gewonnen wordt of gaat worden. De lijst met waarden is een uitbreidbare opsomming van waarden.</item>
             </part>
             <part>
                <item id="global_class_Eplcommon_RedenAfstaan"
                      uuid="EAID_77F8C410_3BEE_485a_AC73_407F28D8622E"
                      idref="detail_class_Eplcommon_RedenAfstaan">RedenAfstaan</item>
-               <item/>
+               <item>Keuzelijst met de reden waarom een gebied wordt afgestaan. De lijst met waarden is een uitbreidbare opsomming van waarden.</item>
             </part>
             <part>
                <item id="global_class_Eplcommon_RedenBeIndiging"
                      uuid="EAID_A7BEABBA_F82F_4733_9ADD_CE77B3402AC2"
                      idref="detail_class_Eplcommon_RedenBeIndiging">RedenBeëindiging</item>
-               <item/>
+               <item>Keuzelijst met reden waarom een vergunning is beëindigd. De lijst met waarden is een uitbreidbare opsomming van waarden.</item>
             </part>
             <part>
                <item id="global_class_Eplcommon_RedenVervolgbesluit"
                      uuid="EAID_139108E8_0B57_4c07_B442_2211D126BABD"
                      idref="detail_class_Eplcommon_RedenVervolgbesluit">RedenVervolgbesluit</item>
-               <item/>
+               <item>Keuzelijst met reden waarom de minister besloten heeft een besluit te nemen dat volgt op het besluit waarmee het proces van verlening is gestart. De lijst met waarden is een uitbreidbare opsomming van waarden.</item>
             </part>
             <part>
                <item id="global_class_Eplcommon_Referentiestelsel"
                      uuid="EAID_C73345DB_5602_44c4_8358_B79730D5024E"
                      idref="detail_class_Eplcommon_Referentiestelsel">Referentiestelsel</item>
-               <item/>
+               <item>Keuzelijst met systeem voor het uitdrukken van een plaats op het aardoppervlak, zijnde een punt, een lijn of een vlak. De lijst met waarden is een uitbreidbare opsomming van waarden.</item>
             </part>
             <part>
                <item id="global_class_Eplcommon_Registratiestatus"
                      uuid="EAID_14025EEB_838C_4166_88CC_D6362C0E76AB"
                      idref="detail_class_Eplcommon_Registratiestatus">Registratiestatus</item>
-               <item/>
+               <item>Keuzelijst met de actuele fase van registratie waarin het object zich bevindt. De lijst met waarden is een uitbreidbare opsomming van waarden.</item>
             </part>
             <part>
                <item id="global_class_Eplcommon_Staatsdeelname"
                      uuid="EAID_0E6DBCBF_4917_44f2_9885_8A625F796D11"
                      idref="detail_class_Eplcommon_Staatsdeelname">Staatsdeelname</item>
-               <item/>
+               <item>Keuzelijst met het aandeel dat de staat heeft in de kosten en baten van een mijnbouwwerkzaamheid. De lijst met waarden is een uitbreidbare opsomming van waarden.</item>
             </part>
             <part>
                <item id="global_class_Eplcommon_Stof"
                      uuid="EAID_94A75D9F_C998_4513_AF77_F43EE4E86157"
                      idref="detail_class_Eplcommon_Stof">Stof</item>
-               <item/>
+               <item>Keuzelijst met de naam van de stof die wordt opgeslagen. De lijst met waarden is een uitbreidbare opsomming van waarden.</item>
             </part>
          </content>
       </section>
@@ -10364,7 +10364,7 @@ De gestandaardiseerde begrenzing van het gebied is gedefinieerd in ETRS89.</item
                <content>
                   <part>
                      <item>Definitie</item>
-                     <item/>
+                     <item>Keuzelijst met de rechtsgrond op basis waarvan, of bij afwezigheid daarvan de activiteit naar aanleiding waarvan, een object is aangeleverd aan de basisregistratie ondergrond. De lijst met waarden is een uitbreidbare opsomming van waarden.</item>
                   </part>
                </content>
                <content>
@@ -10411,7 +10411,7 @@ De gestandaardiseerde begrenzing van het gebied is gedefinieerd in ETRS89.</item
                <content>
                   <part>
                      <item>Definitie</item>
-                     <item/>
+                     <item>Keuzelijst met de Mijnbouwactiviteit. De lijst met waarden is een uitbreidbare opsomming van waarden.</item>
                   </part>
                </content>
                <content>
@@ -10468,7 +10468,7 @@ De gestandaardiseerde begrenzing van het gebied is gedefinieerd in ETRS89.</item
                <content>
                   <part>
                      <item>Definitie</item>
-                     <item/>
+                     <item>Keuzelijst met de benaming van een gebeurtenis. De lijst met waarden is een uitbreidbare opsomming van waarden.</item>
                   </part>
                </content>
                <content>
@@ -10695,7 +10695,7 @@ De gestandaardiseerde begrenzing van het gebied is gedefinieerd in ETRS89.</item
                <content>
                   <part>
                      <item>Definitie</item>
-                     <item/>
+                     <item>Keuzelijst met de typering van de ondergrondse ruimte waarin een stof wordt opgeslagen. De lijst met waarden is een uitbreidbare opsomming van waarden.</item>
                   </part>
                </content>
                <content>
@@ -10727,7 +10727,7 @@ De gestandaardiseerde begrenzing van het gebied is gedefinieerd in ETRS89.</item
                <content>
                   <part>
                      <item>Definitie</item>
-                     <item/>
+                     <item>Keuzelijst met de naam van het voorkomen waarin de stof wordt opgeslagen. De lijst met waarden is een uitbreidbare opsomming van waarden.</item>
                   </part>
                </content>
                <content>
@@ -10769,7 +10769,7 @@ De gestandaardiseerde begrenzing van het gebied is gedefinieerd in ETRS89.</item
                <content>
                   <part>
                      <item>Definitie</item>
-                     <item/>
+                     <item>Keuzelijst met de benaming van het voorkomen waaruit gezamenlijk gewonnen wordt of gaat worden. De lijst met waarden is een uitbreidbare opsomming van waarden.</item>
                   </part>
                </content>
                <content>
@@ -10876,7 +10876,7 @@ De gestandaardiseerde begrenzing van het gebied is gedefinieerd in ETRS89.</item
                <content>
                   <part>
                      <item>Definitie</item>
-                     <item/>
+                     <item>Keuzelijst met de reden waarom een gebied wordt afgestaan. De lijst met waarden is een uitbreidbare opsomming van waarden.</item>
                   </part>
                </content>
                <content>
@@ -10908,7 +10908,7 @@ De gestandaardiseerde begrenzing van het gebied is gedefinieerd in ETRS89.</item
                <content>
                   <part>
                      <item>Definitie</item>
-                     <item/>
+                     <item>Keuzelijst met reden waarom een vergunning is beëindigd. De lijst met waarden is een uitbreidbare opsomming van waarden.</item>
                   </part>
                </content>
                <content>
@@ -10970,7 +10970,7 @@ De gestandaardiseerde begrenzing van het gebied is gedefinieerd in ETRS89.</item
                <content>
                   <part>
                      <item>Definitie</item>
-                     <item/>
+                     <item>Keuzelijst met reden waarom de minister besloten heeft een besluit te nemen dat volgt op het besluit waarmee het proces van verlening is gestart. De lijst met waarden is een uitbreidbare opsomming van waarden.</item>
                   </part>
                </content>
                <content>
@@ -11007,7 +11007,7 @@ De gestandaardiseerde begrenzing van het gebied is gedefinieerd in ETRS89.</item
                <content>
                   <part>
                      <item>Definitie</item>
-                     <item/>
+                     <item>Keuzelijst met systeem voor het uitdrukken van een plaats op het aardoppervlak, zijnde een punt, een lijn of een vlak. De lijst met waarden is een uitbreidbare opsomming van waarden.</item>
                   </part>
                </content>
                <content>
@@ -11034,7 +11034,7 @@ De gestandaardiseerde begrenzing van het gebied is gedefinieerd in ETRS89.</item
                <content>
                   <part>
                      <item>Definitie</item>
-                     <item/>
+                     <item>Keuzelijst met de actuele fase van registratie waarin het object zich bevindt. De lijst met waarden is een uitbreidbare opsomming van waarden.</item>
                   </part>
                </content>
                <content>
@@ -11066,7 +11066,7 @@ De gestandaardiseerde begrenzing van het gebied is gedefinieerd in ETRS89.</item
                <content>
                   <part>
                      <item>Definitie</item>
-                     <item/>
+                     <item>Keuzelijst met het aandeel dat de staat heeft in de kosten en baten van een mijnbouwwerkzaamheid. De lijst met waarden is een uitbreidbare opsomming van waarden.</item>
                   </part>
                </content>
                <content>
@@ -11098,7 +11098,7 @@ De gestandaardiseerde begrenzing van het gebied is gedefinieerd in ETRS89.</item
                <content>
                   <part>
                      <item>Definitie</item>
-                     <item/>
+                     <item>Keuzelijst met de naam van de stof die wordt opgeslagen. De lijst met waarden is een uitbreidbare opsomming van waarden.</item>
                   </part>
                </content>
                <content>
