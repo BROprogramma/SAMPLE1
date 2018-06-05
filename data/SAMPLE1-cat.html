@@ -1,10 +1,10 @@
 <h2>Catalogus</h2>
 <p class="note" title="Over deze catalogus">
    Deze catalogus is automatisch samengesteld op basis van het UML model 
-   "EPL experiment (SAMPLE1)" door 1.45.1 op June 5, 2018 at 09:25:49.
+   "EPL experiment (SAMPLE1)" door 1.45.1 op June 5, 2018 at 12:11:52.
    <br>
    Wanneer je technische fouten of onvolkomenheden aantreft, geef dit dan door aan <i>arjan@linkedmatter.com</i> en geef de code 
-   <i>"Conceptualmodel-EPLexperimentSAMPLE1-1.1-1-20180301-20180605-112550"</i> door. 
+   <i>"Conceptualmodel-EPLexperimentSAMPLE1-1.1-1-20180301-20180605-141153"</i> door. 
    
 </p><a class="anchor" name="global_package_Brocommon"></a><section id="global_package_Brocommon">
    <h3>Domein brocommon</h3>
@@ -43,6 +43,16 @@
                <tr>
                   <th>Herkomst</th>
                   <td>BRO</td>
+               </tr>
+               <tr>
+                  <th>Definitie</th>
+                  <td>Het geheel van gegevens dat betrekking heeft op het recht van een bepaalde partij
+                     een bepaalde mijnbouwactiviteit in een bepaald deel van de ondergrond van Nederland
+                     en zijn Exclusieve Economische Zone uit te voeren, en dat onder de verantwoordelijkheid
+                     van het ministerie van Economische Zaken en Klimaat aan de registerbeheerder van de
+                     basisregistratie ondergrond is aangeleverd en door de laatste in de registratie ondergrond
+                     is opgenomen.
+                  </td>
                </tr>
                <tr>
                   <th>Herkomst definitie</th>
@@ -179,6 +189,19 @@
                   <th>Naam</th>
                   <td>Aantal2</td>
                </tr>
+               <tr>
+                  <th>Herkomst</th>
+                  <td>Intern document</td>
+               </tr>
+               <tr>
+                  <th>Definitie</th>
+                  <td>Een domein van het type aantal omvat de positieve en negatieve gehele getallen inclusief
+                     de nul.
+                     Een domein van het type aantal wordt volledig gespecificeerd door met de aanduiding
+                     aantal ook de maximale lengte mee te geven. In het domeinmodel is de algemene aanduiding
+                     AantalN, waarbij N de maximale lengte aangeeft.
+                  </td>
+               </tr>
             </tbody>
          </table>
          
@@ -225,6 +248,18 @@
                <tr>
                   <th>Naam</th>
                   <td>Coördinatenpaar</td>
+               </tr>
+               <tr>
+                  <th>Herkomst</th>
+                  <td>Intern document</td>
+               </tr>
+               <tr>
+                  <th>Definitie</th>
+                  <td>Het domein coördinatenpaar wordt gebruikt om de positie van een punt op het aardoppervlak
+                     vast te leggen. De positie wordt bepaald in een specifiek referentiestelsel en uitgedrukt
+                     in twee coördinaten. Ieder van de coördinaten heeft een getalswaarde en de notatie
+                     voor het paar is (coördinaat 1, coördinaat 2).
+                  </td>
                </tr>
             </tbody>
          </table>
@@ -285,6 +320,18 @@
                   <th>Naam</th>
                   <td>Datum</td>
                </tr>
+               <tr>
+                  <th>Herkomst</th>
+                  <td>Intern document</td>
+               </tr>
+               <tr>
+                  <th>Definitie</th>
+                  <td>Het domein Datum geeft een datum volgens de Gregoriaanse kalender tot op de dag nauwkeurig.
+                     De opbouw is JJJJ-MM-DD.
+                     Wanneer een attribuut een domein van het type Datum heeft is het voldoende de naam
+                     te geven, omdat de opbouw altijd hetzelfde is.
+                  </td>
+               </tr>
             </tbody>
          </table>
          
@@ -332,6 +379,18 @@
                   <th>Naam</th>
                   <td>DatumTijd</td>
                </tr>
+               <tr>
+                  <th>Herkomst</th>
+                  <td>Intern document</td>
+               </tr>
+               <tr>
+                  <th>Definitie</th>
+                  <td>Het domein DatumTijd geeft een tijdstip volgens de Gregoriaanse kalender tot op de
+                     seconde nauwkeurig. De opbouw is JJJJ-MM-DDTUU:MM:SS+UU:MM.
+                     Wanneer een attribuut een domein van het type DatumTijd heeft is het voldoende de
+                     naam te geven, omdat de opbouw altijd hetzelfde is.
+                  </td>
+               </tr>
             </tbody>
          </table>
          
@@ -378,6 +437,21 @@
                <tr>
                   <th>Naam</th>
                   <td>Duur2</td>
+               </tr>
+               <tr>
+                  <th>Herkomst</th>
+                  <td>Intern document</td>
+               </tr>
+               <tr>
+                  <th>Definitie</th>
+                  <td>Een domein van het type duur gaat over de lengte van een tijdsperiode, uitgedrukt
+                     in aantal tijdseenheden en dat zijn jaren (J), maanden (M), weken (W) of dagen (D).
+                     Gewoonlijk wordt het domein verder ingeperkt door een bereik te specificeren. Het
+                     bereik geeft de minimale en de maximale waarde aan die een attribuut kan hebben. Wanneer
+                     een attribuut een domein van het type duur heeft wordt de maximale lengte aangegeven,
+                     de eenheid en indien van toepassing het bereik. In het domeinmodel is de algemene
+                     aanduiding DuurN, waarbij N de maximale lengte aangeeft.
+                  </td>
                </tr>
             </tbody>
          </table>
@@ -438,6 +512,41 @@
                   <th>Naam</th>
                   <td>Getalswaarde4</td>
                </tr>
+               <tr>
+                  <th>Herkomst</th>
+                  <td>Intern document</td>
+               </tr>
+               <tr>
+                  <th>Definitie</th>
+                  <td>Het domein van het type getalswaarde omvat een aantal typen, subdomeinen. Ieder van
+                     die subdomeinen staat voor een bepaalde verzameling getallen. In de basisregistratie
+                     ondergrond zijn drie verzamelingen van belang: die van de natuurlijke getallen, die
+                     van de gehele getallen, en die van de rationale getallen. Ieder van die drie verzamelingen
+                     heeft een eigen karakteristiek.
+                     De natuurlijke getallen omvatten de positieve gehele getallen inclusief de nul. Natuurlijke
+                     getallen hebben een maximale lengte.
+                     De gehele getallen omvatten de positieve en negatieve gehele getallen inclusief de
+                     nul. Gehele getallen hebben een maximale lengte.
+                     De rationale getallen omvatten de getallen die het quotiënt zijn van twee gehele getallen,
+                     en daarbij geldt dat de deler geen nul mag zijn. Rationale getallen hebben een decimaal
+                     scheidingsteken en daarmee een opbouw. Het aantal cijfers voor het scheidingsteken
+                     is variabel maar begrensd. Het aantal cijfers achter het scheidingsteken ligt vast.
+                     Gewoonlijk wordt niet alleen de verzameling benoemd, maar wordt het domein verder
+                     ingeperkt door een bereik te specificeren. Het bereik geeft de minimale en de maximale
+                     waarde aan die een attribuut kan hebben.
+                     Het domein getalswaarde wordt in de basisregistratie ondergrond gebruikt voor gegevens
+                     die gemeten, berekend of anderszins bepaald zijn. Bij de getalswaarde hoort daarom
+                     een eenheid. De basisregistratie ondergrond gebruikt voor de eenheden de codes uit
+                     het UCUM (Unified Code for Units of Measure)-systeem. In bijzondere gevallen is de
+                     eenheid dimensieloos.
+                     Wanneer een attribuut een domein van het type getalswaarde heeft wordt het subdomein
+                     aangegeven, de maximale lengte of de opbouw, de eenheid en indien van toepassing het
+                     bereik. In het domeinmodel wordt het domein voor een natuurlijk of een geheel getal
+                     aangeduid als GetalswaardeN, waarde N staat voor het maximum aantal cijfers. Het domein
+                     voor een rationaal getal wordt aangegeven als GetalswaardeN.N, waarbij de tweede N
+                     het vaste aantal cijfers achter het scheidingsteken aangeeft.
+                  </td>
+               </tr>
             </tbody>
          </table>
          
@@ -496,6 +605,41 @@
                <tr>
                   <th>Naam</th>
                   <td>Getalswaarde5</td>
+               </tr>
+               <tr>
+                  <th>Herkomst</th>
+                  <td>Intern document</td>
+               </tr>
+               <tr>
+                  <th>Definitie</th>
+                  <td>Het domein van het type getalswaarde omvat een aantal typen, subdomeinen. Ieder van
+                     die subdomeinen staat voor een bepaalde verzameling getallen. In de basisregistratie
+                     ondergrond zijn drie verzamelingen van belang: die van de natuurlijke getallen, die
+                     van de gehele getallen, en die van de rationale getallen. Ieder van die drie verzamelingen
+                     heeft een eigen karakteristiek.
+                     De natuurlijke getallen omvatten de positieve gehele getallen inclusief de nul. Natuurlijke
+                     getallen hebben een maximale lengte.
+                     De gehele getallen omvatten de positieve en negatieve gehele getallen inclusief de
+                     nul. Gehele getallen hebben een maximale lengte.
+                     De rationale getallen omvatten de getallen die het quotiënt zijn van twee gehele getallen,
+                     en daarbij geldt dat de deler geen nul mag zijn. Rationale getallen hebben een decimaal
+                     scheidingsteken en daarmee een opbouw. Het aantal cijfers voor het scheidingsteken
+                     is variabel maar begrensd. Het aantal cijfers achter het scheidingsteken ligt vast.
+                     Gewoonlijk wordt niet alleen de verzameling benoemd, maar wordt het domein verder
+                     ingeperkt door een bereik te specificeren. Het bereik geeft de minimale en de maximale
+                     waarde aan die een attribuut kan hebben.
+                     Het domein getalswaarde wordt in de basisregistratie ondergrond gebruikt voor gegevens
+                     die gemeten, berekend of anderszins bepaald zijn. Bij de getalswaarde hoort daarom
+                     een eenheid. De basisregistratie ondergrond gebruikt voor de eenheden de codes uit
+                     het UCUM (Unified Code for Units of Measure)-systeem. In bijzondere gevallen is de
+                     eenheid dimensieloos.
+                     Wanneer een attribuut een domein van het type getalswaarde heeft wordt het subdomein
+                     aangegeven, de maximale lengte of de opbouw, de eenheid en indien van toepassing het
+                     bereik. In het domeinmodel wordt het domein voor een natuurlijk of een geheel getal
+                     aangeduid als GetalswaardeN, waarde N staat voor het maximum aantal cijfers. Het domein
+                     voor een rationaal getal wordt aangegeven als GetalswaardeN.N, waarbij de tweede N
+                     het vaste aantal cijfers achter het scheidingsteken aangeeft.
+                  </td>
                </tr>
             </tbody>
          </table>
@@ -560,6 +704,12 @@
                   <th>Herkomst</th>
                   <td>BRO</td>
                </tr>
+               <tr>
+                  <th>Definitie</th>
+                  <td>Het domein KvK-nummer geeft het identificerende gegeven van een onderneming in het
+                     Handelsregister. De opbouw is NNNNNNNN.
+                  </td>
+               </tr>
             </tbody>
          </table>
          
@@ -606,6 +756,20 @@
                <tr>
                   <th>Naam</th>
                   <td>Nummer1</td>
+               </tr>
+               <tr>
+                  <th>Herkomst</th>
+                  <td>Intern document</td>
+               </tr>
+               <tr>
+                  <th>Definitie</th>
+                  <td>Een domein van het type nummer is een opeenvolging van cijfers met een bepaalde maximale
+                     lengte. Een nummer heeft geen rekenkundige betekenis, maar heeft een betekenisvolle
+                     volgorde.
+                     Een domein van het type nummer wordt volledig gespecificeerd door met de aanduiding
+                     nummer ook de maximale lengte mee te geven. In het domeinmodel is de algemene aanduiding
+                     NummerN, waarbij N de maximale lengte aangeeft.
+                  </td>
                </tr>
             </tbody>
          </table>
@@ -654,6 +818,16 @@
                   <th>Naam</th>
                   <td>Registratieobjectcode</td>
                </tr>
+               <tr>
+                  <th>Herkomst</th>
+                  <td>BRO</td>
+               </tr>
+               <tr>
+                  <th>Definitie</th>
+                  <td>De code voor het identificeren van een object dat in de registratie ondergrond is
+                     opgenomen. Formaat voor een registratieobject zijnde een mijnbouwwetvergunning: EPLNNNNNNNNNNNN.
+                  </td>
+               </tr>
             </tbody>
          </table>
          
@@ -701,6 +875,21 @@
                   <th>Naam</th>
                   <td>Tekst100</td>
                </tr>
+               <tr>
+                  <th>Herkomst</th>
+                  <td>Intern document</td>
+               </tr>
+               <tr>
+                  <th>Definitie</th>
+                  <td>Een domein van het type tekst bestaat uit een stuk tekst van een bepaalde maximale
+                     lengte. De tekst mag alleen bestaan uit de tekens die voorkomen in de MES-1 set. De
+                     MES-1 set omvat 335 tekens en wordt gebruikt binnen de landen van de Europese Unie
+                     die een Latijns schrift kennen.
+                     Een domein van het type tekst wordt volledig gespecificeerd door met de aanduiding
+                     tekst ook de maximale lengte mee te geven. In het domeinmodel wordt het domein aangeduid
+                     als TekstN, waarbij N de maximale lengte aangeeft.
+                  </td>
+               </tr>
             </tbody>
          </table>
          
@@ -747,6 +936,21 @@
                <tr>
                   <th>Naam</th>
                   <td>Tekst30</td>
+               </tr>
+               <tr>
+                  <th>Herkomst</th>
+                  <td>Intern document</td>
+               </tr>
+               <tr>
+                  <th>Definitie</th>
+                  <td>Een domein van het type tekst bestaat uit een stuk tekst van een bepaalde maximale
+                     lengte. De tekst mag alleen bestaan uit de tekens die voorkomen in de MES-1 set. De
+                     MES-1 set omvat 335 tekens en wordt gebruikt binnen de landen van de Europese Unie
+                     die een Latijns schrift kennen.
+                     Een domein van het type tekst wordt volledig gespecificeerd door met de aanduiding
+                     tekst ook de maximale lengte mee te geven. In het domeinmodel wordt het domein aangeduid
+                     als TekstN, waarbij N de maximale lengte aangeeft.
+                  </td>
                </tr>
             </tbody>
          </table>
@@ -798,15 +1002,22 @@
          <tbody>
             <tr>
                <th><a class="anchor" name="global_class_Brocommon_IndicatieJaNee"></a><a class="link" href="#detail_class_Brocommon_IndicatieJaNee">IndicatieJaNee</a></th>
-               <td></td>
+               <td>Een domein in de vorm van een keuzelijst met een limitatieve opsomming van waarden.
+                  Uitbreiding van de keuzelijst is niet mogelijk.
+               </td>
             </tr>
             <tr>
                <th><a class="anchor" name="global_class_Brocommon_IndicatieJaNeeOnbekend"></a><a class="link" href="#detail_class_Brocommon_IndicatieJaNeeOnbekend">IndicatieJaNeeOnbekend</a></th>
-               <td></td>
+               <td>Een domein in de vorm van een keuzelijst met een limitatieve opsomming van waarden.
+                  Uitbreiding van de keuzelijst is niet mogelijk.
+               </td>
             </tr>
             <tr>
                <th><a class="anchor" name="global_class_Brocommon_Kwaliteitsregime"></a><a class="link" href="#detail_class_Brocommon_Kwaliteitsregime">Kwaliteitsregime</a></th>
-               <td></td>
+               <td>Een domein in de vorm van een keuzelijst met een limitatieve opsomming van waarden
+                  voor het duiden van de kwaliteitseis waaraan de gegevens van het object voldoen. Uitbreiding
+                  van de keuzelijst is niet mogelijk.
+               </td>
             </tr>
          </tbody>
       </table>
@@ -1583,7 +1794,9 @@
             <tbody>
                <tr>
                   <th>Definitie</th>
-                  <td></td>
+                  <td>Een domein in de vorm van een keuzelijst met een limitatieve opsomming van waarden.
+                     Uitbreiding van de keuzelijst is niet mogelijk.
+                  </td>
                </tr>
             </tbody>
          </table>
@@ -1622,7 +1835,9 @@
             <tbody>
                <tr>
                   <th>Definitie</th>
-                  <td></td>
+                  <td>Een domein in de vorm van een keuzelijst met een limitatieve opsomming van waarden.
+                     Uitbreiding van de keuzelijst is niet mogelijk.
+                  </td>
                </tr>
             </tbody>
          </table>
@@ -1666,7 +1881,10 @@
             <tbody>
                <tr>
                   <th>Definitie</th>
-                  <td></td>
+                  <td>Een domein in de vorm van een keuzelijst met een limitatieve opsomming van waarden
+                     voor het duiden van de kwaliteitseis waaraan de gegevens van het object voldoen. Uitbreiding
+                     van de keuzelijst is niet mogelijk.
+                  </td>
                </tr>
             </tbody>
          </table>
@@ -2661,7 +2879,13 @@
                      
                      
                   </td>
-                  <td></td>
+                  <td>Het geheel van gegevens dat betrekking heeft op het recht van een bepaalde partij
+                     een bepaalde mijnbouwactiviteit in een bepaald deel van de ondergrond van Nederland
+                     en zijn Exclusieve Economische Zone uit te voeren, en dat onder de verantwoordelijkheid
+                     van het ministerie van Economische Zaken en Klimaat aan de registerbeheerder van de
+                     basisregistratie ondergrond is aangeleverd en door de laatste in de registratie ondergrond
+                     is opgenomen.
+                  </td>
                </tr>
                <tr>
                   <td>

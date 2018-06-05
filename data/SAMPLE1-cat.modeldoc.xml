@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_491FA2C0_2621_4d18_B9BA_D66964A4BFBD"
       generator-version="1.45.1"
-      generator-date="2018-06-05T09:25:49Z">
+      generator-date="2018-06-05T12:11:52Z">
    <section type="DOMAIN" name="brocommon" id="global_package_Brocommon">
       <section type="IMAGEMAPS"
                name="brocommon-imagemap"
@@ -37,6 +37,10 @@
                <part type="CFG-DOC-HERKOMST">
                   <item>Herkomst</item>
                   <item>BRO</item>
+               </part>
+               <part type="CFG-DOC-DEFINITIE">
+                  <item>Definitie</item>
+                  <item>Het geheel van gegevens dat betrekking heeft op het recht van een bepaalde partij een bepaalde mijnbouwactiviteit in een bepaald deel van de ondergrond van Nederland en zijn Exclusieve Economische Zone uit te voeren, en dat onder de verantwoordelijkheid van het ministerie van Economische Zaken en Klimaat aan de registerbeheerder van de basisregistratie ondergrond is aangeleverd en door de laatste in de registratie ondergrond is opgenomen.</item>
                </part>
                <part type="CFG-DOC-HERKOMSTDEFINITIE">
                   <item>Herkomst definitie</item>
@@ -142,6 +146,15 @@
                   <item>Naam</item>
                   <item>Aantal2</item>
                </part>
+               <part type="CFG-DOC-HERKOMST">
+                  <item>Herkomst</item>
+                  <item>Intern document</item>
+               </part>
+               <part type="CFG-DOC-DEFINITIE">
+                  <item>Definitie</item>
+                  <item>Een domein van het type aantal omvat de positieve en negatieve gehele getallen inclusief de nul.
+Een domein van het type aantal wordt volledig gespecificeerd door met de aanduiding aantal ook de maximale lengte mee te geven. In het domeinmodel is de algemene aanduiding AantalN, waarbij N de maximale lengte aangeeft.</item>
+               </part>
             </content>
             <section type="SHORT-DATAELEMENTS">
                <content>
@@ -171,6 +184,14 @@
                <part type="CFG-DOC-NAAM">
                   <item>Naam</item>
                   <item>Coördinatenpaar</item>
+               </part>
+               <part type="CFG-DOC-HERKOMST">
+                  <item>Herkomst</item>
+                  <item>Intern document</item>
+               </part>
+               <part type="CFG-DOC-DEFINITIE">
+                  <item>Definitie</item>
+                  <item>Het domein coördinatenpaar wordt gebruikt om de positie van een punt op het aardoppervlak vast te leggen. De positie wordt bepaald in een specifiek referentiestelsel en uitgedrukt in twee coördinaten. Ieder van de coördinaten heeft een getalswaarde en de notatie voor het paar is (coördinaat 1, coördinaat 2).</item>
                </part>
             </content>
             <section type="SHORT-DATAELEMENTS">
@@ -214,6 +235,15 @@
                   <item>Naam</item>
                   <item>Datum</item>
                </part>
+               <part type="CFG-DOC-HERKOMST">
+                  <item>Herkomst</item>
+                  <item>Intern document</item>
+               </part>
+               <part type="CFG-DOC-DEFINITIE">
+                  <item>Definitie</item>
+                  <item>Het domein Datum geeft een datum volgens de Gregoriaanse kalender tot op de dag nauwkeurig. De opbouw is JJJJ-MM-DD.
+Wanneer een attribuut een domein van het type Datum heeft is het voldoende de naam te geven, omdat de opbouw altijd hetzelfde is.</item>
+               </part>
             </content>
             <section type="SHORT-DATAELEMENTS">
                <content>
@@ -244,6 +274,15 @@
                   <item>Naam</item>
                   <item>DatumTijd</item>
                </part>
+               <part type="CFG-DOC-HERKOMST">
+                  <item>Herkomst</item>
+                  <item>Intern document</item>
+               </part>
+               <part type="CFG-DOC-DEFINITIE">
+                  <item>Definitie</item>
+                  <item>Het domein DatumTijd geeft een tijdstip volgens de Gregoriaanse kalender tot op de seconde nauwkeurig. De opbouw is JJJJ-MM-DDTUU:MM:SS+UU:MM.
+Wanneer een attribuut een domein van het type DatumTijd heeft is het voldoende de naam te geven, omdat de opbouw altijd hetzelfde is.</item>
+               </part>
             </content>
             <section type="SHORT-DATAELEMENTS">
                <content>
@@ -273,6 +312,14 @@
                <part type="CFG-DOC-NAAM">
                   <item>Naam</item>
                   <item>Duur2</item>
+               </part>
+               <part type="CFG-DOC-HERKOMST">
+                  <item>Herkomst</item>
+                  <item>Intern document</item>
+               </part>
+               <part type="CFG-DOC-DEFINITIE">
+                  <item>Definitie</item>
+                  <item>Een domein van het type duur gaat over de lengte van een tijdsperiode, uitgedrukt in aantal tijdseenheden en dat zijn jaren (J), maanden (M), weken (W) of dagen (D). Gewoonlijk wordt het domein verder ingeperkt door een bereik te specificeren. Het bereik geeft de minimale en de maximale waarde aan die een attribuut kan hebben. Wanneer een attribuut een domein van het type duur heeft wordt de maximale lengte aangegeven, de eenheid en indien van toepassing het bereik. In het domeinmodel is de algemene aanduiding DuurN, waarbij N de maximale lengte aangeeft.</item>
                </part>
             </content>
             <section type="SHORT-DATAELEMENTS">
@@ -314,6 +361,20 @@
                   <item>Naam</item>
                   <item>Getalswaarde4</item>
                </part>
+               <part type="CFG-DOC-HERKOMST">
+                  <item>Herkomst</item>
+                  <item>Intern document</item>
+               </part>
+               <part type="CFG-DOC-DEFINITIE">
+                  <item>Definitie</item>
+                  <item>Het domein van het type getalswaarde omvat een aantal typen, subdomeinen. Ieder van die subdomeinen staat voor een bepaalde verzameling getallen. In de basisregistratie ondergrond zijn drie verzamelingen van belang: die van de natuurlijke getallen, die van de gehele getallen, en die van de rationale getallen. Ieder van die drie verzamelingen heeft een eigen karakteristiek.
+De natuurlijke getallen omvatten de positieve gehele getallen inclusief de nul. Natuurlijke getallen hebben een maximale lengte.
+De gehele getallen omvatten de positieve en negatieve gehele getallen inclusief de nul. Gehele getallen hebben een maximale lengte.
+De rationale getallen omvatten de getallen die het quotiënt zijn van twee gehele getallen, en daarbij geldt dat de deler geen nul mag zijn. Rationale getallen hebben een decimaal scheidingsteken en daarmee een opbouw. Het aantal cijfers voor het scheidingsteken is variabel maar begrensd. Het aantal cijfers achter het scheidingsteken ligt vast.
+Gewoonlijk wordt niet alleen de verzameling benoemd, maar wordt het domein verder ingeperkt door een bereik te specificeren. Het bereik geeft de minimale en de maximale waarde aan die een attribuut kan hebben.
+Het domein getalswaarde wordt in de basisregistratie ondergrond gebruikt voor gegevens die gemeten, berekend of anderszins bepaald zijn. Bij de getalswaarde hoort daarom een eenheid. De basisregistratie ondergrond gebruikt voor de eenheden de codes uit het UCUM (Unified Code for Units of Measure)-systeem. In bijzondere gevallen is de eenheid dimensieloos.
+Wanneer een attribuut een domein van het type getalswaarde heeft wordt het subdomein aangegeven, de maximale lengte of de opbouw, de eenheid en indien van toepassing het bereik. In het domeinmodel wordt het domein voor een natuurlijk of een geheel getal aangeduid als GetalswaardeN, waarde N staat voor het maximum aantal cijfers. Het domein voor een rationaal getal wordt aangegeven als GetalswaardeN.N, waarbij de tweede N het vaste aantal cijfers achter het scheidingsteken aangeeft.</item>
+               </part>
             </content>
             <section type="SHORT-DATAELEMENTS">
                <content>
@@ -353,6 +414,20 @@
                <part type="CFG-DOC-NAAM">
                   <item>Naam</item>
                   <item>Getalswaarde5</item>
+               </part>
+               <part type="CFG-DOC-HERKOMST">
+                  <item>Herkomst</item>
+                  <item>Intern document</item>
+               </part>
+               <part type="CFG-DOC-DEFINITIE">
+                  <item>Definitie</item>
+                  <item>Het domein van het type getalswaarde omvat een aantal typen, subdomeinen. Ieder van die subdomeinen staat voor een bepaalde verzameling getallen. In de basisregistratie ondergrond zijn drie verzamelingen van belang: die van de natuurlijke getallen, die van de gehele getallen, en die van de rationale getallen. Ieder van die drie verzamelingen heeft een eigen karakteristiek.
+De natuurlijke getallen omvatten de positieve gehele getallen inclusief de nul. Natuurlijke getallen hebben een maximale lengte.
+De gehele getallen omvatten de positieve en negatieve gehele getallen inclusief de nul. Gehele getallen hebben een maximale lengte.
+De rationale getallen omvatten de getallen die het quotiënt zijn van twee gehele getallen, en daarbij geldt dat de deler geen nul mag zijn. Rationale getallen hebben een decimaal scheidingsteken en daarmee een opbouw. Het aantal cijfers voor het scheidingsteken is variabel maar begrensd. Het aantal cijfers achter het scheidingsteken ligt vast.
+Gewoonlijk wordt niet alleen de verzameling benoemd, maar wordt het domein verder ingeperkt door een bereik te specificeren. Het bereik geeft de minimale en de maximale waarde aan die een attribuut kan hebben.
+Het domein getalswaarde wordt in de basisregistratie ondergrond gebruikt voor gegevens die gemeten, berekend of anderszins bepaald zijn. Bij de getalswaarde hoort daarom een eenheid. De basisregistratie ondergrond gebruikt voor de eenheden de codes uit het UCUM (Unified Code for Units of Measure)-systeem. In bijzondere gevallen is de eenheid dimensieloos.
+Wanneer een attribuut een domein van het type getalswaarde heeft wordt het subdomein aangegeven, de maximale lengte of de opbouw, de eenheid en indien van toepassing het bereik. In het domeinmodel wordt het domein voor een natuurlijk of een geheel getal aangeduid als GetalswaardeN, waarde N staat voor het maximum aantal cijfers. Het domein voor een rationaal getal wordt aangegeven als GetalswaardeN.N, waarbij de tweede N het vaste aantal cijfers achter het scheidingsteken aangeeft.</item>
                </part>
             </content>
             <section type="SHORT-DATAELEMENTS">
@@ -398,6 +473,10 @@
                   <item>Herkomst</item>
                   <item>BRO</item>
                </part>
+               <part type="CFG-DOC-DEFINITIE">
+                  <item>Definitie</item>
+                  <item>Het domein KvK-nummer geeft het identificerende gegeven van een onderneming in het Handelsregister. De opbouw is NNNNNNNN.</item>
+               </part>
             </content>
             <section type="SHORT-DATAELEMENTS">
                <content>
@@ -428,6 +507,15 @@
                   <item>Naam</item>
                   <item>Nummer1</item>
                </part>
+               <part type="CFG-DOC-HERKOMST">
+                  <item>Herkomst</item>
+                  <item>Intern document</item>
+               </part>
+               <part type="CFG-DOC-DEFINITIE">
+                  <item>Definitie</item>
+                  <item>Een domein van het type nummer is een opeenvolging van cijfers met een bepaalde maximale lengte. Een nummer heeft geen rekenkundige betekenis, maar heeft een betekenisvolle volgorde.
+Een domein van het type nummer wordt volledig gespecificeerd door met de aanduiding nummer ook de maximale lengte mee te geven. In het domeinmodel is de algemene aanduiding NummerN, waarbij N de maximale lengte aangeeft.</item>
+               </part>
             </content>
             <section type="SHORT-DATAELEMENTS">
                <content>
@@ -457,6 +545,14 @@
                <part type="CFG-DOC-NAAM">
                   <item>Naam</item>
                   <item>Registratieobjectcode</item>
+               </part>
+               <part type="CFG-DOC-HERKOMST">
+                  <item>Herkomst</item>
+                  <item>BRO</item>
+               </part>
+               <part type="CFG-DOC-DEFINITIE">
+                  <item>Definitie</item>
+                  <item>De code voor het identificeren van een object dat in de registratie ondergrond is opgenomen. Formaat voor een registratieobject zijnde een mijnbouwwetvergunning: EPLNNNNNNNNNNNN.</item>
                </part>
             </content>
             <section type="SHORT-DATAELEMENTS">
@@ -489,6 +585,15 @@
                   <item>Naam</item>
                   <item>Tekst100</item>
                </part>
+               <part type="CFG-DOC-HERKOMST">
+                  <item>Herkomst</item>
+                  <item>Intern document</item>
+               </part>
+               <part type="CFG-DOC-DEFINITIE">
+                  <item>Definitie</item>
+                  <item>Een domein van het type tekst bestaat uit een stuk tekst van een bepaalde maximale lengte. De tekst mag alleen bestaan uit de tekens die voorkomen in de MES-1 set. De MES-1 set omvat 335 tekens en wordt gebruikt binnen de landen van de Europese Unie die een Latijns schrift kennen.
+Een domein van het type tekst wordt volledig gespecificeerd door met de aanduiding tekst ook de maximale lengte mee te geven. In het domeinmodel wordt het domein aangeduid als TekstN, waarbij N de maximale lengte aangeeft.</item>
+               </part>
             </content>
             <section type="SHORT-DATAELEMENTS">
                <content>
@@ -519,6 +624,15 @@
                   <item>Naam</item>
                   <item>Tekst30</item>
                </part>
+               <part type="CFG-DOC-HERKOMST">
+                  <item>Herkomst</item>
+                  <item>Intern document</item>
+               </part>
+               <part type="CFG-DOC-DEFINITIE">
+                  <item>Definitie</item>
+                  <item>Een domein van het type tekst bestaat uit een stuk tekst van een bepaalde maximale lengte. De tekst mag alleen bestaan uit de tekens die voorkomen in de MES-1 set. De MES-1 set omvat 335 tekens en wordt gebruikt binnen de landen van de Europese Unie die een Latijns schrift kennen.
+Een domein van het type tekst wordt volledig gespecificeerd door met de aanduiding tekst ook de maximale lengte mee te geven. In het domeinmodel wordt het domein aangeduid als TekstN, waarbij N de maximale lengte aangeeft.</item>
+               </part>
             </content>
             <section type="SHORT-DATAELEMENTS">
                <content>
@@ -548,19 +662,19 @@
                <item id="global_class_Brocommon_IndicatieJaNee"
                      uuid="EAID_4BCB6B0E_360D_4a71_805C_27A96AE21AD6"
                      idref="detail_class_Brocommon_IndicatieJaNee">IndicatieJaNee</item>
-               <item/>
+               <item>Een domein in de vorm van een keuzelijst met een limitatieve opsomming van waarden. Uitbreiding van de keuzelijst is niet mogelijk.</item>
             </part>
             <part>
                <item id="global_class_Brocommon_IndicatieJaNeeOnbekend"
                      uuid="EAID_C97205AE_8130_4476_9879_22B54734CACA"
                      idref="detail_class_Brocommon_IndicatieJaNeeOnbekend">IndicatieJaNeeOnbekend</item>
-               <item/>
+               <item>Een domein in de vorm van een keuzelijst met een limitatieve opsomming van waarden. Uitbreiding van de keuzelijst is niet mogelijk.</item>
             </part>
             <part>
                <item id="global_class_Brocommon_Kwaliteitsregime"
                      uuid="EAID_60330E10_E048_44c4_82B1_26BBA51A442A"
                      idref="detail_class_Brocommon_Kwaliteitsregime">Kwaliteitsregime</item>
-               <item/>
+               <item>Een domein in de vorm van een keuzelijst met een limitatieve opsomming van waarden voor het duiden van de kwaliteitseis waaraan de gegevens van het object voldoen. Uitbreiding van de keuzelijst is niet mogelijk.</item>
             </part>
          </content>
       </section>
@@ -1226,7 +1340,7 @@
                <content>
                   <part>
                      <item>Definitie</item>
-                     <item/>
+                     <item>Een domein in de vorm van een keuzelijst met een limitatieve opsomming van waarden. Uitbreiding van de keuzelijst is niet mogelijk.</item>
                   </part>
                </content>
                <content>
@@ -1253,7 +1367,7 @@
                <content>
                   <part>
                      <item>Definitie</item>
-                     <item/>
+                     <item>Een domein in de vorm van een keuzelijst met een limitatieve opsomming van waarden. Uitbreiding van de keuzelijst is niet mogelijk.</item>
                   </part>
                </content>
                <content>
@@ -1285,7 +1399,7 @@
                <content>
                   <part>
                      <item>Definitie</item>
-                     <item/>
+                     <item>Een domein in de vorm van een keuzelijst met een limitatieve opsomming van waarden voor het duiden van de kwaliteitseis waaraan de gegevens van het object voldoen. Uitbreiding van de keuzelijst is niet mogelijk.</item>
                   </part>
                </content>
                <content>
@@ -2060,7 +2174,7 @@ Wanneer een vergunning in diepte wordt begrensd gebeurt dat meestal op basis van
                            <item type="global" idref="global_class_Brocommon_Registratieobject">Registratieobject</item>
                         </item>
                      </item>
-                     <item/>
+                     <item>Het geheel van gegevens dat betrekking heeft op het recht van een bepaalde partij een bepaalde mijnbouwactiviteit in een bepaald deel van de ondergrond van Nederland en zijn Exclusieve Economische Zone uit te voeren, en dat onder de verantwoordelijkheid van het ministerie van Economische Zaken en Klimaat aan de registerbeheerder van de basisregistratie ondergrond is aangeleverd en door de laatste in de registratie ondergrond is opgenomen.</item>
                   </part>
                   <part>
                      <item>
@@ -2226,7 +2340,7 @@ Wanneer een vergunning in diepte wordt begrensd gebeurt dat meestal op basis van
                            <item type="global" idref="global_class_Brocommon_Registratieobject">Registratieobject</item>
                         </item>
                      </item>
-                     <item/>
+                     <item>Het geheel van gegevens dat betrekking heeft op het recht van een bepaalde partij een bepaalde mijnbouwactiviteit in een bepaald deel van de ondergrond van Nederland en zijn Exclusieve Economische Zone uit te voeren, en dat onder de verantwoordelijkheid van het ministerie van Economische Zaken en Klimaat aan de registerbeheerder van de basisregistratie ondergrond is aangeleverd en door de laatste in de registratie ondergrond is opgenomen.</item>
                   </part>
                   <part>
                      <item>
