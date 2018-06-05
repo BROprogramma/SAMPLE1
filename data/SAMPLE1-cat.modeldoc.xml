@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_491FA2C0_2621_4d18_B9BA_D66964A4BFBD"
       generator-version="1.45.1"
-      generator-date="2018-06-05T12:55:37Z">
+      generator-date="2018-06-05T13:08:13Z">
    <section type="DOMAIN" name="brocommon" id="global_package_Brocommon">
       <section type="IMAGEMAPS"
                name="brocommon-imagemap"
@@ -3868,7 +3868,7 @@ Een wijziging van de vergunninghouder wordt zelden eerst geregistreerd als een l
                <item id="global_class_Eplcommon_Aanvraagtype"
                      uuid="EAID_2D84CC78_D7FF_44d6_B5F7_864EE77CCFCA"
                      idref="detail_class_Eplcommon_Aanvraagtype">Aanvraagtype</item>
-               <item/>
+               <item>Keuzelijst met de omschrijving van het initiatief op basis waarvan de vergunning is ontstaan. De lijst met waarden is een uitbreidbare opsomming van waarden.</item>
             </part>
             <part>
                <item id="global_class_Eplcommon_ActueleStatus"
@@ -10114,7 +10114,7 @@ De gestandaardiseerde begrenzing van het gebied is gedefinieerd in ETRS89.</item
                <content>
                   <part>
                      <item>Definitie</item>
-                     <item/>
+                     <item>Keuzelijst met de omschrijving van het initiatief op basis waarvan de vergunning is ontstaan. De lijst met waarden is een uitbreidbare opsomming van waarden.</item>
                   </part>
                </content>
                <content>
