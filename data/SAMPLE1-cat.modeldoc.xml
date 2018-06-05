@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_491FA2C0_2621_4d18_B9BA_D66964A4BFBD"
       generator-version="1.45.1"
-      generator-date="2018-06-05T13:08:13Z">
+      generator-date="2018-06-05T13:26:13Z">
    <section type="DOMAIN" name="brocommon" id="global_package_Brocommon">
       <section type="IMAGEMAPS"
                name="brocommon-imagemap"
@@ -3874,25 +3874,25 @@ Een wijziging van de vergunninghouder wordt zelden eerst geregistreerd als een l
                <item id="global_class_Eplcommon_ActueleStatus"
                      uuid="EAID_979101A4_A755_4b1e_AF5B_DDED6EF3E1FC"
                      idref="detail_class_Eplcommon_ActueleStatus">ActueleStatus</item>
-               <item/>
+               <item>Keuzelijst met het stadium waarin de vergunning zich bevindt. De lijst met waarden is een uitbreidbare opsomming van waarden.</item>
             </part>
             <part>
                <item id="global_class_Eplcommon_CoRdinaattransformatie"
                      uuid="EAID_603EA641_106C_4b7e_87A3_1ACA63B9B3C5"
                      idref="detail_class_Eplcommon_CoRdinaattransformatie">Coördinaattransformatie</item>
-               <item>BRO</item>
+               <item>Keuzelijst met de methode die de basisregistratie ondergrond heeft gebruikt voor het omzetten van de aangeleverde begrenzing. De lijst met waarden is een uitbreidbare opsomming van waarden.</item>
             </part>
             <part>
                <item id="global_class_Eplcommon_Delfstof"
                      uuid="EAID_98A7B242_B0B5_4de1_98B5_7F51A11C983D"
                      idref="detail_class_Eplcommon_Delfstof">Delfstof</item>
-               <item/>
+               <item>Keuzelijst met een delfstof. De lijst met waarden is een uitbreidbare opsomming van waarden.</item>
             </part>
             <part>
                <item id="global_class_Eplcommon_GeologischVlak"
                      uuid="EAID_471630C5_D685_4bcd_AA75_3A603EC2263F"
                      idref="detail_class_Eplcommon_GeologischVlak">GeologischVlak</item>
-               <item/>
+               <item>Keuzelijst met een geologische vlak als begrenzing van een ondergrondse ruimte. De lijst met waarden is een uitbreidbare opsomming van waarden.</item>
             </part>
             <part>
                <item id="global_class_Eplcommon_KaderAanlevering"
@@ -10151,7 +10151,7 @@ De gestandaardiseerde begrenzing van het gebied is gedefinieerd in ETRS89.</item
                <content>
                   <part>
                      <item>Definitie</item>
-                     <item/>
+                     <item>Keuzelijst met het stadium waarin de vergunning zich bevindt. De lijst met waarden is een uitbreidbare opsomming van waarden.</item>
                   </part>
                </content>
                <content>
@@ -10208,7 +10208,7 @@ De gestandaardiseerde begrenzing van het gebied is gedefinieerd in ETRS89.</item
                <content>
                   <part>
                      <item>Definitie</item>
-                     <item>BRO</item>
+                     <item>Keuzelijst met de methode die de basisregistratie ondergrond heeft gebruikt voor het omzetten van de aangeleverde begrenzing. De lijst met waarden is een uitbreidbare opsomming van waarden.</item>
                   </part>
                </content>
                <content>
@@ -10235,7 +10235,7 @@ De gestandaardiseerde begrenzing van het gebied is gedefinieerd in ETRS89.</item
                <content>
                   <part>
                      <item>Definitie</item>
-                     <item/>
+                     <item>Keuzelijst met een delfstof. De lijst met waarden is een uitbreidbare opsomming van waarden.</item>
                   </part>
                </content>
                <content>
@@ -10267,7 +10267,7 @@ De gestandaardiseerde begrenzing van het gebied is gedefinieerd in ETRS89.</item
                <content>
                   <part>
                      <item>Definitie</item>
-                     <item/>
+                     <item>Keuzelijst met een geologische vlak als begrenzing van een ondergrondse ruimte. De lijst met waarden is een uitbreidbare opsomming van waarden.</item>
                   </part>
                </content>
                <content>
