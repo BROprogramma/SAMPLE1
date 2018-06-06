@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_491FA2C0_2621_4d18_B9BA_D66964A4BFBD"
       generator-version="1.45.2"
-      generator-date="2018-06-06T09:27:52Z">
+      generator-date="2018-06-06T09:46:34Z">
    <section type="DOMAIN" name="brocommon" id="global_package_Brocommon">
       <section type="IMAGEMAPS"
                name="brocommon-imagemap"
@@ -2669,9 +2669,17 @@ Wanneer een vergunning in diepte wordt begrensd gebeurt dat meestal op basis van
                   <item>Naam</item>
                   <item>Registratiegeschiedenis</item>
                </part>
+               <part type="CFG-DOC-HERKOMST">
+                  <item>Herkomst</item>
+                  <item>BRO</item>
+               </part>
                <part type="CFG-DOC-DEFINITIE">
                   <item>Definitie</item>
                   <item>De gegevens die de geschiedenis van het object in de registratie ondergrond markeren.</item>
+               </part>
+               <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                  <item>Herkomst definitie</item>
+                  <item>BRO</item>
                </part>
                <part type="CFG-DOC-TOELICHTING">
                   <item>Toelichting</item>
@@ -3755,6 +3763,10 @@ Een wijziging van de vergunninghouder wordt zelden eerst geregistreerd als een l
                   <item>Naam</item>
                   <item>Onderneming</item>
                </part>
+               <part type="CFG-DOC-HERKOMST">
+                  <item>Herkomst</item>
+                  <item>BRO</item>
+               </part>
             </content>
             <section type="SHORT-UNIONELEMENTS">
                <content>
@@ -3797,6 +3809,10 @@ Een wijziging van de vergunninghouder wordt zelden eerst geregistreerd als een l
                <part type="CFG-DOC-NAAM">
                   <item>Naam</item>
                   <item>Gebiedsgrens</item>
+               </part>
+               <part type="CFG-DOC-HERKOMST">
+                  <item>Herkomst</item>
+                  <item>BRO</item>
                </part>
             </content>
             <section type="SHORT-DATAELEMENTS">
@@ -3850,6 +3866,10 @@ Een wijziging van de vergunninghouder wordt zelden eerst geregistreerd als een l
                <part type="CFG-DOC-NAAM">
                   <item>Naam</item>
                   <item>Grens</item>
+               </part>
+               <part type="CFG-DOC-HERKOMST">
+                  <item>Herkomst</item>
+                  <item>BRO</item>
                </part>
             </content>
             <section type="SHORT-DATAELEMENTS">
@@ -4740,9 +4760,17 @@ Bij de begrenzing van de diepte in meters gaat het om een globale diepte. Op zee
                         <item>Naam</item>
                         <item>einddiepte</item>
                      </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
                         <item>De globale diepte tot waar de vergunning geldt.</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
                      </part>
                      <part type="CFG-DOC-TOELICHTING">
                         <item>Toelichting</item>
@@ -4789,9 +4817,17 @@ Het gegeven kan een nieuwe waarde krijgen wanneer de vergunning gewijzigd is. De
                         <item>Naam</item>
                         <item>naam gebeurtenis</item>
                      </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
                         <item>De benaming van de gebeurtenis.</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -4828,9 +4864,17 @@ Het gegeven kan een nieuwe waarde krijgen wanneer de vergunning gewijzigd is. De
                         <item>Naam</item>
                         <item>datum gebeurtenis</item>
                      </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
                         <item>De datum waarop de gebeurtenis heeft plaatsgevonden.</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -4867,9 +4911,17 @@ Het gegeven kan een nieuwe waarde krijgen wanneer de vergunning gewijzigd is. De
                         <item>Naam</item>
                         <item>besluitnummer</item>
                      </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
                         <item>De identificatie van het document waarin een besluit is vastgelegd.</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -4906,9 +4958,17 @@ Het gegeven kan een nieuwe waarde krijgen wanneer de vergunning gewijzigd is. De
                         <item>Naam</item>
                         <item>reden vervolgbesluit</item>
                      </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
                         <item>De reden waarom de minister besloten heeft een besluit te nemen dat volgt op het besluit waarmee het proces van verlening is gestart.</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -4945,9 +5005,17 @@ Het gegeven kan een nieuwe waarde krijgen wanneer de vergunning gewijzigd is. De
                         <item>Naam</item>
                         <item>plan-ID</item>
                      </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
                         <item>De identificatie van een winnings- of opslagplan.</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -8899,9 +8967,17 @@ In deze versie van de catalogus is het gegeven aanwezig wanneer het in de werkel
                         <item>Naam</item>
                         <item>organisatie</item>
                      </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
                         <item>De identificatie die de organisatie die in de samenwerkingsovereenkomst is aangewezen om de feitelijke werkzaamheden te verrichten of daartoe opdracht te verlenen, als onderneming in een handelsregister heeft.</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
                      </part>
                      <part type="CFG-DOC-TOELICHTING">
                         <item>Toelichting</item>
@@ -10045,6 +10121,10 @@ De gestandaardiseerde begrenzing van het gebied is gedefinieerd in ETRS89.</item
                         <item>Naam</item>
                         <item>buitengrens</item>
                      </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
                      <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                         <item>Indicatie kardinaliteit</item>
                         <item>1</item>
@@ -10064,6 +10144,10 @@ De gestandaardiseerde begrenzing van het gebied is gedefinieerd in ETRS89.</item
                         <item>Naam</item>
                         <item>binnengrens</item>
                      </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
                      <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                         <item>Indicatie kardinaliteit</item>
                         <item>0 .. *</item>
@@ -10082,6 +10166,10 @@ De gestandaardiseerde begrenzing van het gebied is gedefinieerd in ETRS89.</item
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
                         <item>referentiestelsel</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                         <item>Indicatie kardinaliteit</item>
@@ -10106,6 +10194,10 @@ De gestandaardiseerde begrenzing van het gebied is gedefinieerd in ETRS89.</item
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
                         <item>coördinaten</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                         <item>Indicatie kardinaliteit</item>
