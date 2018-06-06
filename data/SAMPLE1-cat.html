@@ -1,10 +1,10 @@
 <h2>Catalogus</h2>
 <p class="note" title="Over deze catalogus">
    Deze catalogus is automatisch samengesteld op basis van het UML model 
-   "EPL experiment (SAMPLE1)" door 1.45.2 op June 6, 2018 at 12:07:49.
+   "EPL experiment (SAMPLE1)" door 1.45.2 op June 6, 2018 at 13:26:16.
    <br>
    Wanneer je technische fouten of onvolkomenheden aantreft, geef dit dan door aan <i>arjan@linkedmatter.com</i> en geef de code 
-   <i>"Conceptualmodel-EPLexperimentSAMPLE1-1.1-1-20180301-20180606-140750"</i> door. 
+   <i>"Conceptualmodel-EPLexperimentSAMPLE1-1.1-1-20180301-20180606-152617"</i> door. 
    
 </p><a class="anchor" name="global_package_Brocommon"></a><section id="global_package_Brocommon">
    <h3>Domein brocommon</h3>
@@ -4563,6 +4563,15 @@
                   <th>Herkomst</th>
                   <td>BRO</td>
                </tr>
+               <tr>
+                  <th>Definitie</th>
+                  <td>Het gegevenstype Onderneming gaat over de identificatie die een onderneming heeft
+                     in een handelsregister. Voor gegevens die over de identificatie van een onderneming
+                     gaan worden twee domeinen gebruikt. Een voor ondernemingen die in Nederland zijn geregistreerd
+                     in het Handelsregister en een voor ondernemingen die in een soortgelijk register van
+                     een andere lidstaat van de Europese Unie zijn geregistreerd.
+                  </td>
+               </tr>
             </tbody>
          </table>
          
@@ -4586,7 +4595,9 @@
                         <a class="link" href="#detail_attribute_Eplcommon_Onderneming_kvkNumnmer">kvk-numnmer</a>
                         
                      </td>
-                     <td></td>
+                     <td>Het domein KvK-nummer geeft het identificerende gegeven van een onderneming in het
+                        Handelsregister. De opbouw is NNNNNNNN.
+                     </td>
                      <td>
                         <a class="link" href="#global_class_Brocommon_KvKNummer">KvK-nummer</a>
                         
@@ -4598,7 +4609,19 @@
                         <a class="link" href="#detail_attribute_Eplcommon_Onderneming_europeesHandelsnummer">europees handelsnummer</a>
                         
                      </td>
-                     <td></td>
+                     <td>Het domein EuropeesHandelsnummer geeft het identificerende gegeven van een onderneming
+                        in een handelsregister van een andere lidstaat van de Europese Unie dan Nederland.
+                        Op basis van Europese richtlijnen is het Europees handelsnummer de zogenaamde EUID
+                        geïntroduceerd ten behoeve van de koppeling van handelsregisters. De code is gebaseerd
+                        op ISO 6523 en is opgebouwd uit een landcode, registeridentificatiecode, inschrijvingsnummer
+                        en controlegetal. De landcode is de 2-letterige code van ISO3166, de registeridentificatiecode
+                        is de identificatie van het nationale register omdat in sommige landen meerdere handelsregisters
+                        bestaan en het inschrijvingsnummer is het nummer waaronder de onderneming is ingeschreven
+                        in het betreffende register. Het controlegetal ter voorkomen van identificatiefouten
+                        wordt nog niet gebruikt.
+                        De opbouw per element is variabel en daarom is het Europees Handelsnummer in de BRO
+                        als domeintype Tekst opgenomen.
+                     </td>
                      <td>
                         <a class="link" href="#global_class_Brocommon_Tekst30">Tekst30</a>
                         
@@ -4629,6 +4652,31 @@
                <tr>
                   <th>Herkomst</th>
                   <td>BRO</td>
+               </tr>
+               <tr>
+                  <th>Definitie</th>
+                  <td>Het domein gebiedsgrens wordt gebruikt om de locatie van een aaneengesloten gebied
+                     op het aardoppervlak vast te leggen. Een gebied is een vlak waarin een of meer andere
+                     vlakken kunnen liggen. De inliggende vlakken vertonen geen overlap en liggen alle
+                     in hetzelfde vlak.
+                     Een vlak wordt gedefinieerd door een gesloten lijn, de grens, en die is uit delen
+                     opgebouwd, de grensdelen. Een vlak is plat of heeft een bepaalde kromming. Ieder grensdeel
+                     is de kortste verbinding tussen twee punten op het aardoppervlak en ieder punt wordt
+                     vastgelegd als een coördinatenpaar. De punten van een grensdeel zijn gedefinieerd
+                     in hetzelfde referentiestelsel en het referentiestelsel bepaalt of een grensdeel recht
+                     (RD) of gebogen (ETRS89, WGS84) is. De punten van alle grensdelen zijn gedefinieerd
+                     in hetzelfde referentiestelsel.
+                     Wanneer een gebied uit een vlak bestaat, valt de grens van het gebied samen met de
+                     grens van het vlak. Een dergelijk gebied heeft alleen een buitengrens. De grensdelen
+                     van de buitengrens zijn onderling zo geordend dat zij elkaar tegen de richting van
+                     de klok in opvolgen.
+                     Wanneer een gebied uit meer dan een vlak bestaat zijn de grenzen van alle vlakken
+                     gedefinieerd in hetzelfde referentiestelsel. Een dergelijk gebied heeft een buitengrens
+                     en een of meer binnengrenzen. De grensdelen van de buitengrens zijn onderling zo geordend
+                     dat de grensdelen elkaar tegen de richting van de klok in opvolgen. De grensdelen
+                     van een binnengrens zijn onderling zo geordend dat zij elkaar in de richting van de
+                     klok opvolgen.
+                  </td>
                </tr>
             </tbody>
          </table>
@@ -4704,6 +4752,15 @@
                <tr>
                   <th>Herkomst</th>
                   <td>BRO</td>
+               </tr>
+               <tr>
+                  <th>Definitie</th>
+                  <td>Een grens, opgebouwd uit grensdelen, omsluit een vlak door een gesloten lijn.
+                     Ieder grensdeel is de kortste verbinding tussen twee punten op het aardoppervlak.
+                     Ieder punt wordt vastgelegd als een coördinatenpaar. Alle punten van een grensdeel
+                     zijn gedefinieerd in hetzelfde referentiestelsel. Het referentiestelsel bepaalt of
+                     een grensdeel recht (RD) of gekromd (ETRS89, WGS84) is.
+                  </td>
                </tr>
             </tbody>
          </table>
@@ -11388,8 +11445,18 @@
                      <td>kvk-numnmer</td>
                   </tr>
                   <tr>
+                     <th>Definitie</th>
+                     <td>Het domein KvK-nummer geeft het identificerende gegeven van een onderneming in het
+                        Handelsregister. De opbouw is NNNNNNNN.
+                     </td>
+                  </tr>
+                  <tr>
                      <th>Indicatie kardinaliteit</th>
                      <td>1</td>
+                  </tr>
+                  <tr>
+                     <th>Patroon</th>
+                     <td>NNNNNNNN</td>
                   </tr>
                   <tr>
                      <th>Formaat</th>
@@ -11410,6 +11477,22 @@
                   <tr>
                      <th>Naam</th>
                      <td>europees handelsnummer</td>
+                  </tr>
+                  <tr>
+                     <th>Definitie</th>
+                     <td>Het domein EuropeesHandelsnummer geeft het identificerende gegeven van een onderneming
+                        in een handelsregister van een andere lidstaat van de Europese Unie dan Nederland.
+                        Op basis van Europese richtlijnen is het Europees handelsnummer de zogenaamde EUID
+                        geïntroduceerd ten behoeve van de koppeling van handelsregisters. De code is gebaseerd
+                        op ISO 6523 en is opgebouwd uit een landcode, registeridentificatiecode, inschrijvingsnummer
+                        en controlegetal. De landcode is de 2-letterige code van ISO3166, de registeridentificatiecode
+                        is de identificatie van het nationale register omdat in sommige landen meerdere handelsregisters
+                        bestaan en het inschrijvingsnummer is het nummer waaronder de onderneming is ingeschreven
+                        in het betreffende register. Het controlegetal ter voorkomen van identificatiefouten
+                        wordt nog niet gebruikt.
+                        De opbouw per element is variabel en daarom is het Europees Handelsnummer in de BRO
+                        als domeintype Tekst opgenomen.
+                     </td>
                   </tr>
                   <tr>
                      <th>Indicatie kardinaliteit</th>
