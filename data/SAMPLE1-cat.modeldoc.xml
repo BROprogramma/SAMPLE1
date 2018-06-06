@@ -3,8 +3,8 @@
       subpath="Conceptual model/EPL experiment (SAMPLE1)/20180301"
       type="BASISMODEL"
       id="EAPK_491FA2C0_2621_4d18_B9BA_D66964A4BFBD"
-      generator-version="1.45.1"
-      generator-date="2018-06-05T14:09:43Z">
+      generator-version="1.45.2"
+      generator-date="2018-06-06T09:00:08Z">
    <section type="DOMAIN" name="brocommon" id="global_package_Brocommon">
       <section type="IMAGEMAPS"
                name="brocommon-imagemap"
@@ -113,6 +113,9 @@
             </section>
          </section>
       </section>
+      <!--removed empty content-->
+      <!--removed empty content-->
+      <!--removed empty content-->
       <section type="OVERVIEW-STRUCTUREDDATATYPE">
          <section name="Aantal1"
                   type="STRUCTUREDDATATYPE"
@@ -655,7 +658,8 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
             </section>
          </section>
       </section>
-      <section type="OVERVIEW-CODELIST"><!--removed empty content--></section>
+      <!--removed empty content-->
+      <!--removed empty content-->
       <section type="OVERVIEW-ENUMERATION">
          <content>
             <part>
@@ -957,7 +961,10 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                </section>
             </section>
          </section>
-         <section type="DETAILS-STRUCTUREDDATATYPE">
+         <!--removed empty content-->
+         <!--removed empty content-->
+         <!--removed empty content-->
+         <section type="DETAILS-STRUCTUREDDATATYPE"><!--removed empty content-->
             <section name="Aantal2"
                      type="GESTRUCTUREERD DATATYPE"
                      id="detail_class_Brocommon_Aantal2"
@@ -1395,6 +1402,8 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                </section>
             </section>
          </section>
+         <!--removed empty content-->
+         <!--removed empty content-->
          <section type="DETAILS-ENUMERATION">
             <section name="IndicatieJaNee"
                      type="DETAIL-ENUMERATION"
@@ -3734,6 +3743,8 @@ Een wijziging van de vergunninghouder wordt zelden eerst geregistreerd als een l
             </section>
          </section>
       </section>
+      <!--removed empty content-->
+      <!--removed empty content-->
       <section type="OVERVIEW-UNION">
          <section name="Onderneming"
                   type="UNION"
@@ -3862,6 +3873,7 @@ Een wijziging van de vergunninghouder wordt zelden eerst geregistreerd als een l
             </section>
          </section>
       </section>
+      <!--removed empty content-->
       <section type="OVERVIEW-CODELIST">
          <content>
             <part>
@@ -3974,7 +3986,7 @@ Een wijziging van de vergunninghouder wordt zelden eerst geregistreerd als een l
             </part>
          </content>
       </section>
-      <section type="OVERVIEW-ENUMERATION"><!--removed empty content--></section>
+      <!--removed empty content-->
       <section type="DETAILS">
          <section type="DETAILS-OBJECTTYPE">
             <section name="Af te staan gebied"
@@ -9972,6 +9984,8 @@ De gestandaardiseerde begrenzing van het gebied is gedefinieerd in ETRS89.</item
                </section>
             </section>
          </section>
+         <!--removed empty content-->
+         <!--removed empty content-->
          <section type="DETAILS-UNION">
             <section name="Onderneming"
                      type="KEUZE"
@@ -10105,6 +10119,7 @@ De gestandaardiseerde begrenzing van het gebied is gedefinieerd in ETRS89.</item
                </section>
             </section>
          </section>
+         <!--removed empty content-->
          <section type="DETAILS-CODELIST">
             <section name="Aanvraagtype"
                      type="DETAIL-CODELIST"
@@ -11128,6 +11143,7 @@ De gestandaardiseerde begrenzing van het gebied is gedefinieerd in ETRS89.</item
                </content>
             </section>
          </section>
+         <!--removed empty content-->
       </section>
    </section>
 </book>
