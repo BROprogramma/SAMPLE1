@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <book name="EPL experiment (SAMPLE1)"
-      subpath="Conceptueel model/EPL experiment (SAMPLE1)/20180301"
+      subpath="Conceptual model/EPL experiment (SAMPLE1)/20180301"
       type="BASISMODEL"
       id="EAPK_491FA2C0_2621_4d18_B9BA_D66964A4BFBD"
       generator-version="1.45.4"
-      generator-date="2018-06-25T09:41:15Z">
+      generator-date="2018-06-25T10:15:36Z">
    <section type="DOMAIN" name="brocommon" id="global_package_Brocommon">
       <section type="IMAGEMAPS"
                name="brocommon-imagemap"
