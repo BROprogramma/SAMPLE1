@@ -1,10 +1,10 @@
 <h2>Catalogus</h2>
 <p class="note" title="Over deze catalogus">
    Deze catalogus is automatisch samengesteld op basis van het UML model 
-   "EPL experiment (SAMPLE1)" door 1.45.4 op June 25, 2018 at 10:15:36.
+   "EPL experiment (SAMPLE1)" door 1.45.3 op June 27, 2018 at 08:51:13.
    <br>
    Wanneer je technische fouten of onvolkomenheden aantreft, geef dit dan door aan <i>arjan@linkedmatter.com</i> en geef de code 
-   <i>"Conceptualmodel-EPLexperimentSAMPLE1-1.1-1-20180301-20180625-121537"</i> door. 
+   <i>"Conceptualmodel-EPLexperimentSAMPLE1-1.1-1-20180301-20180627-105114"</i> door. 
    
 </p><a class="anchor" name="global_package_Brocommon"></a><section id="global_package_Brocommon">
    <h3>Domein brocommon</h3>
@@ -29,6 +29,221 @@
    </div>
    <section id="">
       <h4>Objecttypen </h4>
+      <a class="anchor" name="graph_EAID_4CE328D1_55C3_40af_9A9C_9077CE1C6870"></a><a class="anchor" name="global_class_Brocommon_Registratiegeschiedenis"></a><section id="global_class_Brocommon_Registratiegeschiedenis">
+         <h5>Objecttype Registratiegeschiedenis</h5>
+         
+         <table>
+            <colgroup width="30%"></colgroup>
+            <colgroup width="70%"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Naam</th>
+                  <td>Registratiegeschiedenis</td>
+               </tr>
+               <tr>
+                  <th>Herkomst</th>
+                  <td>BRO</td>
+               </tr>
+               <tr>
+                  <th>Definitie</th>
+                  <td>De gegevens die de geschiedenis van het object in de registratie ondergrond markeren.</td>
+               </tr>
+               <tr>
+                  <th>Herkomst definitie</th>
+                  <td>BRO</td>
+               </tr>
+               <tr>
+                  <th>Toelichting</th>
+                  <td>De gegevens van de entiteit worden geautomatiseerd door de basisregistratie ondergrond
+                     geproduceerd.
+                  </td>
+               </tr>
+            </tbody>
+         </table>
+         
+         <h6>Overzicht attributen</h6>
+         
+         <table>
+            <colgroup width="30%"></colgroup>
+            <colgroup width="50%"></colgroup>
+            <colgroup width="10%"></colgroup>
+            <colgroup width="10%"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Attribuutnaam</th>
+                  <th>Definitie</th>
+                  <th>Formaat</th>
+                  <th>Card</th>
+               </tr>
+               <tr>
+                  <td>
+                     <a class="link" href="#detail_attribute_Brocommon_Registratiegeschiedenis_tijdstipRegistratieObject">tijdstip registratie object</a>
+                     
+                  </td>
+                  <td>De datum en het tijdstip waarop er voor het eerst gegevens van het object in de registratie
+                     ondergrond zijn opgenomen.
+                  </td>
+                  <td>
+                     <a class="link" href="#global_class_Brocommon_DatumTijd">DatumTijd</a>
+                     
+                  </td>
+                  <td>1</td>
+               </tr>
+               <tr>
+                  <td>
+                     <a class="link" href="#detail_attribute_Brocommon_Registratiegeschiedenis_registratiestatus">registratiestatus</a>
+                     
+                  </td>
+                  <td>De actuele fase van registratie waarin het object zich bevindt.</td>
+                  <td>
+                     <a class="link" href="#global_class_Eplcommon_Registratiestatus">Registratiestatus</a>
+                     
+                  </td>
+                  <td>1</td>
+               </tr>
+               <tr>
+                  <td>
+                     <a class="link" href="#detail_attribute_Brocommon_Registratiegeschiedenis_tijdstipLaatsteAanvulling">tijdstip laatste aanvulling</a>
+                     
+                  </td>
+                  <td>De datum en het tijdstip waarop de laatste aanvulling op gegevens in de registratie
+                     ondergrond is doorgevoerd.
+                  </td>
+                  <td>
+                     <a class="link" href="#global_class_Brocommon_DatumTijd">DatumTijd</a>
+                     
+                  </td>
+                  <td>0 .. 1</td>
+               </tr>
+               <tr>
+                  <td>
+                     <a class="link" href="#detail_attribute_Brocommon_Registratiegeschiedenis_tijdstipVoltooiingRegistratie">tijdstip voltooiing registratie</a>
+                     
+                  </td>
+                  <td>De datum en het tijdstip waarop alle gegevens van het object in de registratie ondergrond
+                     zijn opgenomen en er geen nieuwe gegevens meer ter registratie kunnen worden aangeboden.
+                  </td>
+                  <td>
+                     <a class="link" href="#global_class_Brocommon_DatumTijd">DatumTijd</a>
+                     
+                  </td>
+                  <td>0 .. 1</td>
+               </tr>
+               <tr>
+                  <td>
+                     <a class="link" href="#detail_attribute_Brocommon_Registratiegeschiedenis_gecorrigeerd">gecorrigeerd</a>
+                     
+                  </td>
+                  <td>De aanduiding die aangeeft of er een correctie in de gegevens van het object in de
+                     registratie ondergrond heeft plaatsgevonden.
+                  </td>
+                  <td>
+                     <a class="link" href="#global_class_Brocommon_IndicatieJaNee">IndicatieJaNee</a>
+                     
+                  </td>
+                  <td>1</td>
+               </tr>
+               <tr>
+                  <td>
+                     <a class="link" href="#detail_attribute_Brocommon_Registratiegeschiedenis_tijdstipLaatsteCorrectie">tijdstip laatste correctie</a>
+                     
+                  </td>
+                  <td>De datum en het tijdstip waarop de laatste correctie in de gegevens van het object
+                     is doorgevoerd.
+                  </td>
+                  <td>
+                     <a class="link" href="#global_class_Brocommon_DatumTijd">DatumTijd</a>
+                     
+                  </td>
+                  <td>0 .. 1</td>
+               </tr>
+               <tr>
+                  <td>
+                     <a class="link" href="#detail_attribute_Brocommon_Registratiegeschiedenis_inOnderzoek">in onderzoek</a>
+                     
+                  </td>
+                  <td>De aanduiding die aangeeft of het object door de registerbeheerder in onderzoek is
+                     genomen.
+                  </td>
+                  <td>
+                     <a class="link" href="#global_class_Brocommon_IndicatieJaNee">IndicatieJaNee</a>
+                     
+                  </td>
+                  <td>1</td>
+               </tr>
+               <tr>
+                  <td>
+                     <a class="link" href="#detail_attribute_Brocommon_Registratiegeschiedenis_inOnderzoekSinds">in onderzoek sinds</a>
+                     
+                  </td>
+                  <td>De datum en het tijdstip waarop de registerbeheerder het object in onderzoek heeft
+                     genomen.
+                  </td>
+                  <td>
+                     <a class="link" href="#global_class_Brocommon_DatumTijd">DatumTijd</a>
+                     
+                  </td>
+                  <td>0 .. 1</td>
+               </tr>
+               <tr>
+                  <td>
+                     <a class="link" href="#detail_attribute_Brocommon_Registratiegeschiedenis_uitRegistratieGenomen">uit registratie genomen</a>
+                     
+                  </td>
+                  <td>De aanduiding die aangeeft of de gegevens van het object door de registerbeheerder
+                     uit de registratie ondergrond zijn verwijderd.
+                  </td>
+                  <td>
+                     <a class="link" href="#global_class_Brocommon_IndicatieJaNee">IndicatieJaNee</a>
+                     
+                  </td>
+                  <td>1</td>
+               </tr>
+               <tr>
+                  <td>
+                     <a class="link" href="#detail_attribute_Brocommon_Registratiegeschiedenis_tijdstipUitRegistratieGenomen">tijdstip uit registratie genomen</a>
+                     
+                  </td>
+                  <td>De datum en het tijdstip waarop het object uit de registratie ondergrond is verwijderd.</td>
+                  <td>
+                     <a class="link" href="#global_class_Brocommon_DatumTijd">DatumTijd</a>
+                     
+                  </td>
+                  <td>0 .. 1</td>
+               </tr>
+               <tr>
+                  <td>
+                     <a class="link" href="#detail_attribute_Brocommon_Registratiegeschiedenis_weerInRegistratieGenomen">weer in registratie genomen</a>
+                     
+                  </td>
+                  <td>De datum en het tijdstip waarop het object in de registratie ondergrond is opgenomen,
+                     nadat het eerder uit registratie was genomen.
+                  </td>
+                  <td>
+                     <a class="link" href="#global_class_Brocommon_IndicatieJaNee">IndicatieJaNee</a>
+                     
+                  </td>
+                  <td>1</td>
+               </tr>
+               <tr>
+                  <td>
+                     <a class="link" href="#detail_attribute_Brocommon_Registratiegeschiedenis_tijdstipWeerInRegistratieGenomen">tijdstip weer in registratie genomen</a>
+                     
+                  </td>
+                  <td>De datum en het tijdstip waarop het object in de registratie ondergrond is opgenomen,
+                     nadat het uit registratie was genomen.
+                  </td>
+                  <td>
+                     <a class="link" href="#global_class_Brocommon_DatumTijd">DatumTijd</a>
+                     
+                  </td>
+                  <td>0 .. 1</td>
+               </tr>
+            </tbody>
+         </table>
+         
+         
+      </section>
       <a class="anchor" name="graph_EAID_41468EB5_FC0D_4e5a_9DE6_8207010952E8"></a><a class="anchor" name="global_class_Brocommon_Registratieobject"></a><section id="global_class_Brocommon_Registratieobject">
          <h5>Objecttype Registratieobject</h5>
          
@@ -1023,6 +1238,740 @@
    <section id="">
       <h4>Attribuut- en relatiesoort details</h4>
       
+      <a class="anchor" name="detail_class_Brocommon_Registratiegeschiedenis"></a><section id="detail_class_Brocommon_Registratiegeschiedenis">
+         <h6>Objecttype Registratiegeschiedenis</h6>
+         <a class="anchor" name="detail_attribute_Brocommon_Registratiegeschiedenis_tijdstipRegistratieObject"></a><section id="detail_attribute_Brocommon_Registratiegeschiedenis_tijdstipRegistratieObject">
+            <h7>Attribuutsoort details <a href="#global_class_Brocommon_Registratiegeschiedenis">Registratiegeschiedenis</a> tijdstip registratie object
+            </h7>
+            
+            <table>
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Naam</th>
+                     <td>tijdstip registratie object</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Definitie</th>
+                     <td>De datum en het tijdstip waarop er voor het eerst gegevens van het object in de registratie
+                        ondergrond zijn opgenomen.
+                     </td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst definitie</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Mogelijk geen waarde</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie materiële historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie formele historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie kardinaliteit</th>
+                     <td>1</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie authentiek</th>
+                     <td>Ja</td>
+                  </tr>
+                  <tr>
+                     <th>Formaat</th>
+                     <td>DatumTijd</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie afleidbaar</th>
+                     <td>Nee</td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section>
+         <a class="anchor" name="detail_attribute_Brocommon_Registratiegeschiedenis_registratiestatus"></a><section id="detail_attribute_Brocommon_Registratiegeschiedenis_registratiestatus">
+            <h7>Attribuutsoort details <a href="#global_class_Brocommon_Registratiegeschiedenis">Registratiegeschiedenis</a> registratiestatus
+            </h7>
+            
+            <table>
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Naam</th>
+                     <td>registratiestatus</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Definitie</th>
+                     <td>De actuele fase van registratie waarin het object zich bevindt.</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst definitie</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Mogelijk geen waarde</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie materiële historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie formele historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie kardinaliteit</th>
+                     <td>1</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie authentiek</th>
+                     <td>Ja</td>
+                  </tr>
+                  <tr>
+                     <th>Formaat</th>
+                     <td>Registratiestatus</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie afleidbaar</th>
+                     <td>Nee</td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section>
+         <a class="anchor" name="detail_attribute_Brocommon_Registratiegeschiedenis_tijdstipLaatsteAanvulling"></a><section id="detail_attribute_Brocommon_Registratiegeschiedenis_tijdstipLaatsteAanvulling">
+            <h7>Attribuutsoort details <a href="#global_class_Brocommon_Registratiegeschiedenis">Registratiegeschiedenis</a> tijdstip laatste aanvulling
+            </h7>
+            
+            <table>
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Naam</th>
+                     <td>tijdstip laatste aanvulling</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Definitie</th>
+                     <td>De datum en het tijdstip waarop de laatste aanvulling op gegevens in de registratie
+                        ondergrond is doorgevoerd.
+                     </td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst definitie</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Toelichting</th>
+                     <td>Het gegeven is alleen aanwezig wanneer na de start van de registratie van de mijnbouwwetvergunning
+                        aanvullende gegevens zijn vastgelegd.
+                     </td>
+                  </tr>
+                  <tr>
+                     <th>Mogelijk geen waarde</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie materiële historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie formele historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie kardinaliteit</th>
+                     <td>0 .. 1</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie authentiek</th>
+                     <td>Ja</td>
+                  </tr>
+                  <tr>
+                     <th>Formaat</th>
+                     <td>DatumTijd</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie afleidbaar</th>
+                     <td>Nee</td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section>
+         <a class="anchor" name="detail_attribute_Brocommon_Registratiegeschiedenis_tijdstipVoltooiingRegistratie"></a><section id="detail_attribute_Brocommon_Registratiegeschiedenis_tijdstipVoltooiingRegistratie">
+            <h7>Attribuutsoort details <a href="#global_class_Brocommon_Registratiegeschiedenis">Registratiegeschiedenis</a> tijdstip voltooiing registratie
+            </h7>
+            
+            <table>
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Naam</th>
+                     <td>tijdstip voltooiing registratie</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Definitie</th>
+                     <td>De datum en het tijdstip waarop alle gegevens van het object in de registratie ondergrond
+                        zijn opgenomen en er geen nieuwe gegevens meer ter registratie kunnen worden aangeboden.
+                     </td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst definitie</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Toelichting</th>
+                     <td>Het gegeven is alleen aanwezig als alle aan te leveren gegevens zijn geregistreerd.
+                        Na dit tijdstip kunnen geen nieuwe gegevens meer ter registratie worden aangeboden.
+                        Wel kunnen fouten in de registratie worden verbeterd.
+                     </td>
+                  </tr>
+                  <tr>
+                     <th>Mogelijk geen waarde</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie materiële historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie formele historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie kardinaliteit</th>
+                     <td>0 .. 1</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie authentiek</th>
+                     <td>Ja</td>
+                  </tr>
+                  <tr>
+                     <th>Formaat</th>
+                     <td>DatumTijd</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie afleidbaar</th>
+                     <td>Nee</td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section>
+         <a class="anchor" name="detail_attribute_Brocommon_Registratiegeschiedenis_gecorrigeerd"></a><section id="detail_attribute_Brocommon_Registratiegeschiedenis_gecorrigeerd">
+            <h7>Attribuutsoort details <a href="#global_class_Brocommon_Registratiegeschiedenis">Registratiegeschiedenis</a> gecorrigeerd
+            </h7>
+            
+            <table>
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Naam</th>
+                     <td>gecorrigeerd</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Definitie</th>
+                     <td>De aanduiding die aangeeft of er een correctie in de gegevens van het object in de
+                        registratie ondergrond heeft plaatsgevonden.
+                     </td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst definitie</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Mogelijk geen waarde</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie materiële historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie formele historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie kardinaliteit</th>
+                     <td>1</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie authentiek</th>
+                     <td>Ja</td>
+                  </tr>
+                  <tr>
+                     <th>Formaat</th>
+                     <td>IndicatieJaNee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie afleidbaar</th>
+                     <td>Nee</td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section>
+         <a class="anchor" name="detail_attribute_Brocommon_Registratiegeschiedenis_tijdstipLaatsteCorrectie"></a><section id="detail_attribute_Brocommon_Registratiegeschiedenis_tijdstipLaatsteCorrectie">
+            <h7>Attribuutsoort details <a href="#global_class_Brocommon_Registratiegeschiedenis">Registratiegeschiedenis</a> tijdstip laatste correctie
+            </h7>
+            
+            <table>
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Naam</th>
+                     <td>tijdstip laatste correctie</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Definitie</th>
+                     <td>De datum en het tijdstip waarop de laatste correctie in de gegevens van het object
+                        is doorgevoerd.
+                     </td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst definitie</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Mogelijk geen waarde</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie materiële historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie formele historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie kardinaliteit</th>
+                     <td>0 .. 1</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie authentiek</th>
+                     <td>Ja</td>
+                  </tr>
+                  <tr>
+                     <th>Formaat</th>
+                     <td>DatumTijd</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie afleidbaar</th>
+                     <td>Nee</td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section>
+         <a class="anchor" name="detail_attribute_Brocommon_Registratiegeschiedenis_inOnderzoek"></a><section id="detail_attribute_Brocommon_Registratiegeschiedenis_inOnderzoek">
+            <h7>Attribuutsoort details <a href="#global_class_Brocommon_Registratiegeschiedenis">Registratiegeschiedenis</a> in onderzoek
+            </h7>
+            
+            <table>
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Naam</th>
+                     <td>in onderzoek</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Definitie</th>
+                     <td>De aanduiding die aangeeft of het object door de registerbeheerder in onderzoek is
+                        genomen.
+                     </td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst definitie</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Toelichting</th>
+                     <td>Wanneer een object in onderzoek is genomen betekent dit dat er bij de registerbeheerder
+                        gerede twijfel bestaat over de juistheid van de geregistreerde gegevens en dat er
+                        een onderzoek is gestart om vast te stellen wat de juiste gegevens zijn. Normaliter
+                        gaat hieraan een melding van derden vooraf.
+                     </td>
+                  </tr>
+                  <tr>
+                     <th>Mogelijk geen waarde</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie materiële historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie formele historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie kardinaliteit</th>
+                     <td>1</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie authentiek</th>
+                     <td>Ja</td>
+                  </tr>
+                  <tr>
+                     <th>Formaat</th>
+                     <td>IndicatieJaNee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie afleidbaar</th>
+                     <td>Nee</td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section>
+         <a class="anchor" name="detail_attribute_Brocommon_Registratiegeschiedenis_inOnderzoekSinds"></a><section id="detail_attribute_Brocommon_Registratiegeschiedenis_inOnderzoekSinds">
+            <h7>Attribuutsoort details <a href="#global_class_Brocommon_Registratiegeschiedenis">Registratiegeschiedenis</a> in onderzoek sinds
+            </h7>
+            
+            <table>
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Naam</th>
+                     <td>in onderzoek sinds</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Definitie</th>
+                     <td>De datum en het tijdstip waarop de registerbeheerder het object in onderzoek heeft
+                        genomen.
+                     </td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst definitie</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Mogelijk geen waarde</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie materiële historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie formele historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie kardinaliteit</th>
+                     <td>0 .. 1</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie authentiek</th>
+                     <td>Ja</td>
+                  </tr>
+                  <tr>
+                     <th>Formaat</th>
+                     <td>DatumTijd</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie afleidbaar</th>
+                     <td>Nee</td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section>
+         <a class="anchor" name="detail_attribute_Brocommon_Registratiegeschiedenis_uitRegistratieGenomen"></a><section id="detail_attribute_Brocommon_Registratiegeschiedenis_uitRegistratieGenomen">
+            <h7>Attribuutsoort details <a href="#global_class_Brocommon_Registratiegeschiedenis">Registratiegeschiedenis</a> uit registratie genomen
+            </h7>
+            
+            <table>
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Naam</th>
+                     <td>uit registratie genomen</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Definitie</th>
+                     <td>De aanduiding die aangeeft of de gegevens van het object door de registerbeheerder
+                        uit de registratie ondergrond zijn verwijderd.
+                     </td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst definitie</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Toelichting</th>
+                     <td>Wanneer de registerbeheerder een object uit registratie heeft genomen, zijn de gegevens
+                        niet langer beschikbaar voor andere afnemers dan bronhouder en dataleverancier.
+                        De registerbeheerder zal een object alleen bij hoge uitzondering uit registratie nemen.
+                        Aan die beslissing gaat een proces van zorgvuldige afweging vooraf en dat komt tot
+                        uitdrukking in de regel dat een object slechts een keer uit registratie kan worden
+                        genomen.
+                     </td>
+                  </tr>
+                  <tr>
+                     <th>Mogelijk geen waarde</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie materiële historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie formele historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie kardinaliteit</th>
+                     <td>1</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie authentiek</th>
+                     <td>Ja</td>
+                  </tr>
+                  <tr>
+                     <th>Formaat</th>
+                     <td>IndicatieJaNee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie afleidbaar</th>
+                     <td>Nee</td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section>
+         <a class="anchor" name="detail_attribute_Brocommon_Registratiegeschiedenis_tijdstipUitRegistratieGenomen"></a><section id="detail_attribute_Brocommon_Registratiegeschiedenis_tijdstipUitRegistratieGenomen">
+            <h7>Attribuutsoort details <a href="#global_class_Brocommon_Registratiegeschiedenis">Registratiegeschiedenis</a> tijdstip uit registratie genomen
+            </h7>
+            
+            <table>
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Naam</th>
+                     <td>tijdstip uit registratie genomen</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Definitie</th>
+                     <td>De datum en het tijdstip waarop het object uit de registratie ondergrond is verwijderd.</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst definitie</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Mogelijk geen waarde</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie materiële historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie formele historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie kardinaliteit</th>
+                     <td>0 .. 1</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie authentiek</th>
+                     <td>Ja</td>
+                  </tr>
+                  <tr>
+                     <th>Formaat</th>
+                     <td>DatumTijd</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie afleidbaar</th>
+                     <td>Nee</td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section>
+         <a class="anchor" name="detail_attribute_Brocommon_Registratiegeschiedenis_weerInRegistratieGenomen"></a><section id="detail_attribute_Brocommon_Registratiegeschiedenis_weerInRegistratieGenomen">
+            <h7>Attribuutsoort details <a href="#global_class_Brocommon_Registratiegeschiedenis">Registratiegeschiedenis</a> weer in registratie genomen
+            </h7>
+            
+            <table>
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Naam</th>
+                     <td>weer in registratie genomen</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Definitie</th>
+                     <td>De datum en het tijdstip waarop het object in de registratie ondergrond is opgenomen,
+                        nadat het eerder uit registratie was genomen.
+                     </td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst definitie</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Toelichting</th>
+                     <td>De registerbeheerder kan een object eenmalig uit registratie nemen, en die actie kan
+                        hij eenmalig ongedaan maken.
+                        Ook hiervoor geldt dat akkoord van de bronhouder vereist is.
+                     </td>
+                  </tr>
+                  <tr>
+                     <th>Mogelijk geen waarde</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie materiële historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie formele historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie kardinaliteit</th>
+                     <td>1</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie authentiek</th>
+                     <td>Ja</td>
+                  </tr>
+                  <tr>
+                     <th>Formaat</th>
+                     <td>IndicatieJaNee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie afleidbaar</th>
+                     <td>Nee</td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section>
+         <a class="anchor" name="detail_attribute_Brocommon_Registratiegeschiedenis_tijdstipWeerInRegistratieGenomen"></a><section id="detail_attribute_Brocommon_Registratiegeschiedenis_tijdstipWeerInRegistratieGenomen">
+            <h7>Attribuutsoort details <a href="#global_class_Brocommon_Registratiegeschiedenis">Registratiegeschiedenis</a> tijdstip weer in registratie genomen
+            </h7>
+            
+            <table>
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Naam</th>
+                     <td>tijdstip weer in registratie genomen</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Definitie</th>
+                     <td>De datum en het tijdstip waarop het object in de registratie ondergrond is opgenomen,
+                        nadat het uit registratie was genomen.
+                     </td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst definitie</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Mogelijk geen waarde</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie materiële historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie formele historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie kardinaliteit</th>
+                     <td>0 .. 1</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie authentiek</th>
+                     <td>Ja</td>
+                  </tr>
+                  <tr>
+                     <th>Formaat</th>
+                     <td>DatumTijd</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie afleidbaar</th>
+                     <td>Nee</td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section>
+         
+      </section>
       <a class="anchor" name="detail_class_Brocommon_Registratieobject"></a><section id="detail_class_Brocommon_Registratieobject">
          <h6>Objecttype Registratieobject</h6>
          <a class="anchor" name="detail_attribute_Brocommon_Registratieobject_bROID"></a><section id="detail_attribute_Brocommon_Registratieobject_bROID">
@@ -2961,6 +3910,21 @@
                      <a class="link" href="#detail_association_Eplcommon_Mijnbouwwetvergunning">heeft</a>
                      
                      
+                     <a class="link" href="#global_class_Brocommon_Registratiegeschiedenis">Registratiegeschiedenis</a>
+                     
+                     [ 1 ]
+                     
+                  </td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td>
+                     Mijnbouwwetvergunning
+                     [ 1 ]
+                     
+                     <a class="link" href="#detail_association_Eplcommon_Mijnbouwwetvergunning">heeft</a>
+                     
+                     
                      <a class="link" href="#global_class_Eplcommon_Vergunninggebied">Vergunninggebied</a>
                      
                      [ 1 ]
@@ -2979,21 +3943,6 @@
                      <a class="link" href="#global_class_Eplcommon_SamenwerkingOverschrijding">Samenwerking overschrijding</a>
                      
                      [ 0 .. * ]
-                     
-                  </td>
-                  <td></td>
-               </tr>
-               <tr>
-                  <td>
-                     Mijnbouwwetvergunning
-                     [ 1 ]
-                     
-                     <a class="link" href="#detail_association_Eplcommon_Mijnbouwwetvergunning">heeft</a>
-                     
-                     
-                     <a class="link" href="#global_class_Eplcommon_Registratiegeschiedenis">Registratiegeschiedenis</a>
-                     
-                     [ 1 ]
                      
                   </td>
                   <td></td>
@@ -3219,221 +4168,6 @@
                      
                   </td>
                   <td>1</td>
-               </tr>
-            </tbody>
-         </table>
-         
-         
-      </section>
-      <a class="anchor" name="graph_EAID_4CE328D1_55C3_40af_9A9C_9077CE1C6870"></a><a class="anchor" name="global_class_Eplcommon_Registratiegeschiedenis"></a><section id="global_class_Eplcommon_Registratiegeschiedenis">
-         <h5>Objecttype Registratiegeschiedenis</h5>
-         
-         <table>
-            <colgroup width="30%"></colgroup>
-            <colgroup width="70%"></colgroup>
-            <tbody>
-               <tr>
-                  <th>Naam</th>
-                  <td>Registratiegeschiedenis</td>
-               </tr>
-               <tr>
-                  <th>Herkomst</th>
-                  <td>BRO</td>
-               </tr>
-               <tr>
-                  <th>Definitie</th>
-                  <td>De gegevens die de geschiedenis van het object in de registratie ondergrond markeren.</td>
-               </tr>
-               <tr>
-                  <th>Herkomst definitie</th>
-                  <td>BRO</td>
-               </tr>
-               <tr>
-                  <th>Toelichting</th>
-                  <td>De gegevens van de entiteit worden geautomatiseerd door de basisregistratie ondergrond
-                     geproduceerd.
-                  </td>
-               </tr>
-            </tbody>
-         </table>
-         
-         <h6>Overzicht attributen</h6>
-         
-         <table>
-            <colgroup width="30%"></colgroup>
-            <colgroup width="50%"></colgroup>
-            <colgroup width="10%"></colgroup>
-            <colgroup width="10%"></colgroup>
-            <tbody>
-               <tr>
-                  <th>Attribuutnaam</th>
-                  <th>Definitie</th>
-                  <th>Formaat</th>
-                  <th>Card</th>
-               </tr>
-               <tr>
-                  <td>
-                     <a class="link" href="#detail_attribute_Eplcommon_Registratiegeschiedenis_tijdstipRegistratieObject">tijdstip registratie object</a>
-                     
-                  </td>
-                  <td>De datum en het tijdstip waarop er voor het eerst gegevens van het object in de registratie
-                     ondergrond zijn opgenomen.
-                  </td>
-                  <td>
-                     <a class="link" href="#global_class_Brocommon_DatumTijd">DatumTijd</a>
-                     
-                  </td>
-                  <td>1</td>
-               </tr>
-               <tr>
-                  <td>
-                     <a class="link" href="#detail_attribute_Eplcommon_Registratiegeschiedenis_registratiestatus">registratiestatus</a>
-                     
-                  </td>
-                  <td>De actuele fase van registratie waarin het object zich bevindt.</td>
-                  <td>
-                     <a class="link" href="#global_class_Eplcommon_Registratiestatus">Registratiestatus</a>
-                     
-                  </td>
-                  <td>1</td>
-               </tr>
-               <tr>
-                  <td>
-                     <a class="link" href="#detail_attribute_Eplcommon_Registratiegeschiedenis_tijdstipLaatsteAanvulling">tijdstip laatste aanvulling</a>
-                     
-                  </td>
-                  <td>De datum en het tijdstip waarop de laatste aanvulling op gegevens in de registratie
-                     ondergrond is doorgevoerd.
-                  </td>
-                  <td>
-                     <a class="link" href="#global_class_Brocommon_DatumTijd">DatumTijd</a>
-                     
-                  </td>
-                  <td>0 .. 1</td>
-               </tr>
-               <tr>
-                  <td>
-                     <a class="link" href="#detail_attribute_Eplcommon_Registratiegeschiedenis_tijdstipVoltooiingRegistratie">tijdstip voltooiing registratie</a>
-                     
-                  </td>
-                  <td>De datum en het tijdstip waarop alle gegevens van het object in de registratie ondergrond
-                     zijn opgenomen en er geen nieuwe gegevens meer ter registratie kunnen worden aangeboden.
-                  </td>
-                  <td>
-                     <a class="link" href="#global_class_Brocommon_DatumTijd">DatumTijd</a>
-                     
-                  </td>
-                  <td>0 .. 1</td>
-               </tr>
-               <tr>
-                  <td>
-                     <a class="link" href="#detail_attribute_Eplcommon_Registratiegeschiedenis_gecorrigeerd">gecorrigeerd</a>
-                     
-                  </td>
-                  <td>De aanduiding die aangeeft of er een correctie in de gegevens van het object in de
-                     registratie ondergrond heeft plaatsgevonden.
-                  </td>
-                  <td>
-                     <a class="link" href="#global_class_Brocommon_IndicatieJaNee">IndicatieJaNee</a>
-                     
-                  </td>
-                  <td>1</td>
-               </tr>
-               <tr>
-                  <td>
-                     <a class="link" href="#detail_attribute_Eplcommon_Registratiegeschiedenis_tijdstipLaatsteCorrectie">tijdstip laatste correctie</a>
-                     
-                  </td>
-                  <td>De datum en het tijdstip waarop de laatste correctie in de gegevens van het object
-                     is doorgevoerd.
-                  </td>
-                  <td>
-                     <a class="link" href="#global_class_Brocommon_DatumTijd">DatumTijd</a>
-                     
-                  </td>
-                  <td>0 .. 1</td>
-               </tr>
-               <tr>
-                  <td>
-                     <a class="link" href="#detail_attribute_Eplcommon_Registratiegeschiedenis_inOnderzoek">in onderzoek</a>
-                     
-                  </td>
-                  <td>De aanduiding die aangeeft of het object door de registerbeheerder in onderzoek is
-                     genomen.
-                  </td>
-                  <td>
-                     <a class="link" href="#global_class_Brocommon_IndicatieJaNee">IndicatieJaNee</a>
-                     
-                  </td>
-                  <td>1</td>
-               </tr>
-               <tr>
-                  <td>
-                     <a class="link" href="#detail_attribute_Eplcommon_Registratiegeschiedenis_inOnderzoekSinds">in onderzoek sinds</a>
-                     
-                  </td>
-                  <td>De datum en het tijdstip waarop de registerbeheerder het object in onderzoek heeft
-                     genomen.
-                  </td>
-                  <td>
-                     <a class="link" href="#global_class_Brocommon_DatumTijd">DatumTijd</a>
-                     
-                  </td>
-                  <td>0 .. 1</td>
-               </tr>
-               <tr>
-                  <td>
-                     <a class="link" href="#detail_attribute_Eplcommon_Registratiegeschiedenis_uitRegistratieGenomen">uit registratie genomen</a>
-                     
-                  </td>
-                  <td>De aanduiding die aangeeft of de gegevens van het object door de registerbeheerder
-                     uit de registratie ondergrond zijn verwijderd.
-                  </td>
-                  <td>
-                     <a class="link" href="#global_class_Brocommon_IndicatieJaNee">IndicatieJaNee</a>
-                     
-                  </td>
-                  <td>1</td>
-               </tr>
-               <tr>
-                  <td>
-                     <a class="link" href="#detail_attribute_Eplcommon_Registratiegeschiedenis_tijdstipUitRegistratieGenomen">tijdstip uit registratie genomen</a>
-                     
-                  </td>
-                  <td>De datum en het tijdstip waarop het object uit de registratie ondergrond is verwijderd.</td>
-                  <td>
-                     <a class="link" href="#global_class_Brocommon_DatumTijd">DatumTijd</a>
-                     
-                  </td>
-                  <td>0 .. 1</td>
-               </tr>
-               <tr>
-                  <td>
-                     <a class="link" href="#detail_attribute_Eplcommon_Registratiegeschiedenis_weerInRegistratieGenomen">weer in registratie genomen</a>
-                     
-                  </td>
-                  <td>De datum en het tijdstip waarop het object in de registratie ondergrond is opgenomen,
-                     nadat het eerder uit registratie was genomen.
-                  </td>
-                  <td>
-                     <a class="link" href="#global_class_Brocommon_IndicatieJaNee">IndicatieJaNee</a>
-                     
-                  </td>
-                  <td>1</td>
-               </tr>
-               <tr>
-                  <td>
-                     <a class="link" href="#detail_attribute_Eplcommon_Registratiegeschiedenis_tijdstipWeerInRegistratieGenomen">tijdstip weer in registratie genomen</a>
-                     
-                  </td>
-                  <td>De datum en het tijdstip waarop het object in de registratie ondergrond is opgenomen,
-                     nadat het uit registratie was genomen.
-                  </td>
-                  <td>
-                     <a class="link" href="#global_class_Brocommon_DatumTijd">DatumTijd</a>
-                     
-                  </td>
-                  <td>0 .. 1</td>
                </tr>
             </tbody>
          </table>
@@ -7668,6 +8402,38 @@
                   <tr>
                      <th>Gerelateerd obecttype</th>
                      <td>
+                        <a class="link" href="#global_class_Brocommon_Registratiegeschiedenis">Registratiegeschiedenis</a>
+                        
+                     </td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section>
+         <a class="anchor" name="detail_association_Eplcommon_Mijnbouwwetvergunning"></a><section id="detail_association_Eplcommon_Mijnbouwwetvergunning">
+            <h7>Relatiesoort details <a href="#global_class_Eplcommon_Mijnbouwwetvergunning">Mijnbouwwetvergunning</a> heeft
+            </h7>
+            
+            
+            <table>
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Naam</th>
+                     <td>heeft</td>
+                  </tr>
+                  <tr>
+                     <th>Mogelijk geen waarde</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie kardinaliteit</th>
+                     <td>1</td>
+                  </tr>
+                  <tr>
+                     <th>Gerelateerd obecttype</th>
+                     <td>
                         <a class="link" href="#global_class_Eplcommon_Vergunninggebied">Vergunninggebied</a>
                         
                      </td>
@@ -7701,38 +8467,6 @@
                      <th>Gerelateerd obecttype</th>
                      <td>
                         <a class="link" href="#global_class_Eplcommon_SamenwerkingOverschrijding">Samenwerking overschrijding</a>
-                        
-                     </td>
-                  </tr>
-               </tbody>
-            </table>
-            
-         </section>
-         <a class="anchor" name="detail_association_Eplcommon_Mijnbouwwetvergunning"></a><section id="detail_association_Eplcommon_Mijnbouwwetvergunning">
-            <h7>Relatiesoort details <a href="#global_class_Eplcommon_Mijnbouwwetvergunning">Mijnbouwwetvergunning</a> heeft
-            </h7>
-            
-            
-            <table>
-               <colgroup width="30%"></colgroup>
-               <colgroup width="70%"></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Naam</th>
-                     <td>heeft</td>
-                  </tr>
-                  <tr>
-                     <th>Mogelijk geen waarde</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie kardinaliteit</th>
-                     <td>1</td>
-                  </tr>
-                  <tr>
-                     <th>Gerelateerd obecttype</th>
-                     <td>
-                        <a class="link" href="#global_class_Eplcommon_Registratiegeschiedenis">Registratiegeschiedenis</a>
                         
                      </td>
                   </tr>
@@ -8268,740 +9002,6 @@
                   <tr>
                      <th>Formaat</th>
                      <td>Coördinaattransformatie</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie afleidbaar</th>
-                     <td>Nee</td>
-                  </tr>
-               </tbody>
-            </table>
-            
-         </section>
-         
-      </section>
-      <a class="anchor" name="detail_class_Eplcommon_Registratiegeschiedenis"></a><section id="detail_class_Eplcommon_Registratiegeschiedenis">
-         <h6>Objecttype Registratiegeschiedenis</h6>
-         <a class="anchor" name="detail_attribute_Eplcommon_Registratiegeschiedenis_tijdstipRegistratieObject"></a><section id="detail_attribute_Eplcommon_Registratiegeschiedenis_tijdstipRegistratieObject">
-            <h7>Attribuutsoort details <a href="#global_class_Eplcommon_Registratiegeschiedenis">Registratiegeschiedenis</a> tijdstip registratie object
-            </h7>
-            
-            <table>
-               <colgroup width="30%"></colgroup>
-               <colgroup width="70%"></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Naam</th>
-                     <td>tijdstip registratie object</td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Definitie</th>
-                     <td>De datum en het tijdstip waarop er voor het eerst gegevens van het object in de registratie
-                        ondergrond zijn opgenomen.
-                     </td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst definitie</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Mogelijk geen waarde</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie materiële historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie formele historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie kardinaliteit</th>
-                     <td>1</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie authentiek</th>
-                     <td>Ja</td>
-                  </tr>
-                  <tr>
-                     <th>Formaat</th>
-                     <td>DatumTijd</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie afleidbaar</th>
-                     <td>Nee</td>
-                  </tr>
-               </tbody>
-            </table>
-            
-         </section>
-         <a class="anchor" name="detail_attribute_Eplcommon_Registratiegeschiedenis_registratiestatus"></a><section id="detail_attribute_Eplcommon_Registratiegeschiedenis_registratiestatus">
-            <h7>Attribuutsoort details <a href="#global_class_Eplcommon_Registratiegeschiedenis">Registratiegeschiedenis</a> registratiestatus
-            </h7>
-            
-            <table>
-               <colgroup width="30%"></colgroup>
-               <colgroup width="70%"></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Naam</th>
-                     <td>registratiestatus</td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Definitie</th>
-                     <td>De actuele fase van registratie waarin het object zich bevindt.</td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst definitie</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Mogelijk geen waarde</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie materiële historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie formele historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie kardinaliteit</th>
-                     <td>1</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie authentiek</th>
-                     <td>Ja</td>
-                  </tr>
-                  <tr>
-                     <th>Formaat</th>
-                     <td>Registratiestatus</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie afleidbaar</th>
-                     <td>Nee</td>
-                  </tr>
-               </tbody>
-            </table>
-            
-         </section>
-         <a class="anchor" name="detail_attribute_Eplcommon_Registratiegeschiedenis_tijdstipLaatsteAanvulling"></a><section id="detail_attribute_Eplcommon_Registratiegeschiedenis_tijdstipLaatsteAanvulling">
-            <h7>Attribuutsoort details <a href="#global_class_Eplcommon_Registratiegeschiedenis">Registratiegeschiedenis</a> tijdstip laatste aanvulling
-            </h7>
-            
-            <table>
-               <colgroup width="30%"></colgroup>
-               <colgroup width="70%"></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Naam</th>
-                     <td>tijdstip laatste aanvulling</td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Definitie</th>
-                     <td>De datum en het tijdstip waarop de laatste aanvulling op gegevens in de registratie
-                        ondergrond is doorgevoerd.
-                     </td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst definitie</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Toelichting</th>
-                     <td>Het gegeven is alleen aanwezig wanneer na de start van de registratie van de mijnbouwwetvergunning
-                        aanvullende gegevens zijn vastgelegd.
-                     </td>
-                  </tr>
-                  <tr>
-                     <th>Mogelijk geen waarde</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie materiële historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie formele historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie kardinaliteit</th>
-                     <td>0 .. 1</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie authentiek</th>
-                     <td>Ja</td>
-                  </tr>
-                  <tr>
-                     <th>Formaat</th>
-                     <td>DatumTijd</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie afleidbaar</th>
-                     <td>Nee</td>
-                  </tr>
-               </tbody>
-            </table>
-            
-         </section>
-         <a class="anchor" name="detail_attribute_Eplcommon_Registratiegeschiedenis_tijdstipVoltooiingRegistratie"></a><section id="detail_attribute_Eplcommon_Registratiegeschiedenis_tijdstipVoltooiingRegistratie">
-            <h7>Attribuutsoort details <a href="#global_class_Eplcommon_Registratiegeschiedenis">Registratiegeschiedenis</a> tijdstip voltooiing registratie
-            </h7>
-            
-            <table>
-               <colgroup width="30%"></colgroup>
-               <colgroup width="70%"></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Naam</th>
-                     <td>tijdstip voltooiing registratie</td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Definitie</th>
-                     <td>De datum en het tijdstip waarop alle gegevens van het object in de registratie ondergrond
-                        zijn opgenomen en er geen nieuwe gegevens meer ter registratie kunnen worden aangeboden.
-                     </td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst definitie</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Toelichting</th>
-                     <td>Het gegeven is alleen aanwezig als alle aan te leveren gegevens zijn geregistreerd.
-                        Na dit tijdstip kunnen geen nieuwe gegevens meer ter registratie worden aangeboden.
-                        Wel kunnen fouten in de registratie worden verbeterd.
-                     </td>
-                  </tr>
-                  <tr>
-                     <th>Mogelijk geen waarde</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie materiële historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie formele historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie kardinaliteit</th>
-                     <td>0 .. 1</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie authentiek</th>
-                     <td>Ja</td>
-                  </tr>
-                  <tr>
-                     <th>Formaat</th>
-                     <td>DatumTijd</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie afleidbaar</th>
-                     <td>Nee</td>
-                  </tr>
-               </tbody>
-            </table>
-            
-         </section>
-         <a class="anchor" name="detail_attribute_Eplcommon_Registratiegeschiedenis_gecorrigeerd"></a><section id="detail_attribute_Eplcommon_Registratiegeschiedenis_gecorrigeerd">
-            <h7>Attribuutsoort details <a href="#global_class_Eplcommon_Registratiegeschiedenis">Registratiegeschiedenis</a> gecorrigeerd
-            </h7>
-            
-            <table>
-               <colgroup width="30%"></colgroup>
-               <colgroup width="70%"></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Naam</th>
-                     <td>gecorrigeerd</td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Definitie</th>
-                     <td>De aanduiding die aangeeft of er een correctie in de gegevens van het object in de
-                        registratie ondergrond heeft plaatsgevonden.
-                     </td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst definitie</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Mogelijk geen waarde</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie materiële historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie formele historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie kardinaliteit</th>
-                     <td>1</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie authentiek</th>
-                     <td>Ja</td>
-                  </tr>
-                  <tr>
-                     <th>Formaat</th>
-                     <td>IndicatieJaNee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie afleidbaar</th>
-                     <td>Nee</td>
-                  </tr>
-               </tbody>
-            </table>
-            
-         </section>
-         <a class="anchor" name="detail_attribute_Eplcommon_Registratiegeschiedenis_tijdstipLaatsteCorrectie"></a><section id="detail_attribute_Eplcommon_Registratiegeschiedenis_tijdstipLaatsteCorrectie">
-            <h7>Attribuutsoort details <a href="#global_class_Eplcommon_Registratiegeschiedenis">Registratiegeschiedenis</a> tijdstip laatste correctie
-            </h7>
-            
-            <table>
-               <colgroup width="30%"></colgroup>
-               <colgroup width="70%"></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Naam</th>
-                     <td>tijdstip laatste correctie</td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Definitie</th>
-                     <td>De datum en het tijdstip waarop de laatste correctie in de gegevens van het object
-                        is doorgevoerd.
-                     </td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst definitie</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Mogelijk geen waarde</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie materiële historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie formele historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie kardinaliteit</th>
-                     <td>0 .. 1</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie authentiek</th>
-                     <td>Ja</td>
-                  </tr>
-                  <tr>
-                     <th>Formaat</th>
-                     <td>DatumTijd</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie afleidbaar</th>
-                     <td>Nee</td>
-                  </tr>
-               </tbody>
-            </table>
-            
-         </section>
-         <a class="anchor" name="detail_attribute_Eplcommon_Registratiegeschiedenis_inOnderzoek"></a><section id="detail_attribute_Eplcommon_Registratiegeschiedenis_inOnderzoek">
-            <h7>Attribuutsoort details <a href="#global_class_Eplcommon_Registratiegeschiedenis">Registratiegeschiedenis</a> in onderzoek
-            </h7>
-            
-            <table>
-               <colgroup width="30%"></colgroup>
-               <colgroup width="70%"></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Naam</th>
-                     <td>in onderzoek</td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Definitie</th>
-                     <td>De aanduiding die aangeeft of het object door de registerbeheerder in onderzoek is
-                        genomen.
-                     </td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst definitie</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Toelichting</th>
-                     <td>Wanneer een object in onderzoek is genomen betekent dit dat er bij de registerbeheerder
-                        gerede twijfel bestaat over de juistheid van de geregistreerde gegevens en dat er
-                        een onderzoek is gestart om vast te stellen wat de juiste gegevens zijn. Normaliter
-                        gaat hieraan een melding van derden vooraf.
-                     </td>
-                  </tr>
-                  <tr>
-                     <th>Mogelijk geen waarde</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie materiële historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie formele historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie kardinaliteit</th>
-                     <td>1</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie authentiek</th>
-                     <td>Ja</td>
-                  </tr>
-                  <tr>
-                     <th>Formaat</th>
-                     <td>IndicatieJaNee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie afleidbaar</th>
-                     <td>Nee</td>
-                  </tr>
-               </tbody>
-            </table>
-            
-         </section>
-         <a class="anchor" name="detail_attribute_Eplcommon_Registratiegeschiedenis_inOnderzoekSinds"></a><section id="detail_attribute_Eplcommon_Registratiegeschiedenis_inOnderzoekSinds">
-            <h7>Attribuutsoort details <a href="#global_class_Eplcommon_Registratiegeschiedenis">Registratiegeschiedenis</a> in onderzoek sinds
-            </h7>
-            
-            <table>
-               <colgroup width="30%"></colgroup>
-               <colgroup width="70%"></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Naam</th>
-                     <td>in onderzoek sinds</td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Definitie</th>
-                     <td>De datum en het tijdstip waarop de registerbeheerder het object in onderzoek heeft
-                        genomen.
-                     </td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst definitie</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Mogelijk geen waarde</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie materiële historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie formele historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie kardinaliteit</th>
-                     <td>0 .. 1</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie authentiek</th>
-                     <td>Ja</td>
-                  </tr>
-                  <tr>
-                     <th>Formaat</th>
-                     <td>DatumTijd</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie afleidbaar</th>
-                     <td>Nee</td>
-                  </tr>
-               </tbody>
-            </table>
-            
-         </section>
-         <a class="anchor" name="detail_attribute_Eplcommon_Registratiegeschiedenis_uitRegistratieGenomen"></a><section id="detail_attribute_Eplcommon_Registratiegeschiedenis_uitRegistratieGenomen">
-            <h7>Attribuutsoort details <a href="#global_class_Eplcommon_Registratiegeschiedenis">Registratiegeschiedenis</a> uit registratie genomen
-            </h7>
-            
-            <table>
-               <colgroup width="30%"></colgroup>
-               <colgroup width="70%"></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Naam</th>
-                     <td>uit registratie genomen</td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Definitie</th>
-                     <td>De aanduiding die aangeeft of de gegevens van het object door de registerbeheerder
-                        uit de registratie ondergrond zijn verwijderd.
-                     </td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst definitie</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Toelichting</th>
-                     <td>Wanneer de registerbeheerder een object uit registratie heeft genomen, zijn de gegevens
-                        niet langer beschikbaar voor andere afnemers dan bronhouder en dataleverancier.
-                        De registerbeheerder zal een object alleen bij hoge uitzondering uit registratie nemen.
-                        Aan die beslissing gaat een proces van zorgvuldige afweging vooraf en dat komt tot
-                        uitdrukking in de regel dat een object slechts een keer uit registratie kan worden
-                        genomen.
-                     </td>
-                  </tr>
-                  <tr>
-                     <th>Mogelijk geen waarde</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie materiële historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie formele historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie kardinaliteit</th>
-                     <td>1</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie authentiek</th>
-                     <td>Ja</td>
-                  </tr>
-                  <tr>
-                     <th>Formaat</th>
-                     <td>IndicatieJaNee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie afleidbaar</th>
-                     <td>Nee</td>
-                  </tr>
-               </tbody>
-            </table>
-            
-         </section>
-         <a class="anchor" name="detail_attribute_Eplcommon_Registratiegeschiedenis_tijdstipUitRegistratieGenomen"></a><section id="detail_attribute_Eplcommon_Registratiegeschiedenis_tijdstipUitRegistratieGenomen">
-            <h7>Attribuutsoort details <a href="#global_class_Eplcommon_Registratiegeschiedenis">Registratiegeschiedenis</a> tijdstip uit registratie genomen
-            </h7>
-            
-            <table>
-               <colgroup width="30%"></colgroup>
-               <colgroup width="70%"></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Naam</th>
-                     <td>tijdstip uit registratie genomen</td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Definitie</th>
-                     <td>De datum en het tijdstip waarop het object uit de registratie ondergrond is verwijderd.</td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst definitie</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Mogelijk geen waarde</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie materiële historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie formele historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie kardinaliteit</th>
-                     <td>0 .. 1</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie authentiek</th>
-                     <td>Ja</td>
-                  </tr>
-                  <tr>
-                     <th>Formaat</th>
-                     <td>DatumTijd</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie afleidbaar</th>
-                     <td>Nee</td>
-                  </tr>
-               </tbody>
-            </table>
-            
-         </section>
-         <a class="anchor" name="detail_attribute_Eplcommon_Registratiegeschiedenis_weerInRegistratieGenomen"></a><section id="detail_attribute_Eplcommon_Registratiegeschiedenis_weerInRegistratieGenomen">
-            <h7>Attribuutsoort details <a href="#global_class_Eplcommon_Registratiegeschiedenis">Registratiegeschiedenis</a> weer in registratie genomen
-            </h7>
-            
-            <table>
-               <colgroup width="30%"></colgroup>
-               <colgroup width="70%"></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Naam</th>
-                     <td>weer in registratie genomen</td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Definitie</th>
-                     <td>De datum en het tijdstip waarop het object in de registratie ondergrond is opgenomen,
-                        nadat het eerder uit registratie was genomen.
-                     </td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst definitie</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Toelichting</th>
-                     <td>De registerbeheerder kan een object eenmalig uit registratie nemen, en die actie kan
-                        hij eenmalig ongedaan maken.
-                        Ook hiervoor geldt dat akkoord van de bronhouder vereist is.
-                     </td>
-                  </tr>
-                  <tr>
-                     <th>Mogelijk geen waarde</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie materiële historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie formele historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie kardinaliteit</th>
-                     <td>1</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie authentiek</th>
-                     <td>Ja</td>
-                  </tr>
-                  <tr>
-                     <th>Formaat</th>
-                     <td>IndicatieJaNee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie afleidbaar</th>
-                     <td>Nee</td>
-                  </tr>
-               </tbody>
-            </table>
-            
-         </section>
-         <a class="anchor" name="detail_attribute_Eplcommon_Registratiegeschiedenis_tijdstipWeerInRegistratieGenomen"></a><section id="detail_attribute_Eplcommon_Registratiegeschiedenis_tijdstipWeerInRegistratieGenomen">
-            <h7>Attribuutsoort details <a href="#global_class_Eplcommon_Registratiegeschiedenis">Registratiegeschiedenis</a> tijdstip weer in registratie genomen
-            </h7>
-            
-            <table>
-               <colgroup width="30%"></colgroup>
-               <colgroup width="70%"></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Naam</th>
-                     <td>tijdstip weer in registratie genomen</td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Definitie</th>
-                     <td>De datum en het tijdstip waarop het object in de registratie ondergrond is opgenomen,
-                        nadat het uit registratie was genomen.
-                     </td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst definitie</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Mogelijk geen waarde</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie materiële historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie formele historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie kardinaliteit</th>
-                     <td>0 .. 1</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie authentiek</th>
-                     <td>Ja</td>
-                  </tr>
-                  <tr>
-                     <th>Formaat</th>
-                     <td>DatumTijd</td>
                   </tr>
                   <tr>
                      <th>Indicatie afleidbaar</th>

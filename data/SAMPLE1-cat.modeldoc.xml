@@ -3,8 +3,8 @@
       subpath="Conceptual model/EPL experiment (SAMPLE1)/20180301"
       type="BASISMODEL"
       id="EAPK_491FA2C0_2621_4d18_B9BA_D66964A4BFBD"
-      generator-version="1.45.4"
-      generator-date="2018-06-25T10:15:36Z">
+      generator-version="1.45.3"
+      generator-date="2018-06-27T08:51:13Z">
    <section type="DOMAIN" name="brocommon" id="global_package_Brocommon">
       <section type="IMAGEMAPS"
                name="brocommon-imagemap"
@@ -25,6 +25,174 @@
          </section>
       </section>
       <section type="OVERVIEW-OBJECTTYPE">
+         <section name="Registratiegeschiedenis"
+                  type="OBJECTTYPE"
+                  id="global_class_Brocommon_Registratiegeschiedenis"
+                  uuid="EAID_4CE328D1_55C3_40af_9A9C_9077CE1C6870">
+            <content>
+               <part type="CFG-DOC-NAAM">
+                  <item>Naam</item>
+                  <item>Registratiegeschiedenis</item>
+               </part>
+               <part type="CFG-DOC-HERKOMST">
+                  <item>Herkomst</item>
+                  <item>BRO</item>
+               </part>
+               <part type="CFG-DOC-DEFINITIE">
+                  <item>Definitie</item>
+                  <item>De gegevens die de geschiedenis van het object in de registratie ondergrond markeren.</item>
+               </part>
+               <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                  <item>Herkomst definitie</item>
+                  <item>BRO</item>
+               </part>
+               <part type="CFG-DOC-TOELICHTING">
+                  <item>Toelichting</item>
+                  <item>De gegevens van de entiteit worden geautomatiseerd door de basisregistratie ondergrond geproduceerd.</item>
+               </part>
+            </content>
+            <section type="SHORT-ATTRIBUTES">
+               <content>
+                  <itemtype/>
+                  <itemtype type="ATTRIBUTE-NAME"/>
+                  <itemtype type="ATTRIBUTE-DEFINITION"/>
+                  <itemtype type="ATTRIBUTE-FORMAT"/>
+                  <itemtype type="ATTRIBUTE-CARD"/>
+                  <part>
+                     <item>
+                        <item type="detail"
+                              idref="detail_attribute_Brocommon_Registratiegeschiedenis_tijdstipRegistratieObject">tijdstip registratie object</item>
+                     </item>
+                     <item>De datum en het tijdstip waarop er voor het eerst gegevens van het object in de registratie ondergrond zijn opgenomen.</item>
+                     <item>
+                        <item type="global" idref="global_class_Brocommon_DatumTijd">DatumTijd</item>
+                     </item>
+                     <item>1</item>
+                  </part>
+                  <part>
+                     <item>
+                        <item type="detail"
+                              idref="detail_attribute_Brocommon_Registratiegeschiedenis_registratiestatus">registratiestatus</item>
+                     </item>
+                     <item>De actuele fase van registratie waarin het object zich bevindt.</item>
+                     <item>
+                        <item type="global" idref="global_class_Eplcommon_Registratiestatus">Registratiestatus</item>
+                     </item>
+                     <item>1</item>
+                  </part>
+                  <part>
+                     <item>
+                        <item type="detail"
+                              idref="detail_attribute_Brocommon_Registratiegeschiedenis_tijdstipLaatsteAanvulling">tijdstip laatste aanvulling</item>
+                     </item>
+                     <item>De datum en het tijdstip waarop de laatste aanvulling op gegevens in de registratie ondergrond is doorgevoerd.</item>
+                     <item>
+                        <item type="global" idref="global_class_Brocommon_DatumTijd">DatumTijd</item>
+                     </item>
+                     <item>0 .. 1</item>
+                  </part>
+                  <part>
+                     <item>
+                        <item type="detail"
+                              idref="detail_attribute_Brocommon_Registratiegeschiedenis_tijdstipVoltooiingRegistratie">tijdstip voltooiing registratie</item>
+                     </item>
+                     <item>De datum en het tijdstip waarop alle gegevens van het object in de registratie ondergrond zijn opgenomen en er geen nieuwe gegevens meer ter registratie kunnen worden aangeboden.</item>
+                     <item>
+                        <item type="global" idref="global_class_Brocommon_DatumTijd">DatumTijd</item>
+                     </item>
+                     <item>0 .. 1</item>
+                  </part>
+                  <part>
+                     <item>
+                        <item type="detail"
+                              idref="detail_attribute_Brocommon_Registratiegeschiedenis_gecorrigeerd">gecorrigeerd</item>
+                     </item>
+                     <item>De aanduiding die aangeeft of er een correctie in de gegevens van het object in de registratie ondergrond heeft plaatsgevonden.</item>
+                     <item>
+                        <item type="global" idref="global_class_Brocommon_IndicatieJaNee">IndicatieJaNee</item>
+                     </item>
+                     <item>1</item>
+                  </part>
+                  <part>
+                     <item>
+                        <item type="detail"
+                              idref="detail_attribute_Brocommon_Registratiegeschiedenis_tijdstipLaatsteCorrectie">tijdstip laatste correctie</item>
+                     </item>
+                     <item>De datum en het tijdstip waarop de laatste correctie in de gegevens van het object is doorgevoerd.</item>
+                     <item>
+                        <item type="global" idref="global_class_Brocommon_DatumTijd">DatumTijd</item>
+                     </item>
+                     <item>0 .. 1</item>
+                  </part>
+                  <part>
+                     <item>
+                        <item type="detail"
+                              idref="detail_attribute_Brocommon_Registratiegeschiedenis_inOnderzoek">in onderzoek</item>
+                     </item>
+                     <item>De aanduiding die aangeeft of het object door de registerbeheerder in onderzoek is genomen.</item>
+                     <item>
+                        <item type="global" idref="global_class_Brocommon_IndicatieJaNee">IndicatieJaNee</item>
+                     </item>
+                     <item>1</item>
+                  </part>
+                  <part>
+                     <item>
+                        <item type="detail"
+                              idref="detail_attribute_Brocommon_Registratiegeschiedenis_inOnderzoekSinds">in onderzoek sinds</item>
+                     </item>
+                     <item>De datum en het tijdstip waarop de registerbeheerder het object in onderzoek heeft genomen.</item>
+                     <item>
+                        <item type="global" idref="global_class_Brocommon_DatumTijd">DatumTijd</item>
+                     </item>
+                     <item>0 .. 1</item>
+                  </part>
+                  <part>
+                     <item>
+                        <item type="detail"
+                              idref="detail_attribute_Brocommon_Registratiegeschiedenis_uitRegistratieGenomen">uit registratie genomen</item>
+                     </item>
+                     <item>De aanduiding die aangeeft of de gegevens van het object door de registerbeheerder uit de registratie ondergrond zijn verwijderd.</item>
+                     <item>
+                        <item type="global" idref="global_class_Brocommon_IndicatieJaNee">IndicatieJaNee</item>
+                     </item>
+                     <item>1</item>
+                  </part>
+                  <part>
+                     <item>
+                        <item type="detail"
+                              idref="detail_attribute_Brocommon_Registratiegeschiedenis_tijdstipUitRegistratieGenomen">tijdstip uit registratie genomen</item>
+                     </item>
+                     <item>De datum en het tijdstip waarop het object uit de registratie ondergrond is verwijderd.</item>
+                     <item>
+                        <item type="global" idref="global_class_Brocommon_DatumTijd">DatumTijd</item>
+                     </item>
+                     <item>0 .. 1</item>
+                  </part>
+                  <part>
+                     <item>
+                        <item type="detail"
+                              idref="detail_attribute_Brocommon_Registratiegeschiedenis_weerInRegistratieGenomen">weer in registratie genomen</item>
+                     </item>
+                     <item>De datum en het tijdstip waarop het object in de registratie ondergrond is opgenomen, nadat het eerder uit registratie was genomen.</item>
+                     <item>
+                        <item type="global" idref="global_class_Brocommon_IndicatieJaNee">IndicatieJaNee</item>
+                     </item>
+                     <item>1</item>
+                  </part>
+                  <part>
+                     <item>
+                        <item type="detail"
+                              idref="detail_attribute_Brocommon_Registratiegeschiedenis_tijdstipWeerInRegistratieGenomen">tijdstip weer in registratie genomen</item>
+                     </item>
+                     <item>De datum en het tijdstip waarop het object in de registratie ondergrond is opgenomen, nadat het uit registratie was genomen.</item>
+                     <item>
+                        <item type="global" idref="global_class_Brocommon_DatumTijd">DatumTijd</item>
+                     </item>
+                     <item>0 .. 1</item>
+                  </part>
+               </content>
+            </section>
+         </section>
          <section name="Registratieobject"
                   type="OBJECTTYPE"
                   id="global_class_Brocommon_Registratieobject"
@@ -684,6 +852,645 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
       </section>
       <section type="DETAILS">
          <section type="DETAILS-OBJECTTYPE">
+            <section name="Registratiegeschiedenis"
+                     type="OBJECTTYPE"
+                     id="detail_class_Brocommon_Registratiegeschiedenis"
+                     id-global="global_class_Brocommon_Registratiegeschiedenis">
+               <section name="tijdstip registratie object"
+                        type="DETAIL-ATTRIBUTE"
+                        id="detail_attribute_Brocommon_Registratiegeschiedenis_tijdstipRegistratieObject"
+                        id-global="global_attribute_Brocommon_Registratiegeschiedenis_tijdstipRegistratieObject">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>tijdstip registratie object</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>De datum en het tijdstip waarop er voor het eerst gegevens van het object in de registratie ondergrond zijn opgenomen.</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                        <item>Indicatie formele historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>1</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                        <item>Indicatie authentiek</item>
+                        <item>Ja</item>
+                     </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>DatumTijd</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
+                        <item>Indicatie afleidbaar</item>
+                        <item>Nee</item>
+                     </part>
+                  </content>
+               </section>
+               <section name="registratiestatus"
+                        type="DETAIL-ATTRIBUTE"
+                        id="detail_attribute_Brocommon_Registratiegeschiedenis_registratiestatus"
+                        id-global="global_attribute_Brocommon_Registratiegeschiedenis_registratiestatus">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>registratiestatus</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>De actuele fase van registratie waarin het object zich bevindt.</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                        <item>Indicatie formele historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>1</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                        <item>Indicatie authentiek</item>
+                        <item>Ja</item>
+                     </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>Registratiestatus</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
+                        <item>Indicatie afleidbaar</item>
+                        <item>Nee</item>
+                     </part>
+                  </content>
+               </section>
+               <section name="tijdstip laatste aanvulling"
+                        type="DETAIL-ATTRIBUTE"
+                        id="detail_attribute_Brocommon_Registratiegeschiedenis_tijdstipLaatsteAanvulling"
+                        id-global="global_attribute_Brocommon_Registratiegeschiedenis_tijdstipLaatsteAanvulling">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>tijdstip laatste aanvulling</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>De datum en het tijdstip waarop de laatste aanvulling op gegevens in de registratie ondergrond is doorgevoerd.</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-TOELICHTING">
+                        <item>Toelichting</item>
+                        <item>Het gegeven is alleen aanwezig wanneer na de start van de registratie van de mijnbouwwetvergunning aanvullende gegevens zijn vastgelegd.</item>
+                     </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                        <item>Indicatie formele historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>0 .. 1</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                        <item>Indicatie authentiek</item>
+                        <item>Ja</item>
+                     </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>DatumTijd</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
+                        <item>Indicatie afleidbaar</item>
+                        <item>Nee</item>
+                     </part>
+                  </content>
+               </section>
+               <section name="tijdstip voltooiing registratie"
+                        type="DETAIL-ATTRIBUTE"
+                        id="detail_attribute_Brocommon_Registratiegeschiedenis_tijdstipVoltooiingRegistratie"
+                        id-global="global_attribute_Brocommon_Registratiegeschiedenis_tijdstipVoltooiingRegistratie">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>tijdstip voltooiing registratie</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>De datum en het tijdstip waarop alle gegevens van het object in de registratie ondergrond zijn opgenomen en er geen nieuwe gegevens meer ter registratie kunnen worden aangeboden.</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-TOELICHTING">
+                        <item>Toelichting</item>
+                        <item>Het gegeven is alleen aanwezig als alle aan te leveren gegevens zijn geregistreerd. Na dit tijdstip kunnen geen nieuwe gegevens meer ter registratie worden aangeboden. Wel kunnen fouten in de registratie worden verbeterd.</item>
+                     </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                        <item>Indicatie formele historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>0 .. 1</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                        <item>Indicatie authentiek</item>
+                        <item>Ja</item>
+                     </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>DatumTijd</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
+                        <item>Indicatie afleidbaar</item>
+                        <item>Nee</item>
+                     </part>
+                  </content>
+               </section>
+               <section name="gecorrigeerd"
+                        type="DETAIL-ATTRIBUTE"
+                        id="detail_attribute_Brocommon_Registratiegeschiedenis_gecorrigeerd"
+                        id-global="global_attribute_Brocommon_Registratiegeschiedenis_gecorrigeerd">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>gecorrigeerd</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>De aanduiding die aangeeft of er een correctie in de gegevens van het object in de registratie ondergrond heeft plaatsgevonden.</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                        <item>Indicatie formele historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>1</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                        <item>Indicatie authentiek</item>
+                        <item>Ja</item>
+                     </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>IndicatieJaNee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
+                        <item>Indicatie afleidbaar</item>
+                        <item>Nee</item>
+                     </part>
+                  </content>
+               </section>
+               <section name="tijdstip laatste correctie"
+                        type="DETAIL-ATTRIBUTE"
+                        id="detail_attribute_Brocommon_Registratiegeschiedenis_tijdstipLaatsteCorrectie"
+                        id-global="global_attribute_Brocommon_Registratiegeschiedenis_tijdstipLaatsteCorrectie">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>tijdstip laatste correctie</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>De datum en het tijdstip waarop de laatste correctie in de gegevens van het object is doorgevoerd.</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                        <item>Indicatie formele historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>0 .. 1</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                        <item>Indicatie authentiek</item>
+                        <item>Ja</item>
+                     </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>DatumTijd</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
+                        <item>Indicatie afleidbaar</item>
+                        <item>Nee</item>
+                     </part>
+                  </content>
+               </section>
+               <section name="in onderzoek"
+                        type="DETAIL-ATTRIBUTE"
+                        id="detail_attribute_Brocommon_Registratiegeschiedenis_inOnderzoek"
+                        id-global="global_attribute_Brocommon_Registratiegeschiedenis_inOnderzoek">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>in onderzoek</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>De aanduiding die aangeeft of het object door de registerbeheerder in onderzoek is genomen.</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-TOELICHTING">
+                        <item>Toelichting</item>
+                        <item>Wanneer een object in onderzoek is genomen betekent dit dat er bij de registerbeheerder gerede twijfel bestaat over de juistheid van de geregistreerde gegevens en dat er een onderzoek is gestart om vast te stellen wat de juiste gegevens zijn. Normaliter gaat hieraan een melding van derden vooraf.</item>
+                     </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                        <item>Indicatie formele historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>1</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                        <item>Indicatie authentiek</item>
+                        <item>Ja</item>
+                     </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>IndicatieJaNee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
+                        <item>Indicatie afleidbaar</item>
+                        <item>Nee</item>
+                     </part>
+                  </content>
+               </section>
+               <section name="in onderzoek sinds"
+                        type="DETAIL-ATTRIBUTE"
+                        id="detail_attribute_Brocommon_Registratiegeschiedenis_inOnderzoekSinds"
+                        id-global="global_attribute_Brocommon_Registratiegeschiedenis_inOnderzoekSinds">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>in onderzoek sinds</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>De datum en het tijdstip waarop de registerbeheerder het object in onderzoek heeft genomen.</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                        <item>Indicatie formele historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>0 .. 1</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                        <item>Indicatie authentiek</item>
+                        <item>Ja</item>
+                     </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>DatumTijd</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
+                        <item>Indicatie afleidbaar</item>
+                        <item>Nee</item>
+                     </part>
+                  </content>
+               </section>
+               <section name="uit registratie genomen"
+                        type="DETAIL-ATTRIBUTE"
+                        id="detail_attribute_Brocommon_Registratiegeschiedenis_uitRegistratieGenomen"
+                        id-global="global_attribute_Brocommon_Registratiegeschiedenis_uitRegistratieGenomen">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>uit registratie genomen</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>De aanduiding die aangeeft of de gegevens van het object door de registerbeheerder uit de registratie ondergrond zijn verwijderd.</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-TOELICHTING">
+                        <item>Toelichting</item>
+                        <item>Wanneer de registerbeheerder een object uit registratie heeft genomen, zijn de gegevens niet langer beschikbaar voor andere afnemers dan bronhouder en dataleverancier.
+De registerbeheerder zal een object alleen bij hoge uitzondering uit registratie nemen. Aan die beslissing gaat een proces van zorgvuldige afweging vooraf en dat komt tot uitdrukking in de regel dat een object slechts een keer uit registratie kan worden genomen.</item>
+                     </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                        <item>Indicatie formele historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>1</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                        <item>Indicatie authentiek</item>
+                        <item>Ja</item>
+                     </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>IndicatieJaNee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
+                        <item>Indicatie afleidbaar</item>
+                        <item>Nee</item>
+                     </part>
+                  </content>
+               </section>
+               <section name="tijdstip uit registratie genomen"
+                        type="DETAIL-ATTRIBUTE"
+                        id="detail_attribute_Brocommon_Registratiegeschiedenis_tijdstipUitRegistratieGenomen"
+                        id-global="global_attribute_Brocommon_Registratiegeschiedenis_tijdstipUitRegistratieGenomen">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>tijdstip uit registratie genomen</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>De datum en het tijdstip waarop het object uit de registratie ondergrond is verwijderd.</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                        <item>Indicatie formele historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>0 .. 1</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                        <item>Indicatie authentiek</item>
+                        <item>Ja</item>
+                     </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>DatumTijd</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
+                        <item>Indicatie afleidbaar</item>
+                        <item>Nee</item>
+                     </part>
+                  </content>
+               </section>
+               <section name="weer in registratie genomen"
+                        type="DETAIL-ATTRIBUTE"
+                        id="detail_attribute_Brocommon_Registratiegeschiedenis_weerInRegistratieGenomen"
+                        id-global="global_attribute_Brocommon_Registratiegeschiedenis_weerInRegistratieGenomen">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>weer in registratie genomen</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>De datum en het tijdstip waarop het object in de registratie ondergrond is opgenomen, nadat het eerder uit registratie was genomen.</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-TOELICHTING">
+                        <item>Toelichting</item>
+                        <item>De registerbeheerder kan een object eenmalig uit registratie nemen, en die actie kan hij eenmalig ongedaan maken.
+Ook hiervoor geldt dat akkoord van de bronhouder vereist is.</item>
+                     </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                        <item>Indicatie formele historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>1</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                        <item>Indicatie authentiek</item>
+                        <item>Ja</item>
+                     </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>IndicatieJaNee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
+                        <item>Indicatie afleidbaar</item>
+                        <item>Nee</item>
+                     </part>
+                  </content>
+               </section>
+               <section name="tijdstip weer in registratie genomen"
+                        type="DETAIL-ATTRIBUTE"
+                        id="detail_attribute_Brocommon_Registratiegeschiedenis_tijdstipWeerInRegistratieGenomen"
+                        id-global="global_attribute_Brocommon_Registratiegeschiedenis_tijdstipWeerInRegistratieGenomen">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>tijdstip weer in registratie genomen</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>De datum en het tijdstip waarop het object in de registratie ondergrond is opgenomen, nadat het uit registratie was genomen.</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                        <item>Indicatie formele historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>0 .. 1</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                        <item>Indicatie authentiek</item>
+                        <item>Ja</item>
+                     </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>DatumTijd</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
+                        <item>Indicatie afleidbaar</item>
+                        <item>Nee</item>
+                     </part>
+                  </content>
+               </section>
+            </section>
             <section name="Registratieobject"
                      type="OBJECTTYPE"
                      id="detail_class_Brocommon_Registratieobject"
@@ -2258,6 +3065,21 @@ Wanneer een vergunning in diepte wordt begrensd gebeurt dat meestal op basis van
                                  idref="detail_association_Eplcommon_Mijnbouwwetvergunning">heeft</item>
                         </item>
                         <item>
+                           <item type="global" idref="global_class_Brocommon_Registratiegeschiedenis">Registratiegeschiedenis</item>
+                        </item>
+                        <item>[ 1 ]</item>
+                     </item>
+                     <item/>
+                  </part>
+                  <part>
+                     <item>
+                        <item>Mijnbouwwetvergunning</item>
+                        <item>[ 1 ]</item>
+                        <item>
+                           <item type="detail"
+                                 idref="detail_association_Eplcommon_Mijnbouwwetvergunning">heeft</item>
+                        </item>
+                        <item>
                            <item type="global" idref="global_class_Eplcommon_Vergunninggebied">Vergunninggebied</item>
                         </item>
                         <item>[ 1 ]</item>
@@ -2276,21 +3098,6 @@ Wanneer een vergunning in diepte wordt begrensd gebeurt dat meestal op basis van
                            <item type="global" idref="global_class_Eplcommon_SamenwerkingOverschrijding">Samenwerking overschrijding</item>
                         </item>
                         <item>[ 0 .. * ]</item>
-                     </item>
-                     <item/>
-                  </part>
-                  <part>
-                     <item>
-                        <item>Mijnbouwwetvergunning</item>
-                        <item>[ 1 ]</item>
-                        <item>
-                           <item type="detail"
-                                 idref="detail_association_Eplcommon_Mijnbouwwetvergunning">heeft</item>
-                        </item>
-                        <item>
-                           <item type="global" idref="global_class_Eplcommon_Registratiegeschiedenis">Registratiegeschiedenis</item>
-                        </item>
-                        <item>[ 1 ]</item>
                      </item>
                      <item/>
                   </part>
@@ -2424,6 +3231,21 @@ Wanneer een vergunning in diepte wordt begrensd gebeurt dat meestal op basis van
                                  idref="detail_association_Eplcommon_Mijnbouwwetvergunning">heeft</item>
                         </item>
                         <item>
+                           <item type="global" idref="global_class_Brocommon_Registratiegeschiedenis">Registratiegeschiedenis</item>
+                        </item>
+                        <item>[ 1 ]</item>
+                     </item>
+                     <item/>
+                  </part>
+                  <part>
+                     <item>
+                        <item>Mijnbouwwetvergunning</item>
+                        <item>[ 1 ]</item>
+                        <item>
+                           <item type="detail"
+                                 idref="detail_association_Eplcommon_Mijnbouwwetvergunning">heeft</item>
+                        </item>
+                        <item>
                            <item type="global" idref="global_class_Eplcommon_Vergunninggebied">Vergunninggebied</item>
                         </item>
                         <item>[ 1 ]</item>
@@ -2442,21 +3264,6 @@ Wanneer een vergunning in diepte wordt begrensd gebeurt dat meestal op basis van
                            <item type="global" idref="global_class_Eplcommon_SamenwerkingOverschrijding">Samenwerking overschrijding</item>
                         </item>
                         <item>[ 0 .. * ]</item>
-                     </item>
-                     <item/>
-                  </part>
-                  <part>
-                     <item>
-                        <item>Mijnbouwwetvergunning</item>
-                        <item>[ 1 ]</item>
-                        <item>
-                           <item type="detail"
-                                 idref="detail_association_Eplcommon_Mijnbouwwetvergunning">heeft</item>
-                        </item>
-                        <item>
-                           <item type="global" idref="global_class_Eplcommon_Registratiegeschiedenis">Registratiegeschiedenis</item>
-                        </item>
-                        <item>[ 1 ]</item>
                      </item>
                      <item/>
                   </part>
@@ -2656,174 +3463,6 @@ Wanneer een vergunning in diepte wordt begrensd gebeurt dat meestal op basis van
                         <item type="global" idref="global_class_Eplcommon_CoRdinaattransformatie">Coördinaattransformatie</item>
                      </item>
                      <item>1</item>
-                  </part>
-               </content>
-            </section>
-         </section>
-         <section name="Registratiegeschiedenis"
-                  type="OBJECTTYPE"
-                  id="global_class_Eplcommon_Registratiegeschiedenis"
-                  uuid="EAID_4CE328D1_55C3_40af_9A9C_9077CE1C6870">
-            <content>
-               <part type="CFG-DOC-NAAM">
-                  <item>Naam</item>
-                  <item>Registratiegeschiedenis</item>
-               </part>
-               <part type="CFG-DOC-HERKOMST">
-                  <item>Herkomst</item>
-                  <item>BRO</item>
-               </part>
-               <part type="CFG-DOC-DEFINITIE">
-                  <item>Definitie</item>
-                  <item>De gegevens die de geschiedenis van het object in de registratie ondergrond markeren.</item>
-               </part>
-               <part type="CFG-DOC-HERKOMSTDEFINITIE">
-                  <item>Herkomst definitie</item>
-                  <item>BRO</item>
-               </part>
-               <part type="CFG-DOC-TOELICHTING">
-                  <item>Toelichting</item>
-                  <item>De gegevens van de entiteit worden geautomatiseerd door de basisregistratie ondergrond geproduceerd.</item>
-               </part>
-            </content>
-            <section type="SHORT-ATTRIBUTES">
-               <content>
-                  <itemtype/>
-                  <itemtype type="ATTRIBUTE-NAME"/>
-                  <itemtype type="ATTRIBUTE-DEFINITION"/>
-                  <itemtype type="ATTRIBUTE-FORMAT"/>
-                  <itemtype type="ATTRIBUTE-CARD"/>
-                  <part>
-                     <item>
-                        <item type="detail"
-                              idref="detail_attribute_Eplcommon_Registratiegeschiedenis_tijdstipRegistratieObject">tijdstip registratie object</item>
-                     </item>
-                     <item>De datum en het tijdstip waarop er voor het eerst gegevens van het object in de registratie ondergrond zijn opgenomen.</item>
-                     <item>
-                        <item type="global" idref="global_class_Brocommon_DatumTijd">DatumTijd</item>
-                     </item>
-                     <item>1</item>
-                  </part>
-                  <part>
-                     <item>
-                        <item type="detail"
-                              idref="detail_attribute_Eplcommon_Registratiegeschiedenis_registratiestatus">registratiestatus</item>
-                     </item>
-                     <item>De actuele fase van registratie waarin het object zich bevindt.</item>
-                     <item>
-                        <item type="global" idref="global_class_Eplcommon_Registratiestatus">Registratiestatus</item>
-                     </item>
-                     <item>1</item>
-                  </part>
-                  <part>
-                     <item>
-                        <item type="detail"
-                              idref="detail_attribute_Eplcommon_Registratiegeschiedenis_tijdstipLaatsteAanvulling">tijdstip laatste aanvulling</item>
-                     </item>
-                     <item>De datum en het tijdstip waarop de laatste aanvulling op gegevens in de registratie ondergrond is doorgevoerd.</item>
-                     <item>
-                        <item type="global" idref="global_class_Brocommon_DatumTijd">DatumTijd</item>
-                     </item>
-                     <item>0 .. 1</item>
-                  </part>
-                  <part>
-                     <item>
-                        <item type="detail"
-                              idref="detail_attribute_Eplcommon_Registratiegeschiedenis_tijdstipVoltooiingRegistratie">tijdstip voltooiing registratie</item>
-                     </item>
-                     <item>De datum en het tijdstip waarop alle gegevens van het object in de registratie ondergrond zijn opgenomen en er geen nieuwe gegevens meer ter registratie kunnen worden aangeboden.</item>
-                     <item>
-                        <item type="global" idref="global_class_Brocommon_DatumTijd">DatumTijd</item>
-                     </item>
-                     <item>0 .. 1</item>
-                  </part>
-                  <part>
-                     <item>
-                        <item type="detail"
-                              idref="detail_attribute_Eplcommon_Registratiegeschiedenis_gecorrigeerd">gecorrigeerd</item>
-                     </item>
-                     <item>De aanduiding die aangeeft of er een correctie in de gegevens van het object in de registratie ondergrond heeft plaatsgevonden.</item>
-                     <item>
-                        <item type="global" idref="global_class_Brocommon_IndicatieJaNee">IndicatieJaNee</item>
-                     </item>
-                     <item>1</item>
-                  </part>
-                  <part>
-                     <item>
-                        <item type="detail"
-                              idref="detail_attribute_Eplcommon_Registratiegeschiedenis_tijdstipLaatsteCorrectie">tijdstip laatste correctie</item>
-                     </item>
-                     <item>De datum en het tijdstip waarop de laatste correctie in de gegevens van het object is doorgevoerd.</item>
-                     <item>
-                        <item type="global" idref="global_class_Brocommon_DatumTijd">DatumTijd</item>
-                     </item>
-                     <item>0 .. 1</item>
-                  </part>
-                  <part>
-                     <item>
-                        <item type="detail"
-                              idref="detail_attribute_Eplcommon_Registratiegeschiedenis_inOnderzoek">in onderzoek</item>
-                     </item>
-                     <item>De aanduiding die aangeeft of het object door de registerbeheerder in onderzoek is genomen.</item>
-                     <item>
-                        <item type="global" idref="global_class_Brocommon_IndicatieJaNee">IndicatieJaNee</item>
-                     </item>
-                     <item>1</item>
-                  </part>
-                  <part>
-                     <item>
-                        <item type="detail"
-                              idref="detail_attribute_Eplcommon_Registratiegeschiedenis_inOnderzoekSinds">in onderzoek sinds</item>
-                     </item>
-                     <item>De datum en het tijdstip waarop de registerbeheerder het object in onderzoek heeft genomen.</item>
-                     <item>
-                        <item type="global" idref="global_class_Brocommon_DatumTijd">DatumTijd</item>
-                     </item>
-                     <item>0 .. 1</item>
-                  </part>
-                  <part>
-                     <item>
-                        <item type="detail"
-                              idref="detail_attribute_Eplcommon_Registratiegeschiedenis_uitRegistratieGenomen">uit registratie genomen</item>
-                     </item>
-                     <item>De aanduiding die aangeeft of de gegevens van het object door de registerbeheerder uit de registratie ondergrond zijn verwijderd.</item>
-                     <item>
-                        <item type="global" idref="global_class_Brocommon_IndicatieJaNee">IndicatieJaNee</item>
-                     </item>
-                     <item>1</item>
-                  </part>
-                  <part>
-                     <item>
-                        <item type="detail"
-                              idref="detail_attribute_Eplcommon_Registratiegeschiedenis_tijdstipUitRegistratieGenomen">tijdstip uit registratie genomen</item>
-                     </item>
-                     <item>De datum en het tijdstip waarop het object uit de registratie ondergrond is verwijderd.</item>
-                     <item>
-                        <item type="global" idref="global_class_Brocommon_DatumTijd">DatumTijd</item>
-                     </item>
-                     <item>0 .. 1</item>
-                  </part>
-                  <part>
-                     <item>
-                        <item type="detail"
-                              idref="detail_attribute_Eplcommon_Registratiegeschiedenis_weerInRegistratieGenomen">weer in registratie genomen</item>
-                     </item>
-                     <item>De datum en het tijdstip waarop het object in de registratie ondergrond is opgenomen, nadat het eerder uit registratie was genomen.</item>
-                     <item>
-                        <item type="global" idref="global_class_Brocommon_IndicatieJaNee">IndicatieJaNee</item>
-                     </item>
-                     <item>1</item>
-                  </part>
-                  <part>
-                     <item>
-                        <item type="detail"
-                              idref="detail_attribute_Eplcommon_Registratiegeschiedenis_tijdstipWeerInRegistratieGenomen">tijdstip weer in registratie genomen</item>
-                     </item>
-                     <item>De datum en het tijdstip waarop het object in de registratie ondergrond is opgenomen, nadat het uit registratie was genomen.</item>
-                     <item>
-                        <item type="global" idref="global_class_Brocommon_DatumTijd">DatumTijd</item>
-                     </item>
-                     <item>0 .. 1</item>
                   </part>
                </content>
             </section>
@@ -6408,6 +7047,47 @@ De datum mag in de toekomst liggen.</item>
                      <part type="CFG-DOC-GERELATEERDOBJECTTYPE">
                         <item>Gerelateerd obecttype</item>
                         <item>
+                           <item type="global" idref="global_class_Brocommon_Registratiegeschiedenis">Registratiegeschiedenis</item>
+                        </item>
+                     </part>
+                  </content>
+                  <content approach="target">
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>heeft</item>
+                     </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>1</item>
+                     </part>
+                     <part type="CFG-DOC-GERELATEERDOBJECTTYPE">
+                        <item>Gerelateerd obecttype</item>
+                        <item>
+                           <item type="global" idref="global_class_Brocommon_Registratiegeschiedenis">Registratiegeschiedenis</item>
+                        </item>
+                     </part>
+                  </content>
+               </section>
+               <section name="heeft"
+                        type="DETAIL-ASSOCIATION"
+                        id="detail_association_Eplcommon_Mijnbouwwetvergunning"
+                        id-global="global_association_Eplcommon_Mijnbouwwetvergunning">
+                  <content approach="association">
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>heeft</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>1</item>
+                     </part>
+                     <part type="CFG-DOC-GERELATEERDOBJECTTYPE">
+                        <item>Gerelateerd obecttype</item>
+                        <item>
                            <item type="global" idref="global_class_Eplcommon_Vergunninggebied">Vergunninggebied</item>
                         </item>
                      </part>
@@ -6470,47 +7150,6 @@ De datum mag in de toekomst liggen.</item>
                         <item>Gerelateerd obecttype</item>
                         <item>
                            <item type="global" idref="global_class_Eplcommon_SamenwerkingOverschrijding">Samenwerking overschrijding</item>
-                        </item>
-                     </part>
-                  </content>
-               </section>
-               <section name="heeft"
-                        type="DETAIL-ASSOCIATION"
-                        id="detail_association_Eplcommon_Mijnbouwwetvergunning"
-                        id-global="global_association_Eplcommon_Mijnbouwwetvergunning">
-                  <content approach="association">
-                     <part type="CFG-DOC-NAAM">
-                        <item>Naam</item>
-                        <item>heeft</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                        <item>Indicatie kardinaliteit</item>
-                        <item>1</item>
-                     </part>
-                     <part type="CFG-DOC-GERELATEERDOBJECTTYPE">
-                        <item>Gerelateerd obecttype</item>
-                        <item>
-                           <item type="global" idref="global_class_Eplcommon_Registratiegeschiedenis">Registratiegeschiedenis</item>
-                        </item>
-                     </part>
-                  </content>
-                  <content approach="target">
-                     <part type="CFG-DOC-NAAM">
-                        <item>Naam</item>
-                        <item>heeft</item>
-                     </part>
-                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
-                        <item>Mogelijk geen waarde</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                        <item>Indicatie kardinaliteit</item>
-                        <item>1</item>
-                     </part>
-                     <part type="CFG-DOC-GERELATEERDOBJECTTYPE">
-                        <item>Gerelateerd obecttype</item>
-                        <item>
-                           <item type="global" idref="global_class_Eplcommon_Registratiegeschiedenis">Registratiegeschiedenis</item>
                         </item>
                      </part>
                   </content>
@@ -7071,645 +7710,6 @@ De gestandaardiseerde begrenzing van het gebied is gedefinieerd in ETRS89.</item
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
                         <item>Coördinaattransformatie</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
-                        <item>Indicatie afleidbaar</item>
-                        <item>Nee</item>
-                     </part>
-                  </content>
-               </section>
-            </section>
-            <section name="Registratiegeschiedenis"
-                     type="OBJECTTYPE"
-                     id="detail_class_Eplcommon_Registratiegeschiedenis"
-                     id-global="global_class_Eplcommon_Registratiegeschiedenis">
-               <section name="tijdstip registratie object"
-                        type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_Eplcommon_Registratiegeschiedenis_tijdstipRegistratieObject"
-                        id-global="global_attribute_Eplcommon_Registratiegeschiedenis_tijdstipRegistratieObject">
-                  <content>
-                     <part type="CFG-DOC-NAAM">
-                        <item>Naam</item>
-                        <item>tijdstip registratie object</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMST">
-                        <item>Herkomst</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-DEFINITIE">
-                        <item>Definitie</item>
-                        <item>De datum en het tijdstip waarop er voor het eerst gegevens van het object in de registratie ondergrond zijn opgenomen.</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
-                        <item>Herkomst definitie</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
-                        <item>Mogelijk geen waarde</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
-                        <item>Indicatie materiële historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
-                        <item>Indicatie formele historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                        <item>Indicatie kardinaliteit</item>
-                        <item>1</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
-                        <item>Indicatie authentiek</item>
-                        <item>Ja</item>
-                     </part>
-                     <part type="CFG-DOC-FORMAAT">
-                        <item>Formaat</item>
-                        <item>DatumTijd</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
-                        <item>Indicatie afleidbaar</item>
-                        <item>Nee</item>
-                     </part>
-                  </content>
-               </section>
-               <section name="registratiestatus"
-                        type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_Eplcommon_Registratiegeschiedenis_registratiestatus"
-                        id-global="global_attribute_Eplcommon_Registratiegeschiedenis_registratiestatus">
-                  <content>
-                     <part type="CFG-DOC-NAAM">
-                        <item>Naam</item>
-                        <item>registratiestatus</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMST">
-                        <item>Herkomst</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-DEFINITIE">
-                        <item>Definitie</item>
-                        <item>De actuele fase van registratie waarin het object zich bevindt.</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
-                        <item>Herkomst definitie</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
-                        <item>Mogelijk geen waarde</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
-                        <item>Indicatie materiële historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
-                        <item>Indicatie formele historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                        <item>Indicatie kardinaliteit</item>
-                        <item>1</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
-                        <item>Indicatie authentiek</item>
-                        <item>Ja</item>
-                     </part>
-                     <part type="CFG-DOC-FORMAAT">
-                        <item>Formaat</item>
-                        <item>Registratiestatus</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
-                        <item>Indicatie afleidbaar</item>
-                        <item>Nee</item>
-                     </part>
-                  </content>
-               </section>
-               <section name="tijdstip laatste aanvulling"
-                        type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_Eplcommon_Registratiegeschiedenis_tijdstipLaatsteAanvulling"
-                        id-global="global_attribute_Eplcommon_Registratiegeschiedenis_tijdstipLaatsteAanvulling">
-                  <content>
-                     <part type="CFG-DOC-NAAM">
-                        <item>Naam</item>
-                        <item>tijdstip laatste aanvulling</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMST">
-                        <item>Herkomst</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-DEFINITIE">
-                        <item>Definitie</item>
-                        <item>De datum en het tijdstip waarop de laatste aanvulling op gegevens in de registratie ondergrond is doorgevoerd.</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
-                        <item>Herkomst definitie</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-TOELICHTING">
-                        <item>Toelichting</item>
-                        <item>Het gegeven is alleen aanwezig wanneer na de start van de registratie van de mijnbouwwetvergunning aanvullende gegevens zijn vastgelegd.</item>
-                     </part>
-                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
-                        <item>Mogelijk geen waarde</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
-                        <item>Indicatie materiële historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
-                        <item>Indicatie formele historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                        <item>Indicatie kardinaliteit</item>
-                        <item>0 .. 1</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
-                        <item>Indicatie authentiek</item>
-                        <item>Ja</item>
-                     </part>
-                     <part type="CFG-DOC-FORMAAT">
-                        <item>Formaat</item>
-                        <item>DatumTijd</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
-                        <item>Indicatie afleidbaar</item>
-                        <item>Nee</item>
-                     </part>
-                  </content>
-               </section>
-               <section name="tijdstip voltooiing registratie"
-                        type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_Eplcommon_Registratiegeschiedenis_tijdstipVoltooiingRegistratie"
-                        id-global="global_attribute_Eplcommon_Registratiegeschiedenis_tijdstipVoltooiingRegistratie">
-                  <content>
-                     <part type="CFG-DOC-NAAM">
-                        <item>Naam</item>
-                        <item>tijdstip voltooiing registratie</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMST">
-                        <item>Herkomst</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-DEFINITIE">
-                        <item>Definitie</item>
-                        <item>De datum en het tijdstip waarop alle gegevens van het object in de registratie ondergrond zijn opgenomen en er geen nieuwe gegevens meer ter registratie kunnen worden aangeboden.</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
-                        <item>Herkomst definitie</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-TOELICHTING">
-                        <item>Toelichting</item>
-                        <item>Het gegeven is alleen aanwezig als alle aan te leveren gegevens zijn geregistreerd. Na dit tijdstip kunnen geen nieuwe gegevens meer ter registratie worden aangeboden. Wel kunnen fouten in de registratie worden verbeterd.</item>
-                     </part>
-                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
-                        <item>Mogelijk geen waarde</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
-                        <item>Indicatie materiële historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
-                        <item>Indicatie formele historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                        <item>Indicatie kardinaliteit</item>
-                        <item>0 .. 1</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
-                        <item>Indicatie authentiek</item>
-                        <item>Ja</item>
-                     </part>
-                     <part type="CFG-DOC-FORMAAT">
-                        <item>Formaat</item>
-                        <item>DatumTijd</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
-                        <item>Indicatie afleidbaar</item>
-                        <item>Nee</item>
-                     </part>
-                  </content>
-               </section>
-               <section name="gecorrigeerd"
-                        type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_Eplcommon_Registratiegeschiedenis_gecorrigeerd"
-                        id-global="global_attribute_Eplcommon_Registratiegeschiedenis_gecorrigeerd">
-                  <content>
-                     <part type="CFG-DOC-NAAM">
-                        <item>Naam</item>
-                        <item>gecorrigeerd</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMST">
-                        <item>Herkomst</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-DEFINITIE">
-                        <item>Definitie</item>
-                        <item>De aanduiding die aangeeft of er een correctie in de gegevens van het object in de registratie ondergrond heeft plaatsgevonden.</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
-                        <item>Herkomst definitie</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
-                        <item>Mogelijk geen waarde</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
-                        <item>Indicatie materiële historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
-                        <item>Indicatie formele historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                        <item>Indicatie kardinaliteit</item>
-                        <item>1</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
-                        <item>Indicatie authentiek</item>
-                        <item>Ja</item>
-                     </part>
-                     <part type="CFG-DOC-FORMAAT">
-                        <item>Formaat</item>
-                        <item>IndicatieJaNee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
-                        <item>Indicatie afleidbaar</item>
-                        <item>Nee</item>
-                     </part>
-                  </content>
-               </section>
-               <section name="tijdstip laatste correctie"
-                        type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_Eplcommon_Registratiegeschiedenis_tijdstipLaatsteCorrectie"
-                        id-global="global_attribute_Eplcommon_Registratiegeschiedenis_tijdstipLaatsteCorrectie">
-                  <content>
-                     <part type="CFG-DOC-NAAM">
-                        <item>Naam</item>
-                        <item>tijdstip laatste correctie</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMST">
-                        <item>Herkomst</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-DEFINITIE">
-                        <item>Definitie</item>
-                        <item>De datum en het tijdstip waarop de laatste correctie in de gegevens van het object is doorgevoerd.</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
-                        <item>Herkomst definitie</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
-                        <item>Mogelijk geen waarde</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
-                        <item>Indicatie materiële historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
-                        <item>Indicatie formele historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                        <item>Indicatie kardinaliteit</item>
-                        <item>0 .. 1</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
-                        <item>Indicatie authentiek</item>
-                        <item>Ja</item>
-                     </part>
-                     <part type="CFG-DOC-FORMAAT">
-                        <item>Formaat</item>
-                        <item>DatumTijd</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
-                        <item>Indicatie afleidbaar</item>
-                        <item>Nee</item>
-                     </part>
-                  </content>
-               </section>
-               <section name="in onderzoek"
-                        type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_Eplcommon_Registratiegeschiedenis_inOnderzoek"
-                        id-global="global_attribute_Eplcommon_Registratiegeschiedenis_inOnderzoek">
-                  <content>
-                     <part type="CFG-DOC-NAAM">
-                        <item>Naam</item>
-                        <item>in onderzoek</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMST">
-                        <item>Herkomst</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-DEFINITIE">
-                        <item>Definitie</item>
-                        <item>De aanduiding die aangeeft of het object door de registerbeheerder in onderzoek is genomen.</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
-                        <item>Herkomst definitie</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-TOELICHTING">
-                        <item>Toelichting</item>
-                        <item>Wanneer een object in onderzoek is genomen betekent dit dat er bij de registerbeheerder gerede twijfel bestaat over de juistheid van de geregistreerde gegevens en dat er een onderzoek is gestart om vast te stellen wat de juiste gegevens zijn. Normaliter gaat hieraan een melding van derden vooraf.</item>
-                     </part>
-                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
-                        <item>Mogelijk geen waarde</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
-                        <item>Indicatie materiële historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
-                        <item>Indicatie formele historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                        <item>Indicatie kardinaliteit</item>
-                        <item>1</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
-                        <item>Indicatie authentiek</item>
-                        <item>Ja</item>
-                     </part>
-                     <part type="CFG-DOC-FORMAAT">
-                        <item>Formaat</item>
-                        <item>IndicatieJaNee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
-                        <item>Indicatie afleidbaar</item>
-                        <item>Nee</item>
-                     </part>
-                  </content>
-               </section>
-               <section name="in onderzoek sinds"
-                        type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_Eplcommon_Registratiegeschiedenis_inOnderzoekSinds"
-                        id-global="global_attribute_Eplcommon_Registratiegeschiedenis_inOnderzoekSinds">
-                  <content>
-                     <part type="CFG-DOC-NAAM">
-                        <item>Naam</item>
-                        <item>in onderzoek sinds</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMST">
-                        <item>Herkomst</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-DEFINITIE">
-                        <item>Definitie</item>
-                        <item>De datum en het tijdstip waarop de registerbeheerder het object in onderzoek heeft genomen.</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
-                        <item>Herkomst definitie</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
-                        <item>Mogelijk geen waarde</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
-                        <item>Indicatie materiële historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
-                        <item>Indicatie formele historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                        <item>Indicatie kardinaliteit</item>
-                        <item>0 .. 1</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
-                        <item>Indicatie authentiek</item>
-                        <item>Ja</item>
-                     </part>
-                     <part type="CFG-DOC-FORMAAT">
-                        <item>Formaat</item>
-                        <item>DatumTijd</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
-                        <item>Indicatie afleidbaar</item>
-                        <item>Nee</item>
-                     </part>
-                  </content>
-               </section>
-               <section name="uit registratie genomen"
-                        type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_Eplcommon_Registratiegeschiedenis_uitRegistratieGenomen"
-                        id-global="global_attribute_Eplcommon_Registratiegeschiedenis_uitRegistratieGenomen">
-                  <content>
-                     <part type="CFG-DOC-NAAM">
-                        <item>Naam</item>
-                        <item>uit registratie genomen</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMST">
-                        <item>Herkomst</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-DEFINITIE">
-                        <item>Definitie</item>
-                        <item>De aanduiding die aangeeft of de gegevens van het object door de registerbeheerder uit de registratie ondergrond zijn verwijderd.</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
-                        <item>Herkomst definitie</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-TOELICHTING">
-                        <item>Toelichting</item>
-                        <item>Wanneer de registerbeheerder een object uit registratie heeft genomen, zijn de gegevens niet langer beschikbaar voor andere afnemers dan bronhouder en dataleverancier.
-De registerbeheerder zal een object alleen bij hoge uitzondering uit registratie nemen. Aan die beslissing gaat een proces van zorgvuldige afweging vooraf en dat komt tot uitdrukking in de regel dat een object slechts een keer uit registratie kan worden genomen.</item>
-                     </part>
-                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
-                        <item>Mogelijk geen waarde</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
-                        <item>Indicatie materiële historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
-                        <item>Indicatie formele historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                        <item>Indicatie kardinaliteit</item>
-                        <item>1</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
-                        <item>Indicatie authentiek</item>
-                        <item>Ja</item>
-                     </part>
-                     <part type="CFG-DOC-FORMAAT">
-                        <item>Formaat</item>
-                        <item>IndicatieJaNee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
-                        <item>Indicatie afleidbaar</item>
-                        <item>Nee</item>
-                     </part>
-                  </content>
-               </section>
-               <section name="tijdstip uit registratie genomen"
-                        type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_Eplcommon_Registratiegeschiedenis_tijdstipUitRegistratieGenomen"
-                        id-global="global_attribute_Eplcommon_Registratiegeschiedenis_tijdstipUitRegistratieGenomen">
-                  <content>
-                     <part type="CFG-DOC-NAAM">
-                        <item>Naam</item>
-                        <item>tijdstip uit registratie genomen</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMST">
-                        <item>Herkomst</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-DEFINITIE">
-                        <item>Definitie</item>
-                        <item>De datum en het tijdstip waarop het object uit de registratie ondergrond is verwijderd.</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
-                        <item>Herkomst definitie</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
-                        <item>Mogelijk geen waarde</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
-                        <item>Indicatie materiële historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
-                        <item>Indicatie formele historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                        <item>Indicatie kardinaliteit</item>
-                        <item>0 .. 1</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
-                        <item>Indicatie authentiek</item>
-                        <item>Ja</item>
-                     </part>
-                     <part type="CFG-DOC-FORMAAT">
-                        <item>Formaat</item>
-                        <item>DatumTijd</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
-                        <item>Indicatie afleidbaar</item>
-                        <item>Nee</item>
-                     </part>
-                  </content>
-               </section>
-               <section name="weer in registratie genomen"
-                        type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_Eplcommon_Registratiegeschiedenis_weerInRegistratieGenomen"
-                        id-global="global_attribute_Eplcommon_Registratiegeschiedenis_weerInRegistratieGenomen">
-                  <content>
-                     <part type="CFG-DOC-NAAM">
-                        <item>Naam</item>
-                        <item>weer in registratie genomen</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMST">
-                        <item>Herkomst</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-DEFINITIE">
-                        <item>Definitie</item>
-                        <item>De datum en het tijdstip waarop het object in de registratie ondergrond is opgenomen, nadat het eerder uit registratie was genomen.</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
-                        <item>Herkomst definitie</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-TOELICHTING">
-                        <item>Toelichting</item>
-                        <item>De registerbeheerder kan een object eenmalig uit registratie nemen, en die actie kan hij eenmalig ongedaan maken.
-Ook hiervoor geldt dat akkoord van de bronhouder vereist is.</item>
-                     </part>
-                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
-                        <item>Mogelijk geen waarde</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
-                        <item>Indicatie materiële historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
-                        <item>Indicatie formele historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                        <item>Indicatie kardinaliteit</item>
-                        <item>1</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
-                        <item>Indicatie authentiek</item>
-                        <item>Ja</item>
-                     </part>
-                     <part type="CFG-DOC-FORMAAT">
-                        <item>Formaat</item>
-                        <item>IndicatieJaNee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
-                        <item>Indicatie afleidbaar</item>
-                        <item>Nee</item>
-                     </part>
-                  </content>
-               </section>
-               <section name="tijdstip weer in registratie genomen"
-                        type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_Eplcommon_Registratiegeschiedenis_tijdstipWeerInRegistratieGenomen"
-                        id-global="global_attribute_Eplcommon_Registratiegeschiedenis_tijdstipWeerInRegistratieGenomen">
-                  <content>
-                     <part type="CFG-DOC-NAAM">
-                        <item>Naam</item>
-                        <item>tijdstip weer in registratie genomen</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMST">
-                        <item>Herkomst</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-DEFINITIE">
-                        <item>Definitie</item>
-                        <item>De datum en het tijdstip waarop het object in de registratie ondergrond is opgenomen, nadat het uit registratie was genomen.</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
-                        <item>Herkomst definitie</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
-                        <item>Mogelijk geen waarde</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
-                        <item>Indicatie materiële historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
-                        <item>Indicatie formele historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                        <item>Indicatie kardinaliteit</item>
-                        <item>0 .. 1</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
-                        <item>Indicatie authentiek</item>
-                        <item>Ja</item>
-                     </part>
-                     <part type="CFG-DOC-FORMAAT">
-                        <item>Formaat</item>
-                        <item>DatumTijd</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                         <item>Indicatie afleidbaar</item>
