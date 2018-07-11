@@ -1,10 +1,10 @@
 <h2>Catalogus</h2>
 <p class="note" title="Over deze catalogus">
    Deze catalogus is automatisch samengesteld op basis van het UML model 
-   "EPL experiment (SAMPLE1)" door 1.46.0 op July 10, 2018 at 13:52:55.
+   "EPL experiment (SAMPLE1)" door 1.46.0 op July 11, 2018 at 11:12:34.
    <br>
    Wanneer je technische fouten of onvolkomenheden aantreft, geef dit dan door aan <i>arjan@linkedmatter.com</i> en geef de code 
-   <i>"Conceptualmodel-EPLexperimentSAMPLE1-1.2-1-20180710-20180710-155256"</i> door. 
+   <i>"Conceptualmodel-EPLexperimentSAMPLE1-1.2-1-20180710-20180711-131235"</i> door. 
    
 </p><a class="anchor" name="global_package_Brocommon"></a><section id="global_package_Brocommon">
    <h3>Domein brocommon</h3>
@@ -373,6 +373,31 @@
                   <th>Naam</th>
                   <td>Registratieverzoek</td>
                </tr>
+               <tr>
+                  <th>Definitie</th>
+                  <td>Innameverzoek, dat een dataleverancier (ofwel tevens bronhouder danwel in opdracht
+                     van de bronhouder) aanbiedt bij de innameservice van het BRO systeem, waarmee nieuwe
+                     gegevens, die net beschikbaar zijn gekomen, aan de BRO worden overdragen.
+                  </td>
+               </tr>
+               <tr>
+                  <th>Toelichting</th>
+                  <td>Gegevens over een registratieobject zonder levenscyclus worden eenmalig geregistreerd.
+                     Gegevens over een registratieobject met een levenscyclus worden eerst geregistreerd
+                     en vervolgens aangevuld en eventueel uiteindelijke beëindigd.
+                     Met een correctieverzoek kunnen fouten in geregistreerde gegevens in de BRO worden
+                     verbeterd.
+                     Verwijderen, of beter het uit registratie nemen van een object is
+                     een ingrijpende verandering in de registratie ondergrond, en
+                     daartoe kan pas worden besloten na zorgvuldig onderzoek. Het
+                     onderzoek begint bij de registratiebeheerder en uiteindelijk kan
+                     een object alleen na akkoord van de bronhouder uit registratie
+                     genomen worden. Het is bovendien goed om te weten dat de
+                     gegevens niet uit de registratie verwijderd worden. De gegevens
+                     blijven bestaan maar zijn niet langer voor gebruikers
+                     toegankelijk.
+                  </td>
+               </tr>
             </tbody>
          </table>
          
@@ -447,7 +472,9 @@
                      <a class="link" href="#detail_attribute_Brocommon_Registratieverzoek_onderVoorrecht">onder voorrecht</a>
                      
                   </td>
-                  <td></td>
+                  <td>De aanduiding die aangeeft dat de dataleverancier het recht heeft gedurende een bepaalde
+                     tijd putten met voorgeschiedenis aan te leveren.
+                  </td>
                   <td>
                      <a class="link" href="#global_class_Brocommon_IndicatieJaNee">IndicatieJaNee</a>
                      
@@ -2655,6 +2682,18 @@
                   <tr>
                      <th>Naam</th>
                      <td>onder voorrecht</td>
+                  </tr>
+                  <tr>
+                     <th>Definitie</th>
+                     <td>De aanduiding die aangeeft dat de dataleverancier het recht heeft gedurende een bepaalde
+                        tijd putten met voorgeschiedenis aan te leveren.
+                     </td>
+                  </tr>
+                  <tr>
+                     <th>Toelichting</th>
+                     <td>Onder dit voorrecht mag een brondocument binnen bepaalde restricties een datum voor
+                        gebeurtenissen bevatten met een waarde uit het domein OnvolledigeDatum.
+                     </td>
                   </tr>
                   <tr>
                      <th>Mogelijk geen waarde</th>
@@ -13731,7 +13770,7 @@
                      <a class="link" href="#detail_attribute_IseplMessages_EPLAanpassingIngang_naamGebeurtenis">naam gebeurtenis</a>
                      
                   </td>
-                  <td></td>
+                  <td>De benaming van de gebeurtenis.</td>
                   <td>
                      <a class="link" href="#global_class_Eplcommon_NaamGebeurtenis">NaamGebeurtenis</a>
                      
@@ -13767,7 +13806,9 @@
                      <a class="link" href="#detail_attribute_IseplMessages_EPLAanpassingIngang_redenVervolgbesluit">reden vervolgbesluit</a>
                      
                   </td>
-                  <td></td>
+                  <td>De reden waarom de minister besloten heeft een besluit te nemen dat volgt op het besluit
+                     waarmee het proces van verlening is gestart.
+                  </td>
                   <td>
                      <a class="link" href="#global_class_Eplcommon_RedenVervolgbesluit">RedenVervolgbesluit</a>
                      
@@ -13856,7 +13897,7 @@
                      <a class="link" href="#detail_attribute_IseplMessages_EPLBekendmakingVergunning_naamGebeurtenis">naam gebeurtenis</a>
                      
                   </td>
-                  <td></td>
+                  <td>De benaming van de gebeurtenis.</td>
                   <td>
                      <a class="link" href="#global_class_Eplcommon_NaamGebeurtenis">NaamGebeurtenis</a>
                      
@@ -13955,7 +13996,7 @@
                      <a class="link" href="#detail_attribute_IseplMessages_EPLIngangVergunning_naamGebeurtenis">naam gebeurtenis</a>
                      
                   </td>
-                  <td></td>
+                  <td>De benaming van de gebeurtenis.</td>
                   <td>
                      <a class="link" href="#global_class_Eplcommon_NaamGebeurtenis">NaamGebeurtenis</a>
                      
@@ -14054,7 +14095,7 @@
                      <a class="link" href="#detail_attribute_IseplMessages_EPLMededeling_naamGebeurtenis">naam gebeurtenis</a>
                      
                   </td>
-                  <td></td>
+                  <td>De benaming van de gebeurtenis.</td>
                   <td>
                      <a class="link" href="#global_class_Eplcommon_NaamGebeurtenis">NaamGebeurtenis</a>
                      
@@ -14111,7 +14152,7 @@
                      <a class="link" href="#detail_attribute_IseplMessages_EPLStartWeigering_naamGebeurtenis">naam gebeurtenis</a>
                      
                   </td>
-                  <td></td>
+                  <td>De benaming van de gebeurtenis.</td>
                   <td>
                      <a class="link" href="#global_class_Eplcommon_NaamGebeurtenis">NaamGebeurtenis</a>
                      
@@ -14147,7 +14188,9 @@
                      <a class="link" href="#detail_attribute_IseplMessages_EPLStartWeigering_redenVervolgbesluit">reden vervolgbesluit</a>
                      
                   </td>
-                  <td></td>
+                  <td>De reden waarom de minister besloten heeft een besluit te nemen dat volgt op het besluit
+                     waarmee het proces van verlening is gestart.
+                  </td>
                   <td>
                      <a class="link" href="#global_class_Eplcommon_RedenVervolgbesluit">RedenVervolgbesluit</a>
                      
@@ -14192,7 +14235,7 @@
                      <a class="link" href="#detail_attribute_IseplMessages_EPLVervolgVerlening_naamGebeurtenis">naam gebeurtenis</a>
                      
                   </td>
-                  <td></td>
+                  <td>De benaming van de gebeurtenis.</td>
                   <td>
                      <a class="link" href="#global_class_Eplcommon_NaamGebeurtenis">NaamGebeurtenis</a>
                      
@@ -14228,7 +14271,9 @@
                      <a class="link" href="#detail_attribute_IseplMessages_EPLVervolgVerlening_redenVervolgbesluit">reden vervolgbesluit</a>
                      
                   </td>
-                  <td></td>
+                  <td>De reden waarom de minister besloten heeft een besluit te nemen dat volgt op het besluit
+                     waarmee het proces van verlening is gestart.
+                  </td>
                   <td>
                      <a class="link" href="#global_class_Eplcommon_RedenVervolgbesluit">RedenVervolgbesluit</a>
                      
@@ -15036,7 +15081,10 @@
                      
                      
                   </td>
-                  <td></td>
+                  <td>Innameverzoek, dat een dataleverancier (ofwel tevens bronhouder danwel in opdracht
+                     van de bronhouder) aanbiedt bij de innameservice van het BRO systeem, waarmee nieuwe
+                     gegevens, die net beschikbaar zijn gekomen, aan de BRO worden overdragen.
+                  </td>
                </tr>
                <tr>
                   <td>
@@ -15800,6 +15848,10 @@
                      <td>naam gebeurtenis</td>
                   </tr>
                   <tr>
+                     <th>Definitie</th>
+                     <td>De benaming van de gebeurtenis.</td>
+                  </tr>
+                  <tr>
                      <th>Mogelijk geen waarde</th>
                      <td>Nee</td>
                   </tr>
@@ -15928,6 +15980,12 @@
                      <td>reden vervolgbesluit</td>
                   </tr>
                   <tr>
+                     <th>Definitie</th>
+                     <td>De reden waarom de minister besloten heeft een besluit te nemen dat volgt op het besluit
+                        waarmee het proces van verlening is gestart.
+                     </td>
+                  </tr>
+                  <tr>
                      <th>Mogelijk geen waarde</th>
                      <td>Nee</td>
                   </tr>
@@ -16048,6 +16106,10 @@
                   <tr>
                      <th>Naam</th>
                      <td>naam gebeurtenis</td>
+                  </tr>
+                  <tr>
+                     <th>Definitie</th>
+                     <td>De benaming van de gebeurtenis.</td>
                   </tr>
                   <tr>
                      <th>Mogelijk geen waarde</th>
@@ -16214,6 +16276,10 @@
                      <td>naam gebeurtenis</td>
                   </tr>
                   <tr>
+                     <th>Definitie</th>
+                     <td>De benaming van de gebeurtenis.</td>
+                  </tr>
+                  <tr>
                      <th>Mogelijk geen waarde</th>
                      <td>Nee</td>
                   </tr>
@@ -16378,6 +16444,10 @@
                      <td>naam gebeurtenis</td>
                   </tr>
                   <tr>
+                     <th>Definitie</th>
+                     <td>De benaming van de gebeurtenis.</td>
+                  </tr>
+                  <tr>
                      <th>Mogelijk geen waarde</th>
                      <td>Nee</td>
                   </tr>
@@ -16464,6 +16534,10 @@
                   <tr>
                      <th>Naam</th>
                      <td>naam gebeurtenis</td>
+                  </tr>
+                  <tr>
+                     <th>Definitie</th>
+                     <td>De benaming van de gebeurtenis.</td>
                   </tr>
                   <tr>
                      <th>Mogelijk geen waarde</th>
@@ -16594,6 +16668,12 @@
                      <td>reden vervolgbesluit</td>
                   </tr>
                   <tr>
+                     <th>Definitie</th>
+                     <td>De reden waarom de minister besloten heeft een besluit te nemen dat volgt op het besluit
+                        waarmee het proces van verlening is gestart.
+                     </td>
+                  </tr>
+                  <tr>
                      <th>Mogelijk geen waarde</th>
                      <td>Nee</td>
                   </tr>
@@ -16636,6 +16716,10 @@
                   <tr>
                      <th>Naam</th>
                      <td>naam gebeurtenis</td>
+                  </tr>
+                  <tr>
+                     <th>Definitie</th>
+                     <td>De benaming van de gebeurtenis.</td>
                   </tr>
                   <tr>
                      <th>Mogelijk geen waarde</th>
@@ -16764,6 +16848,12 @@
                   <tr>
                      <th>Naam</th>
                      <td>reden vervolgbesluit</td>
+                  </tr>
+                  <tr>
+                     <th>Definitie</th>
+                     <td>De reden waarom de minister besloten heeft een besluit te nemen dat volgt op het besluit
+                        waarmee het proces van verlening is gestart.
+                     </td>
                   </tr>
                   <tr>
                      <th>Mogelijk geen waarde</th>

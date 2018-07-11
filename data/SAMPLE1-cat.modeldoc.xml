@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_491FA2C0_2621_4d18_B9BA_D66964A4BFBD"
       generator-version="1.46.0"
-      generator-date="2018-07-10T13:52:55Z">
+      generator-date="2018-07-11T11:12:34Z">
    <section type="DOMAIN" name="brocommon" id="global_package_Brocommon">
       <section type="IMAGEMAPS"
                name="brocommon-imagemap"
@@ -289,6 +289,24 @@
                   <item>Naam</item>
                   <item>Registratieverzoek</item>
                </part>
+               <part type="CFG-DOC-DEFINITIE">
+                  <item>Definitie</item>
+                  <item>Innameverzoek, dat een dataleverancier (ofwel tevens bronhouder danwel in opdracht van de bronhouder) aanbiedt bij de innameservice van het BRO systeem, waarmee nieuwe gegevens, die net beschikbaar zijn gekomen, aan de BRO worden overdragen.</item>
+               </part>
+               <part type="CFG-DOC-TOELICHTING">
+                  <item>Toelichting</item>
+                  <item>Gegevens over een registratieobject zonder levenscyclus worden eenmalig geregistreerd. Gegevens over een registratieobject met een levenscyclus worden eerst geregistreerd en vervolgens aangevuld en eventueel uiteindelijke beëindigd.
+Met een correctieverzoek kunnen fouten in geregistreerde gegevens in de BRO worden verbeterd.
+Verwijderen, of beter het uit registratie nemen van een object is
+een ingrijpende verandering in de registratie ondergrond, en
+daartoe kan pas worden besloten na zorgvuldig onderzoek. Het
+onderzoek begint bij de registratiebeheerder en uiteindelijk kan
+een object alleen na akkoord van de bronhouder uit registratie
+genomen worden. Het is bovendien goed om te weten dat de
+gegevens niet uit de registratie verwijderd worden. De gegevens
+blijven bestaan maar zijn niet langer voor gebruikers
+toegankelijk.</item>
+               </part>
             </content>
             <section type="SHORT-ATTRIBUTES">
                <content>
@@ -346,7 +364,7 @@
                         <item type="detail"
                               idref="detail_attribute_Brocommon_Registratieverzoek_onderVoorrecht">onder voorrecht</item>
                      </item>
-                     <item/>
+                     <item>De aanduiding die aangeeft dat de dataleverancier het recht heeft gedurende een bepaalde tijd putten met voorgeschiedenis aan te leveren.</item>
                      <item>
                         <item type="global" idref="global_class_Brocommon_IndicatieJaNee">IndicatieJaNee</item>
                      </item>
@@ -2058,6 +2076,14 @@ Ook hiervoor geldt dat akkoord van de bronhouder vereist is.</item>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
                         <item>onder voorrecht</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>De aanduiding die aangeeft dat de dataleverancier het recht heeft gedurende een bepaalde tijd putten met voorgeschiedenis aan te leveren.</item>
+                     </part>
+                     <part type="CFG-DOC-TOELICHTING">
+                        <item>Toelichting</item>
+                        <item>Onder dit voorrecht mag een brondocument binnen bepaalde restricties een datum voor gebeurtenissen bevatten met een waarde uit het domein OnvolledigeDatum.</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -11666,7 +11692,7 @@ De opbouw per element is variabel en daarom is het Europees Handelsnummer in de 
                         <item type="detail"
                               idref="detail_attribute_IseplMessages_EPLAanpassingIngang_naamGebeurtenis">naam gebeurtenis</item>
                      </item>
-                     <item/>
+                     <item>De benaming van de gebeurtenis.</item>
                      <item>
                         <item type="global" idref="global_class_Eplcommon_NaamGebeurtenis">NaamGebeurtenis</item>
                      </item>
@@ -11699,7 +11725,7 @@ De opbouw per element is variabel en daarom is het Europees Handelsnummer in de 
                         <item type="detail"
                               idref="detail_attribute_IseplMessages_EPLAanpassingIngang_redenVervolgbesluit">reden vervolgbesluit</item>
                      </item>
-                     <item/>
+                     <item>De reden waarom de minister besloten heeft een besluit te nemen dat volgt op het besluit waarmee het proces van verlening is gestart.</item>
                      <item>
                         <item type="global" idref="global_class_Eplcommon_RedenVervolgbesluit">RedenVervolgbesluit</item>
                      </item>
@@ -11783,7 +11809,7 @@ De opbouw per element is variabel en daarom is het Europees Handelsnummer in de 
                         <item type="detail"
                               idref="detail_attribute_IseplMessages_EPLBekendmakingVergunning_naamGebeurtenis">naam gebeurtenis</item>
                      </item>
-                     <item/>
+                     <item>De benaming van de gebeurtenis.</item>
                      <item>
                         <item type="global" idref="global_class_Eplcommon_NaamGebeurtenis">NaamGebeurtenis</item>
                      </item>
@@ -11878,7 +11904,7 @@ De opbouw per element is variabel en daarom is het Europees Handelsnummer in de 
                         <item type="detail"
                               idref="detail_attribute_IseplMessages_EPLIngangVergunning_naamGebeurtenis">naam gebeurtenis</item>
                      </item>
-                     <item/>
+                     <item>De benaming van de gebeurtenis.</item>
                      <item>
                         <item type="global" idref="global_class_Eplcommon_NaamGebeurtenis">NaamGebeurtenis</item>
                      </item>
@@ -11973,7 +11999,7 @@ De opbouw per element is variabel en daarom is het Europees Handelsnummer in de 
                         <item type="detail"
                               idref="detail_attribute_IseplMessages_EPLMededeling_naamGebeurtenis">naam gebeurtenis</item>
                      </item>
-                     <item/>
+                     <item>De benaming van de gebeurtenis.</item>
                      <item>
                         <item type="global" idref="global_class_Eplcommon_NaamGebeurtenis">NaamGebeurtenis</item>
                      </item>
@@ -12015,7 +12041,7 @@ De opbouw per element is variabel en daarom is het Europees Handelsnummer in de 
                         <item type="detail"
                               idref="detail_attribute_IseplMessages_EPLStartWeigering_naamGebeurtenis">naam gebeurtenis</item>
                      </item>
-                     <item/>
+                     <item>De benaming van de gebeurtenis.</item>
                      <item>
                         <item type="global" idref="global_class_Eplcommon_NaamGebeurtenis">NaamGebeurtenis</item>
                      </item>
@@ -12048,7 +12074,7 @@ De opbouw per element is variabel en daarom is het Europees Handelsnummer in de 
                         <item type="detail"
                               idref="detail_attribute_IseplMessages_EPLStartWeigering_redenVervolgbesluit">reden vervolgbesluit</item>
                      </item>
-                     <item/>
+                     <item>De reden waarom de minister besloten heeft een besluit te nemen dat volgt op het besluit waarmee het proces van verlening is gestart.</item>
                      <item>
                         <item type="global" idref="global_class_Eplcommon_RedenVervolgbesluit">RedenVervolgbesluit</item>
                      </item>
@@ -12079,7 +12105,7 @@ De opbouw per element is variabel en daarom is het Europees Handelsnummer in de 
                         <item type="detail"
                               idref="detail_attribute_IseplMessages_EPLVervolgVerlening_naamGebeurtenis">naam gebeurtenis</item>
                      </item>
-                     <item/>
+                     <item>De benaming van de gebeurtenis.</item>
                      <item>
                         <item type="global" idref="global_class_Eplcommon_NaamGebeurtenis">NaamGebeurtenis</item>
                      </item>
@@ -12112,7 +12138,7 @@ De opbouw per element is variabel en daarom is het Europees Handelsnummer in de 
                         <item type="detail"
                               idref="detail_attribute_IseplMessages_EPLVervolgVerlening_redenVervolgbesluit">reden vervolgbesluit</item>
                      </item>
-                     <item/>
+                     <item>De reden waarom de minister besloten heeft een besluit te nemen dat volgt op het besluit waarmee het proces van verlening is gestart.</item>
                      <item>
                         <item type="global" idref="global_class_Eplcommon_RedenVervolgbesluit">RedenVervolgbesluit</item>
                      </item>
@@ -12984,7 +13010,7 @@ De opbouw per element is variabel en daarom is het Europees Handelsnummer in de 
                            <item type="global" idref="global_class_Brocommon_Registratieverzoek">Registratieverzoek</item>
                         </item>
                      </item>
-                     <item/>
+                     <item>Innameverzoek, dat een dataleverancier (ofwel tevens bronhouder danwel in opdracht van de bronhouder) aanbiedt bij de innameservice van het BRO systeem, waarmee nieuwe gegevens, die net beschikbaar zijn gekomen, aan de BRO worden overdragen.</item>
                   </part>
                   <part>
                      <item>
@@ -13014,7 +13040,7 @@ De opbouw per element is variabel en daarom is het Europees Handelsnummer in de 
                            <item type="global" idref="global_class_Brocommon_Registratieverzoek">Registratieverzoek</item>
                         </item>
                      </item>
-                     <item/>
+                     <item>Innameverzoek, dat een dataleverancier (ofwel tevens bronhouder danwel in opdracht van de bronhouder) aanbiedt bij de innameservice van het BRO systeem, waarmee nieuwe gegevens, die net beschikbaar zijn gekomen, aan de BRO worden overdragen.</item>
                   </part>
                   <part>
                      <item>
@@ -13665,6 +13691,10 @@ De datum mag in de toekomst liggen.</item>
                         <item>Naam</item>
                         <item>naam gebeurtenis</item>
                      </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>De benaming van de gebeurtenis.</item>
+                     </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
                         <item>Nee</item>
@@ -13777,6 +13807,10 @@ De datum mag in de toekomst liggen.</item>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
                         <item>reden vervolgbesluit</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>De reden waarom de minister besloten heeft een besluit te nemen dat volgt op het besluit waarmee het proces van verlening is gestart.</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -13897,6 +13931,10 @@ De datum mag in de toekomst liggen.</item>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
                         <item>naam gebeurtenis</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>De benaming van de gebeurtenis.</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -14057,6 +14095,10 @@ De datum mag in de toekomst liggen.</item>
                         <item>Naam</item>
                         <item>naam gebeurtenis</item>
                      </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>De benaming van de gebeurtenis.</item>
+                     </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
                         <item>Nee</item>
@@ -14216,6 +14258,10 @@ De datum mag in de toekomst liggen.</item>
                         <item>Naam</item>
                         <item>naam gebeurtenis</item>
                      </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>De benaming van de gebeurtenis.</item>
+                     </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
                         <item>Nee</item>
@@ -14294,6 +14340,10 @@ De datum mag in de toekomst liggen.</item>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
                         <item>naam gebeurtenis</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>De benaming van de gebeurtenis.</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -14408,6 +14458,10 @@ De datum mag in de toekomst liggen.</item>
                         <item>Naam</item>
                         <item>reden vervolgbesluit</item>
                      </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>De reden waarom de minister besloten heeft een besluit te nemen dat volgt op het besluit waarmee het proces van verlening is gestart.</item>
+                     </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
                         <item>Nee</item>
@@ -14447,6 +14501,10 @@ De datum mag in de toekomst liggen.</item>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
                         <item>naam gebeurtenis</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>De benaming van de gebeurtenis.</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -14560,6 +14618,10 @@ De datum mag in de toekomst liggen.</item>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
                         <item>reden vervolgbesluit</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>De reden waarom de minister besloten heeft een besluit te nemen dat volgt op het besluit waarmee het proces van verlening is gestart.</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
