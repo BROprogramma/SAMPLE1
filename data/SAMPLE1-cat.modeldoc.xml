@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_491FA2C0_2621_4d18_B9BA_D66964A4BFBD"
       generator-version="1.46.0"
-      generator-date="2018-07-11T11:12:34Z">
+      generator-date="2018-07-12T09:45:31Z">
    <section type="DOMAIN" name="brocommon" id="global_package_Brocommon">
       <section type="IMAGEMAPS"
                name="brocommon-imagemap"
@@ -289,9 +289,17 @@
                   <item>Naam</item>
                   <item>Registratieverzoek</item>
                </part>
+               <part type="CFG-DOC-HERKOMST">
+                  <item>Herkomst</item>
+                  <item>BRO</item>
+               </part>
                <part type="CFG-DOC-DEFINITIE">
                   <item>Definitie</item>
                   <item>Innameverzoek, dat een dataleverancier (ofwel tevens bronhouder danwel in opdracht van de bronhouder) aanbiedt bij de innameservice van het BRO systeem, waarmee nieuwe gegevens, die net beschikbaar zijn gekomen, aan de BRO worden overdragen.</item>
+               </part>
+               <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                  <item>Herkomst definitie</item>
+                  <item>BRO</item>
                </part>
                <part type="CFG-DOC-TOELICHTING">
                   <item>Toelichting</item>
@@ -1921,9 +1929,17 @@ Ook hiervoor geldt dat akkoord van de bronhouder vereist is.</item>
                         <item>Naam</item>
                         <item>verzoekkenmerk</item>
                      </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
                         <item>Een kenmerk dat de dataleverancier meegeeft om het innameverzoek voor eigen doeleinden te kunnen identificeren.</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -1960,9 +1976,17 @@ Ook hiervoor geldt dat akkoord van de bronhouder vereist is.</item>
                         <item>Naam</item>
                         <item>bronhouder</item>
                      </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
                         <item>De identificatie die het bestuursorgaan dat bronhouder is van de gegevens in de basisregistratie ondergrond als onderneming in het Handelsregister heeft.</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -1999,9 +2023,17 @@ Ook hiervoor geldt dat akkoord van de bronhouder vereist is.</item>
                         <item>Naam</item>
                         <item>BRO-ID</item>
                      </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
                         <item>Unieke aanduiding van een registratieobject in de basisregistratie ondergrond.</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -2038,9 +2070,17 @@ Ook hiervoor geldt dat akkoord van de bronhouder vereist is.</item>
                         <item>Naam</item>
                         <item>kwaliteitsregime</item>
                      </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
                         <item>De aanduiding van de kwaliteitseis waaraan de gegevens van het object voldoen.</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -2077,9 +2117,17 @@ Ook hiervoor geldt dat akkoord van de bronhouder vereist is.</item>
                         <item>Naam</item>
                         <item>onder voorrecht</item>
                      </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
                         <item>De aanduiding die aangeeft dat de dataleverancier het recht heeft gedurende een bepaalde tijd putten met voorgeschiedenis aan te leveren.</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
                      </part>
                      <part type="CFG-DOC-TOELICHTING">
                         <item>Toelichting</item>
@@ -11611,9 +11659,17 @@ De opbouw per element is variabel en daarom is het Europees Handelsnummer in de 
                   <item>Herkomst</item>
                   <item>BRO</item>
                </part>
+               <part type="CFG-DOC-DEFINITIE">
+                  <item>Definitie</item>
+                  <item>De gegevens over een mijnbouwwetvergunning waarvan de waarde wordt vastgesteld als de minister heeft besloten de ingangsdatum van de verleende vergunning aan te passen.</item>
+               </part>
                <part type="CFG-DOC-HERKOMSTDEFINITIE">
                   <item>Herkomst definitie</item>
                   <item>BRO</item>
+               </part>
+               <part type="CFG-DOC-TOELICHTING">
+                  <item>Toelichting</item>
+                  <item>De gegevens in deze entiteit worden vastgelegd in de gelijknamige attributen in de entiteit Mijnbouwwetvergunning in de registratie ondergrond.</item>
                </part>
             </content>
             <section type="SHORT-ATTRIBUTES">
@@ -11678,6 +11734,18 @@ De opbouw per element is variabel en daarom is het Europees Handelsnummer in de 
                <part type="CFG-DOC-NAAM">
                   <item>Naam</item>
                   <item>EPL-AanpassingIngang</item>
+               </part>
+               <part type="CFG-DOC-HERKOMST">
+                  <item>Herkomst</item>
+                  <item>BRO</item>
+               </part>
+               <part type="CFG-DOC-DEFINITIE">
+                  <item>Definitie</item>
+                  <item>De gegevens die onderwerp zijn van een innameverzoek en die de dataleverancier van een bepaald object overdraagt aan de basisregistratie ondergrond.</item>
+               </part>
+               <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                  <item>Herkomst definitie</item>
+                  <item>BRO</item>
                </part>
             </content>
             <section type="SHORT-ATTRIBUTES">
@@ -11785,6 +11853,18 @@ De opbouw per element is variabel en daarom is het Europees Handelsnummer in de 
                   <item>Naam</item>
                   <item>EPL-BekendmakingVergunning</item>
                </part>
+               <part type="CFG-DOC-HERKOMST">
+                  <item>Herkomst</item>
+                  <item>BRO</item>
+               </part>
+               <part type="CFG-DOC-DEFINITIE">
+                  <item>Definitie</item>
+                  <item>De gegevens die onderwerp zijn van een innameverzoek en die de dataleverancier van een bepaald object overdraagt aan de basisregistratie ondergrond.</item>
+               </part>
+               <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                  <item>Herkomst definitie</item>
+                  <item>BRO</item>
+               </part>
             </content>
             <section type="SHORT-ATTRIBUTES">
                <content>
@@ -11891,6 +11971,18 @@ De opbouw per element is variabel en daarom is het Europees Handelsnummer in de 
                   <item>Naam</item>
                   <item>EPL-IngangVergunning</item>
                </part>
+               <part type="CFG-DOC-HERKOMST">
+                  <item>Herkomst</item>
+                  <item>BRO</item>
+               </part>
+               <part type="CFG-DOC-DEFINITIE">
+                  <item>Definitie</item>
+                  <item>De gegevens die onderwerp zijn van een innameverzoek en die de dataleverancier van een bepaald object overdraagt aan de basisregistratie ondergrond.</item>
+               </part>
+               <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                  <item>Herkomst definitie</item>
+                  <item>BRO</item>
+               </part>
             </content>
             <section type="SHORT-ATTRIBUTES">
                <content>
@@ -11986,6 +12078,18 @@ De opbouw per element is variabel en daarom is het Europees Handelsnummer in de 
                   <item>Naam</item>
                   <item>EPL-Mededeling</item>
                </part>
+               <part type="CFG-DOC-HERKOMST">
+                  <item>Herkomst</item>
+                  <item>BRO</item>
+               </part>
+               <part type="CFG-DOC-DEFINITIE">
+                  <item>Definitie</item>
+                  <item>De gegevens die onderwerp zijn van een innameverzoek en die de dataleverancier van een bepaald object overdraagt aan de basisregistratie ondergrond.</item>
+               </part>
+               <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                  <item>Herkomst definitie</item>
+                  <item>BRO</item>
+               </part>
             </content>
             <section type="SHORT-ATTRIBUTES">
                <content>
@@ -12027,6 +12131,18 @@ De opbouw per element is variabel en daarom is het Europees Handelsnummer in de 
                <part type="CFG-DOC-NAAM">
                   <item>Naam</item>
                   <item>EPL-StartWeigering</item>
+               </part>
+               <part type="CFG-DOC-HERKOMST">
+                  <item>Herkomst</item>
+                  <item>BRO</item>
+               </part>
+               <part type="CFG-DOC-DEFINITIE">
+                  <item>Definitie</item>
+                  <item>De gegevens die onderwerp zijn van een innameverzoek en die de dataleverancier van een bepaald object overdraagt aan de basisregistratie ondergrond.</item>
+               </part>
+               <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                  <item>Herkomst definitie</item>
+                  <item>BRO</item>
                </part>
             </content>
             <section type="SHORT-ATTRIBUTES">
@@ -12091,6 +12207,18 @@ De opbouw per element is variabel en daarom is het Europees Handelsnummer in de 
                <part type="CFG-DOC-NAAM">
                   <item>Naam</item>
                   <item>EPL-VervolgVerlening</item>
+               </part>
+               <part type="CFG-DOC-HERKOMST">
+                  <item>Herkomst</item>
+                  <item>BRO</item>
+               </part>
+               <part type="CFG-DOC-DEFINITIE">
+                  <item>Definitie</item>
+                  <item>De gegevens die onderwerp zijn van een innameverzoek en die de dataleverancier van een bepaald object overdraagt aan de basisregistratie ondergrond.</item>
+               </part>
+               <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                  <item>Herkomst definitie</item>
+                  <item>BRO</item>
                </part>
             </content>
             <section type="SHORT-ATTRIBUTES">
@@ -12229,7 +12357,8 @@ De opbouw per element is variabel en daarom is het Europees Handelsnummer in de 
                         <item type="detail"
                               idref="detail_attribute_IseplMessages_Mijnbouwwetvergunning_objectIDBronhouder">object-ID bronhouder</item>
                      </item>
-                     <item/>
+                     <item>De identificatie die door of voor de bronhouder is gebruikt om
+het object in de eigen administratie te kunnen vinden voordat het was geregistreerd in de basisregistratie ondergrond.</item>
                      <item>
                         <item type="global" idref="global_class_Brocommon_Tekst200">Tekst200</item>
                      </item>
@@ -12996,6 +13125,18 @@ De opbouw per element is variabel en daarom is het Europees Handelsnummer in de 
                   <item>Naam</item>
                   <item>Registratieverzoek EPL</item>
                </part>
+               <part type="CFG-DOC-HERKOMST">
+                  <item>Herkomst</item>
+                  <item>BRO</item>
+               </part>
+               <part type="CFG-DOC-DEFINITIE">
+                  <item>Definitie</item>
+                  <item>Specialisatie van het generieke Innameverzoek zoals gedefinieerd in BroCommon. Dit object voegt aan het generieke Innameverzoek een brondocument toe dat specifiek is gedefinieerd binnen de context van het registratieobject Mijnbouwwetvergunningen.</item>
+               </part>
+               <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                  <item>Herkomst definitie</item>
+                  <item>BRO</item>
+               </part>
             </content>
             <section type="SHORT-ASSOCIATIONS">
                <content approach="association">
@@ -13025,7 +13166,7 @@ De opbouw per element is variabel en daarom is het Europees Handelsnummer in de 
                         </item>
                         <item>[ 1 ]</item>
                      </item>
-                     <item/>
+                     <item>Brondocument, uit de keuzelijst met EPL specifieke brondocumenten, als onderdeel van een innameverzoek.</item>
                   </part>
                </content>
                <content approach="target">
@@ -13069,9 +13210,17 @@ De opbouw per element is variabel en daarom is het Europees Handelsnummer in de 
                   <item>Naam</item>
                   <item>Vastgestelde ingang</item>
                </part>
+               <part type="CFG-DOC-HERKOMST">
+                  <item>Herkomst</item>
+                  <item>BRO</item>
+               </part>
                <part type="CFG-DOC-DEFINITIE">
                   <item>Definitie</item>
                   <item>Het deel van de ondergrond van het gebied waarop het recht betrekking heeft.</item>
+               </part>
+               <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                  <item>Herkomst definitie</item>
+                  <item>BRO</item>
                </part>
             </content>
             <section type="SHORT-ATTRIBUTES">
@@ -13360,6 +13509,14 @@ De opbouw per element is variabel en daarom is het Europees Handelsnummer in de 
                <part type="CFG-DOC-NAAM">
                   <item>Naam</item>
                   <item>Brondocument</item>
+               </part>
+               <part type="CFG-DOC-HERKOMST">
+                  <item>Herkomst</item>
+                  <item>BRO</item>
+               </part>
+               <part type="CFG-DOC-DEFINITIE">
+                  <item>Definitie</item>
+                  <item>De lijst met mogelijke brondocumenten, waarvan een registratieverzoek er één kan bevatten.</item>
                </part>
             </content>
             <section type="SHORT-UNIONELEMENTS">
@@ -13691,9 +13848,17 @@ De datum mag in de toekomst liggen.</item>
                         <item>Naam</item>
                         <item>naam gebeurtenis</item>
                      </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
                         <item>De benaming van de gebeurtenis.</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -13730,9 +13895,17 @@ De datum mag in de toekomst liggen.</item>
                         <item>Naam</item>
                         <item>datum gebeurtenis</item>
                      </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
                         <item>De datum waarop de gebeurtenis heeft plaatsgevonden.</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -13769,9 +13942,17 @@ De datum mag in de toekomst liggen.</item>
                         <item>Naam</item>
                         <item>besluitnummer</item>
                      </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
                         <item>De identificatie van het document waarin een besluit is vastgelegd.</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -13808,9 +13989,17 @@ De datum mag in de toekomst liggen.</item>
                         <item>Naam</item>
                         <item>reden vervolgbesluit</item>
                      </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
                         <item>De reden waarom de minister besloten heeft een besluit te nemen dat volgt op het besluit waarmee het proces van verlening is gestart.</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -13893,9 +14082,17 @@ De datum mag in de toekomst liggen.</item>
                         <item>Naam</item>
                         <item>aanvraagdatum</item>
                      </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
                         <item>De ontvangstdatum van de laatste aanvulling die nodig is om de aanvraag compleet te maken.</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -13932,9 +14129,17 @@ De datum mag in de toekomst liggen.</item>
                         <item>Naam</item>
                         <item>naam gebeurtenis</item>
                      </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
                         <item>De benaming van de gebeurtenis.</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -13971,9 +14176,17 @@ De datum mag in de toekomst liggen.</item>
                         <item>Naam</item>
                         <item>datum gebeurtenis</item>
                      </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
                         <item>De datum waarop de gebeurtenis heeft plaatsgevonden.</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -14010,9 +14223,17 @@ De datum mag in de toekomst liggen.</item>
                         <item>Naam</item>
                         <item>besluitnummer</item>
                      </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
                         <item>De identificatie van het document waarin een besluit is vastgelegd.</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -14095,9 +14316,17 @@ De datum mag in de toekomst liggen.</item>
                         <item>Naam</item>
                         <item>naam gebeurtenis</item>
                      </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
                         <item>De benaming van de gebeurtenis.</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -14134,9 +14363,17 @@ De datum mag in de toekomst liggen.</item>
                         <item>Naam</item>
                         <item>datum gebeurtenis</item>
                      </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
                         <item>De datum waarop de gebeurtenis heeft plaatsgevonden.</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -14173,9 +14410,17 @@ De datum mag in de toekomst liggen.</item>
                         <item>Naam</item>
                         <item>besluitnummer</item>
                      </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
                         <item>De identificatie van het document waarin een besluit is vastgelegd.</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -14258,9 +14503,17 @@ De datum mag in de toekomst liggen.</item>
                         <item>Naam</item>
                         <item>naam gebeurtenis</item>
                      </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
                         <item>De benaming van de gebeurtenis.</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -14297,9 +14550,17 @@ De datum mag in de toekomst liggen.</item>
                         <item>Naam</item>
                         <item>datum gebeurtenis</item>
                      </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
                         <item>De datum waarop de gebeurtenis heeft plaatsgevonden.</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -14341,9 +14602,17 @@ De datum mag in de toekomst liggen.</item>
                         <item>Naam</item>
                         <item>naam gebeurtenis</item>
                      </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
                         <item>De benaming van de gebeurtenis.</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -14380,9 +14649,17 @@ De datum mag in de toekomst liggen.</item>
                         <item>Naam</item>
                         <item>datum gebeurtenis</item>
                      </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
                         <item>De datum waarop de gebeurtenis heeft plaatsgevonden.</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -14419,9 +14696,17 @@ De datum mag in de toekomst liggen.</item>
                         <item>Naam</item>
                         <item>besluitnummer</item>
                      </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
                         <item>De identificatie van het document waarin een besluit is vastgelegd.</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -14458,9 +14743,17 @@ De datum mag in de toekomst liggen.</item>
                         <item>Naam</item>
                         <item>reden vervolgbesluit</item>
                      </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
                         <item>De reden waarom de minister besloten heeft een besluit te nemen dat volgt op het besluit waarmee het proces van verlening is gestart.</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -14502,9 +14795,17 @@ De datum mag in de toekomst liggen.</item>
                         <item>Naam</item>
                         <item>naam gebeurtenis</item>
                      </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
                         <item>De benaming van de gebeurtenis.</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -14541,9 +14842,17 @@ De datum mag in de toekomst liggen.</item>
                         <item>Naam</item>
                         <item>datum gebeurtenis</item>
                      </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
                         <item>De datum waarop de gebeurtenis heeft plaatsgevonden.</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -14580,9 +14889,17 @@ De datum mag in de toekomst liggen.</item>
                         <item>Naam</item>
                         <item>besluitnummer</item>
                      </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
                         <item>De identificatie van het document waarin een besluit is vastgelegd.</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -14619,9 +14936,17 @@ De datum mag in de toekomst liggen.</item>
                         <item>Naam</item>
                         <item>reden vervolgbesluit</item>
                      </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
                         <item>De reden waarom de minister besloten heeft een besluit te nemen dat volgt op het besluit waarmee het proces van verlening is gestart.</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -14705,6 +15030,19 @@ De datum mag in de toekomst liggen.</item>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
                         <item>object-ID bronhouder</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>De identificatie die door of voor de bronhouder is gebruikt om
+het object in de eigen administratie te kunnen vinden voordat het was geregistreerd in de basisregistratie ondergrond.</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -16827,6 +17165,18 @@ Wanneer de waarde van het attribuut onshore van de entiteit Mijnbouwwetvergunnin
                         <item>Naam</item>
                         <item>brondocument</item>
                      </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>Brondocument, uit de keuzelijst met EPL specifieke brondocumenten, als onderdeel van een innameverzoek.</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
+                     </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
                         <item>Nee</item>
@@ -16881,6 +17231,14 @@ Wanneer de waarde van het attribuut onshore van de entiteit Mijnbouwwetvergunnin
                         <item>Naam</item>
                         <item>ingangsdatum</item>
                      </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
+                     </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
                         <item>Nee</item>
@@ -16915,6 +17273,14 @@ Wanneer de waarde van het attribuut onshore van de entiteit Mijnbouwwetvergunnin
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
                         <item>uiterste boordatum</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -16951,6 +17317,14 @@ Wanneer de waarde van het attribuut onshore van de entiteit Mijnbouwwetvergunnin
                         <item>Naam</item>
                         <item>uiterste terughaaldatum</item>
                      </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
+                     </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
                         <item>Nee</item>
@@ -16985,6 +17359,14 @@ Wanneer de waarde van het attribuut onshore van de entiteit Mijnbouwwetvergunnin
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
                         <item>uiterste injectiedatum</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>

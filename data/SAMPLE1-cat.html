@@ -1,10 +1,10 @@
 <h2>Catalogus</h2>
 <p class="note" title="Over deze catalogus">
    Deze catalogus is automatisch samengesteld op basis van het UML model 
-   "EPL experiment (SAMPLE1)" door 1.46.0 op July 11, 2018 at 11:12:34.
+   "EPL experiment (SAMPLE1)" door 1.46.0 op July 12, 2018 at 09:45:31.
    <br>
    Wanneer je technische fouten of onvolkomenheden aantreft, geef dit dan door aan <i>arjan@linkedmatter.com</i> en geef de code 
-   <i>"Conceptualmodel-EPLexperimentSAMPLE1-1.2-1-20180710-20180711-131235"</i> door. 
+   <i>"Conceptualmodel-EPLexperimentSAMPLE1-1.2-1-20180710-20180712-114532"</i> door. 
    
 </p><a class="anchor" name="global_package_Brocommon"></a><section id="global_package_Brocommon">
    <h3>Domein brocommon</h3>
@@ -374,11 +374,19 @@
                   <td>Registratieverzoek</td>
                </tr>
                <tr>
+                  <th>Herkomst</th>
+                  <td>BRO</td>
+               </tr>
+               <tr>
                   <th>Definitie</th>
                   <td>Innameverzoek, dat een dataleverancier (ofwel tevens bronhouder danwel in opdracht
                      van de bronhouder) aanbiedt bij de innameservice van het BRO systeem, waarmee nieuwe
                      gegevens, die net beschikbaar zijn gekomen, aan de BRO worden overdragen.
                   </td>
+               </tr>
+               <tr>
+                  <th>Herkomst definitie</th>
+                  <td>BRO</td>
                </tr>
                <tr>
                   <th>Toelichting</th>
@@ -2504,10 +2512,18 @@
                      <td>verzoekkenmerk</td>
                   </tr>
                   <tr>
+                     <th>Herkomst</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
                      <th>Definitie</th>
                      <td>Een kenmerk dat de dataleverancier meegeeft om het innameverzoek voor eigen doeleinden
                         te kunnen identificeren.
                      </td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst definitie</th>
+                     <td>BRO</td>
                   </tr>
                   <tr>
                      <th>Mogelijk geen waarde</th>
@@ -2550,10 +2566,18 @@
                      <td>bronhouder</td>
                   </tr>
                   <tr>
+                     <th>Herkomst</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
                      <th>Definitie</th>
                      <td>De identificatie die het bestuursorgaan dat bronhouder is van de gegevens in de basisregistratie
                         ondergrond als onderneming in het Handelsregister heeft.
                      </td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst definitie</th>
+                     <td>BRO</td>
                   </tr>
                   <tr>
                      <th>Mogelijk geen waarde</th>
@@ -2596,8 +2620,16 @@
                      <td>BRO-ID</td>
                   </tr>
                   <tr>
+                     <th>Herkomst</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
                      <th>Definitie</th>
                      <td>Unieke aanduiding van een registratieobject in de basisregistratie ondergrond.</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst definitie</th>
+                     <td>BRO</td>
                   </tr>
                   <tr>
                      <th>Mogelijk geen waarde</th>
@@ -2640,8 +2672,16 @@
                      <td>kwaliteitsregime</td>
                   </tr>
                   <tr>
+                     <th>Herkomst</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
                      <th>Definitie</th>
                      <td>De aanduiding van de kwaliteitseis waaraan de gegevens van het object voldoen.</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst definitie</th>
+                     <td>BRO</td>
                   </tr>
                   <tr>
                      <th>Mogelijk geen waarde</th>
@@ -2684,10 +2724,18 @@
                      <td>onder voorrecht</td>
                   </tr>
                   <tr>
+                     <th>Herkomst</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
                      <th>Definitie</th>
                      <td>De aanduiding die aangeeft dat de dataleverancier het recht heeft gedurende een bepaalde
                         tijd putten met voorgeschiedenis aan te leveren.
                      </td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst definitie</th>
+                     <td>BRO</td>
                   </tr>
                   <tr>
                      <th>Toelichting</th>
@@ -13662,8 +13710,20 @@
                   <td>BRO</td>
                </tr>
                <tr>
+                  <th>Definitie</th>
+                  <td>De gegevens over een mijnbouwwetvergunning waarvan de waarde wordt vastgesteld als
+                     de minister heeft besloten de ingangsdatum van de verleende vergunning aan te passen.
+                  </td>
+               </tr>
+               <tr>
                   <th>Herkomst definitie</th>
                   <td>BRO</td>
+               </tr>
+               <tr>
+                  <th>Toelichting</th>
+                  <td>De gegevens in deze entiteit worden vastgelegd in de gelijknamige attributen in de
+                     entiteit Mijnbouwwetvergunning in de registratie ondergrond.
+                  </td>
                </tr>
             </tbody>
          </table>
@@ -13747,6 +13807,20 @@
                <tr>
                   <th>Naam</th>
                   <td>EPL-AanpassingIngang</td>
+               </tr>
+               <tr>
+                  <th>Herkomst</th>
+                  <td>BRO</td>
+               </tr>
+               <tr>
+                  <th>Definitie</th>
+                  <td>De gegevens die onderwerp zijn van een innameverzoek en die de dataleverancier van
+                     een bepaald object overdraagt aan de basisregistratie ondergrond.
+                  </td>
+               </tr>
+               <tr>
+                  <th>Herkomst definitie</th>
+                  <td>BRO</td>
                </tr>
             </tbody>
          </table>
@@ -13861,6 +13935,20 @@
                   <th>Naam</th>
                   <td>EPL-BekendmakingVergunning</td>
                </tr>
+               <tr>
+                  <th>Herkomst</th>
+                  <td>BRO</td>
+               </tr>
+               <tr>
+                  <th>Definitie</th>
+                  <td>De gegevens die onderwerp zijn van een innameverzoek en die de dataleverancier van
+                     een bepaald object overdraagt aan de basisregistratie ondergrond.
+                  </td>
+               </tr>
+               <tr>
+                  <th>Herkomst definitie</th>
+                  <td>BRO</td>
+               </tr>
             </tbody>
          </table>
          
@@ -13974,6 +14062,20 @@
                   <th>Naam</th>
                   <td>EPL-IngangVergunning</td>
                </tr>
+               <tr>
+                  <th>Herkomst</th>
+                  <td>BRO</td>
+               </tr>
+               <tr>
+                  <th>Definitie</th>
+                  <td>De gegevens die onderwerp zijn van een innameverzoek en die de dataleverancier van
+                     een bepaald object overdraagt aan de basisregistratie ondergrond.
+                  </td>
+               </tr>
+               <tr>
+                  <th>Herkomst definitie</th>
+                  <td>BRO</td>
+               </tr>
             </tbody>
          </table>
          
@@ -14073,6 +14175,20 @@
                   <th>Naam</th>
                   <td>EPL-Mededeling</td>
                </tr>
+               <tr>
+                  <th>Herkomst</th>
+                  <td>BRO</td>
+               </tr>
+               <tr>
+                  <th>Definitie</th>
+                  <td>De gegevens die onderwerp zijn van een innameverzoek en die de dataleverancier van
+                     een bepaald object overdraagt aan de basisregistratie ondergrond.
+                  </td>
+               </tr>
+               <tr>
+                  <th>Herkomst definitie</th>
+                  <td>BRO</td>
+               </tr>
             </tbody>
          </table>
          
@@ -14129,6 +14245,20 @@
                <tr>
                   <th>Naam</th>
                   <td>EPL-StartWeigering</td>
+               </tr>
+               <tr>
+                  <th>Herkomst</th>
+                  <td>BRO</td>
+               </tr>
+               <tr>
+                  <th>Definitie</th>
+                  <td>De gegevens die onderwerp zijn van een innameverzoek en die de dataleverancier van
+                     een bepaald object overdraagt aan de basisregistratie ondergrond.
+                  </td>
+               </tr>
+               <tr>
+                  <th>Herkomst definitie</th>
+                  <td>BRO</td>
                </tr>
             </tbody>
          </table>
@@ -14212,6 +14342,20 @@
                <tr>
                   <th>Naam</th>
                   <td>EPL-VervolgVerlening</td>
+               </tr>
+               <tr>
+                  <th>Herkomst</th>
+                  <td>BRO</td>
+               </tr>
+               <tr>
+                  <th>Definitie</th>
+                  <td>De gegevens die onderwerp zijn van een innameverzoek en die de dataleverancier van
+                     een bepaald object overdraagt aan de basisregistratie ondergrond.
+                  </td>
+               </tr>
+               <tr>
+                  <th>Herkomst definitie</th>
+                  <td>BRO</td>
                </tr>
             </tbody>
          </table>
@@ -14370,7 +14514,10 @@
                      <a class="link" href="#detail_attribute_IseplMessages_Mijnbouwwetvergunning_objectIDBronhouder">object-ID bronhouder</a>
                      
                   </td>
-                  <td></td>
+                  <td>De identificatie die door of voor de bronhouder is gebruikt om
+                     het object in de eigen administratie te kunnen vinden voordat het was geregistreerd
+                     in de basisregistratie ondergrond.
+                  </td>
                   <td>
                      <a class="link" href="#global_class_Brocommon_Tekst200">Tekst200</a>
                      
@@ -15058,6 +15205,21 @@
                   <th>Naam</th>
                   <td>Registratieverzoek EPL</td>
                </tr>
+               <tr>
+                  <th>Herkomst</th>
+                  <td>BRO</td>
+               </tr>
+               <tr>
+                  <th>Definitie</th>
+                  <td>Specialisatie van het generieke Innameverzoek zoals gedefinieerd in BroCommon. Dit
+                     object voegt aan het generieke Innameverzoek een brondocument toe dat specifiek is
+                     gedefinieerd binnen de context van het registratieobject Mijnbouwwetvergunningen.
+                  </td>
+               </tr>
+               <tr>
+                  <th>Herkomst definitie</th>
+                  <td>BRO</td>
+               </tr>
             </tbody>
          </table>
          
@@ -15118,8 +15280,16 @@
                   <td>Vastgestelde ingang</td>
                </tr>
                <tr>
+                  <th>Herkomst</th>
+                  <td>BRO</td>
+               </tr>
+               <tr>
                   <th>Definitie</th>
                   <td>Het deel van de ondergrond van het gebied waarop het recht betrekking heeft.</td>
+               </tr>
+               <tr>
+                  <th>Herkomst definitie</th>
+                  <td>BRO</td>
                </tr>
             </tbody>
          </table>
@@ -15456,6 +15626,14 @@
                <tr>
                   <th>Naam</th>
                   <td>Brondocument</td>
+               </tr>
+               <tr>
+                  <th>Herkomst</th>
+                  <td>BRO</td>
+               </tr>
+               <tr>
+                  <th>Definitie</th>
+                  <td>De lijst met mogelijke brondocumenten, waarvan een registratieverzoek er één kan bevatten.</td>
                </tr>
             </tbody>
          </table>
@@ -15848,8 +16026,16 @@
                      <td>naam gebeurtenis</td>
                   </tr>
                   <tr>
+                     <th>Herkomst</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
                      <th>Definitie</th>
                      <td>De benaming van de gebeurtenis.</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst definitie</th>
+                     <td>BRO</td>
                   </tr>
                   <tr>
                      <th>Mogelijk geen waarde</th>
@@ -15892,8 +16078,16 @@
                      <td>datum gebeurtenis</td>
                   </tr>
                   <tr>
+                     <th>Herkomst</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
                      <th>Definitie</th>
                      <td>De datum waarop de gebeurtenis heeft plaatsgevonden.</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst definitie</th>
+                     <td>BRO</td>
                   </tr>
                   <tr>
                      <th>Mogelijk geen waarde</th>
@@ -15936,8 +16130,16 @@
                      <td>besluitnummer</td>
                   </tr>
                   <tr>
+                     <th>Herkomst</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
                      <th>Definitie</th>
                      <td>De identificatie van het document waarin een besluit is vastgelegd.</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst definitie</th>
+                     <td>BRO</td>
                   </tr>
                   <tr>
                      <th>Mogelijk geen waarde</th>
@@ -15980,10 +16182,18 @@
                      <td>reden vervolgbesluit</td>
                   </tr>
                   <tr>
+                     <th>Herkomst</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
                      <th>Definitie</th>
                      <td>De reden waarom de minister besloten heeft een besluit te nemen dat volgt op het besluit
                         waarmee het proces van verlening is gestart.
                      </td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst definitie</th>
+                     <td>BRO</td>
                   </tr>
                   <tr>
                      <th>Mogelijk geen waarde</th>
@@ -16062,10 +16272,18 @@
                      <td>aanvraagdatum</td>
                   </tr>
                   <tr>
+                     <th>Herkomst</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
                      <th>Definitie</th>
                      <td>De ontvangstdatum van de laatste aanvulling die nodig is om de aanvraag compleet te
                         maken.
                      </td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst definitie</th>
+                     <td>BRO</td>
                   </tr>
                   <tr>
                      <th>Mogelijk geen waarde</th>
@@ -16108,8 +16326,16 @@
                      <td>naam gebeurtenis</td>
                   </tr>
                   <tr>
+                     <th>Herkomst</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
                      <th>Definitie</th>
                      <td>De benaming van de gebeurtenis.</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst definitie</th>
+                     <td>BRO</td>
                   </tr>
                   <tr>
                      <th>Mogelijk geen waarde</th>
@@ -16152,8 +16378,16 @@
                      <td>datum gebeurtenis</td>
                   </tr>
                   <tr>
+                     <th>Herkomst</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
                      <th>Definitie</th>
                      <td>De datum waarop de gebeurtenis heeft plaatsgevonden.</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst definitie</th>
+                     <td>BRO</td>
                   </tr>
                   <tr>
                      <th>Mogelijk geen waarde</th>
@@ -16196,8 +16430,16 @@
                      <td>besluitnummer</td>
                   </tr>
                   <tr>
+                     <th>Herkomst</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
                      <th>Definitie</th>
                      <td>De identificatie van het document waarin een besluit is vastgelegd.</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst definitie</th>
+                     <td>BRO</td>
                   </tr>
                   <tr>
                      <th>Mogelijk geen waarde</th>
@@ -16276,8 +16518,16 @@
                      <td>naam gebeurtenis</td>
                   </tr>
                   <tr>
+                     <th>Herkomst</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
                      <th>Definitie</th>
                      <td>De benaming van de gebeurtenis.</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst definitie</th>
+                     <td>BRO</td>
                   </tr>
                   <tr>
                      <th>Mogelijk geen waarde</th>
@@ -16320,8 +16570,16 @@
                      <td>datum gebeurtenis</td>
                   </tr>
                   <tr>
+                     <th>Herkomst</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
                      <th>Definitie</th>
                      <td>De datum waarop de gebeurtenis heeft plaatsgevonden.</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst definitie</th>
+                     <td>BRO</td>
                   </tr>
                   <tr>
                      <th>Mogelijk geen waarde</th>
@@ -16364,8 +16622,16 @@
                      <td>besluitnummer</td>
                   </tr>
                   <tr>
+                     <th>Herkomst</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
                      <th>Definitie</th>
                      <td>De identificatie van het document waarin een besluit is vastgelegd.</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst definitie</th>
+                     <td>BRO</td>
                   </tr>
                   <tr>
                      <th>Mogelijk geen waarde</th>
@@ -16444,8 +16710,16 @@
                      <td>naam gebeurtenis</td>
                   </tr>
                   <tr>
+                     <th>Herkomst</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
                      <th>Definitie</th>
                      <td>De benaming van de gebeurtenis.</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst definitie</th>
+                     <td>BRO</td>
                   </tr>
                   <tr>
                      <th>Mogelijk geen waarde</th>
@@ -16488,8 +16762,16 @@
                      <td>datum gebeurtenis</td>
                   </tr>
                   <tr>
+                     <th>Herkomst</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
                      <th>Definitie</th>
                      <td>De datum waarop de gebeurtenis heeft plaatsgevonden.</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst definitie</th>
+                     <td>BRO</td>
                   </tr>
                   <tr>
                      <th>Mogelijk geen waarde</th>
@@ -16536,8 +16818,16 @@
                      <td>naam gebeurtenis</td>
                   </tr>
                   <tr>
+                     <th>Herkomst</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
                      <th>Definitie</th>
                      <td>De benaming van de gebeurtenis.</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst definitie</th>
+                     <td>BRO</td>
                   </tr>
                   <tr>
                      <th>Mogelijk geen waarde</th>
@@ -16580,8 +16870,16 @@
                      <td>datum gebeurtenis</td>
                   </tr>
                   <tr>
+                     <th>Herkomst</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
                      <th>Definitie</th>
                      <td>De datum waarop de gebeurtenis heeft plaatsgevonden.</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst definitie</th>
+                     <td>BRO</td>
                   </tr>
                   <tr>
                      <th>Mogelijk geen waarde</th>
@@ -16624,8 +16922,16 @@
                      <td>besluitnummer</td>
                   </tr>
                   <tr>
+                     <th>Herkomst</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
                      <th>Definitie</th>
                      <td>De identificatie van het document waarin een besluit is vastgelegd.</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst definitie</th>
+                     <td>BRO</td>
                   </tr>
                   <tr>
                      <th>Mogelijk geen waarde</th>
@@ -16668,10 +16974,18 @@
                      <td>reden vervolgbesluit</td>
                   </tr>
                   <tr>
+                     <th>Herkomst</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
                      <th>Definitie</th>
                      <td>De reden waarom de minister besloten heeft een besluit te nemen dat volgt op het besluit
                         waarmee het proces van verlening is gestart.
                      </td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst definitie</th>
+                     <td>BRO</td>
                   </tr>
                   <tr>
                      <th>Mogelijk geen waarde</th>
@@ -16718,8 +17032,16 @@
                      <td>naam gebeurtenis</td>
                   </tr>
                   <tr>
+                     <th>Herkomst</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
                      <th>Definitie</th>
                      <td>De benaming van de gebeurtenis.</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst definitie</th>
+                     <td>BRO</td>
                   </tr>
                   <tr>
                      <th>Mogelijk geen waarde</th>
@@ -16762,8 +17084,16 @@
                      <td>datum gebeurtenis</td>
                   </tr>
                   <tr>
+                     <th>Herkomst</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
                      <th>Definitie</th>
                      <td>De datum waarop de gebeurtenis heeft plaatsgevonden.</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst definitie</th>
+                     <td>BRO</td>
                   </tr>
                   <tr>
                      <th>Mogelijk geen waarde</th>
@@ -16806,8 +17136,16 @@
                      <td>besluitnummer</td>
                   </tr>
                   <tr>
+                     <th>Herkomst</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
                      <th>Definitie</th>
                      <td>De identificatie van het document waarin een besluit is vastgelegd.</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst definitie</th>
+                     <td>BRO</td>
                   </tr>
                   <tr>
                      <th>Mogelijk geen waarde</th>
@@ -16850,10 +17188,18 @@
                      <td>reden vervolgbesluit</td>
                   </tr>
                   <tr>
+                     <th>Herkomst</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
                      <th>Definitie</th>
                      <td>De reden waarom de minister besloten heeft een besluit te nemen dat volgt op het besluit
                         waarmee het proces van verlening is gestart.
                      </td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst definitie</th>
+                     <td>BRO</td>
                   </tr>
                   <tr>
                      <th>Mogelijk geen waarde</th>
@@ -16930,6 +17276,21 @@
                   <tr>
                      <th>Naam</th>
                      <td>object-ID bronhouder</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Definitie</th>
+                     <td>De identificatie die door of voor de bronhouder is gebruikt om
+                        het object in de eigen administratie te kunnen vinden voordat het was geregistreerd
+                        in de basisregistratie ondergrond.
+                     </td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst definitie</th>
+                     <td>BRO</td>
                   </tr>
                   <tr>
                      <th>Mogelijk geen waarde</th>
@@ -19264,6 +19625,14 @@
                      <td>ingangsdatum</td>
                   </tr>
                   <tr>
+                     <th>Herkomst</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst definitie</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
                      <th>Mogelijk geen waarde</th>
                      <td>Nee</td>
                   </tr>
@@ -19302,6 +19671,14 @@
                   <tr>
                      <th>Naam</th>
                      <td>uiterste boordatum</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst definitie</th>
+                     <td>BRO</td>
                   </tr>
                   <tr>
                      <th>Mogelijk geen waarde</th>
@@ -19344,6 +19721,14 @@
                      <td>uiterste terughaaldatum</td>
                   </tr>
                   <tr>
+                     <th>Herkomst</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst definitie</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
                      <th>Mogelijk geen waarde</th>
                      <td>Nee</td>
                   </tr>
@@ -19382,6 +19767,14 @@
                   <tr>
                      <th>Naam</th>
                      <td>uiterste injectiedatum</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst definitie</th>
+                     <td>BRO</td>
                   </tr>
                   <tr>
                      <th>Mogelijk geen waarde</th>
