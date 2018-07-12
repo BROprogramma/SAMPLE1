@@ -1,10 +1,10 @@
 <h2>Catalogus</h2>
 <p class="note" title="Over deze catalogus">
    Deze catalogus is automatisch samengesteld op basis van het UML model 
-   "EPL experiment (SAMPLE1)" door 1.46.0 op July 12, 2018 at 09:45:31.
+   "EPL experiment (SAMPLE1)" door 1.46.0 op July 12, 2018 at 10:16:49.
    <br>
    Wanneer je technische fouten of onvolkomenheden aantreft, geef dit dan door aan <i>arjan@linkedmatter.com</i> en geef de code 
-   <i>"Conceptualmodel-EPLexperimentSAMPLE1-1.2-1-20180710-20180712-114532"</i> door. 
+   <i>"Conceptualmodel-EPLexperimentSAMPLE1-1.2-1-20180710-20180712-121650"</i> door. 
    
 </p><a class="anchor" name="global_package_Brocommon"></a><section id="global_package_Brocommon">
    <h3>Domein brocommon</h3>
@@ -15313,7 +15313,7 @@
                      <a class="link" href="#detail_attribute_IseplMessages_VastgesteldeIngang_ingangsdatum">ingangsdatum</a>
                      
                   </td>
-                  <td></td>
+                  <td>De datum die het begin aangeeft van de periode waarin de vergunning geldig is.</td>
                   <td>
                      <a class="link" href="#global_class_Brocommon_Datum">Datum</a>
                      
@@ -15325,7 +15325,7 @@
                      <a class="link" href="#detail_attribute_IseplMessages_VastgesteldeIngang_uitersteBoordatum">uiterste boordatum</a>
                      
                   </td>
-                  <td></td>
+                  <td>De datum waarop met boren moet zijn begonnen.</td>
                   <td>
                      <a class="link" href="#global_class_Brocommon_Datum">Datum</a>
                      
@@ -15337,7 +15337,9 @@
                      <a class="link" href="#detail_attribute_IseplMessages_VastgesteldeIngang_uitersteTerughaaldatum">uiterste terughaaldatum</a>
                      
                   </td>
-                  <td></td>
+                  <td>De datum waarop de in de ondergrond gebrachte stoffen uiterlijk teruggehaald moeten
+                     zijn.
+                  </td>
                   <td>
                      <a class="link" href="#global_class_Brocommon_Datum">Datum</a>
                      
@@ -15349,7 +15351,7 @@
                      <a class="link" href="#detail_attribute_IseplMessages_VastgesteldeIngang_uitersteInjectiedatum">uiterste injectiedatum</a>
                      
                   </td>
-                  <td></td>
+                  <td>De datum waarop de injectie van CO2 uiterlijk moet beginnen.</td>
                   <td>
                      <a class="link" href="#global_class_Brocommon_Datum">Datum</a>
                      
@@ -15373,8 +15375,16 @@
                   <td>Vergunninggebied</td>
                </tr>
                <tr>
+                  <th>Herkomst</th>
+                  <td>BRO</td>
+               </tr>
+               <tr>
                   <th>Definitie</th>
                   <td>Het gebied waar het recht betrekking op heeft.</td>
+               </tr>
+               <tr>
+                  <th>Herkomst definitie</th>
+                  <td>BRO</td>
                </tr>
             </tbody>
          </table>
@@ -15468,8 +15478,16 @@
                   <td>Vergunninggebied_VV</td>
                </tr>
                <tr>
+                  <th>Herkomst</th>
+                  <td>BRO</td>
+               </tr>
+               <tr>
                   <th>Definitie</th>
                   <td>Het gebied waar het recht betrekking op heeft.</td>
+               </tr>
+               <tr>
+                  <th>Herkomst definitie</th>
+                  <td>BRO</td>
                </tr>
             </tbody>
          </table>
@@ -15549,8 +15567,16 @@
                   <td>Verleend gebied</td>
                </tr>
                <tr>
+                  <th>Herkomst</th>
+                  <td>BRO</td>
+               </tr>
+               <tr>
                   <th>Definitie</th>
                   <td>Het gebied of een gebiedsdeel waarvoor de vergunning verleend is.</td>
+               </tr>
+               <tr>
+                  <th>Herkomst definitie</th>
+                  <td>BRO</td>
                </tr>
             </tbody>
          </table>
@@ -19629,8 +19655,24 @@
                      <td>BRO</td>
                   </tr>
                   <tr>
+                     <th>Definitie</th>
+                     <td>De datum die het begin aangeeft van de periode waarin de vergunning geldig is.</td>
+                  </tr>
+                  <tr>
                      <th>Herkomst definitie</th>
                      <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Toelichting</th>
+                     <td>Het gegeven heeft gewoonlijk uiterlijk een waarde op het moment dat de vergunning
+                        verleend is. De waarde staat op dat moment vast. Er zijn twee uitzonderingen en dat
+                        is wanneer in het definitieve besluit een voorwaarde is opgenomen waaraan de vergunninghouder
+                        moet hebben voldaan voordat de vergunning ingaat. In dat geval gaat de vergunning
+                        pas in op het moment dat aan de voorwaarden is voldaan. De andere uitzondering is
+                        wanneer de ingangsdatum na de datum ligt waarop de vergunning is verleend. In dat
+                        geval gaat de vergunning pas in op het moment dat de ingangsdatum is bereikt.
+                        De datum mag in de toekomst liggen.
+                     </td>
                   </tr>
                   <tr>
                      <th>Mogelijk geen waarde</th>
@@ -19677,8 +19719,22 @@
                      <td>BRO</td>
                   </tr>
                   <tr>
+                     <th>Definitie</th>
+                     <td>De datum waarop met boren moet zijn begonnen.</td>
+                  </tr>
+                  <tr>
                      <th>Herkomst definitie</th>
                      <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Toelichting</th>
+                     <td>Het gegeven heeft gewoonlijk een waarde op het moment dat de vergunning verleend is.
+                        De waarde staat op dat moment vast. Er is een uitzondering en dat is wanneer de vergunning
+                        nog niet is ingegaan. In dat geval is de uiterste boordatum pas bekend op het moment
+                        dat de vergunning is ingegaan.
+                        Het gegeven kan een nieuwe waarde krijgen wanneer de vergunning gewijzigd is. De oude
+                        waarde blijft behouden.De datum mag in de toekomst liggen.
+                     </td>
                   </tr>
                   <tr>
                      <th>Mogelijk geen waarde</th>
@@ -19725,8 +19781,24 @@
                      <td>BRO</td>
                   </tr>
                   <tr>
+                     <th>Definitie</th>
+                     <td>De datum waarop de in de ondergrond gebrachte stoffen uiterlijk teruggehaald moeten
+                        zijn.
+                     </td>
+                  </tr>
+                  <tr>
                      <th>Herkomst definitie</th>
                      <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Toelichting</th>
+                     <td>Het gegeven heeft gewoonlijk een waarde op het moment dat de vergunning verleend is.
+                        De waarde staat op dat moment vast. Er is een uitzondering en dat is wanneer de vergunning
+                        nog niet is ingegaan. In dat geval is de uiterste terughaaldatum pas bekend op het
+                        moment dat de vergunning is ingegaan.
+                        Het gegeven kan een nieuwe waarde krijgen wanneer de vergunning gewijzigd is. De oude
+                        waarde blijft behouden.De datum mag in de toekomst liggen.
+                     </td>
                   </tr>
                   <tr>
                      <th>Mogelijk geen waarde</th>
@@ -19773,8 +19845,22 @@
                      <td>BRO</td>
                   </tr>
                   <tr>
+                     <th>Definitie</th>
+                     <td>De datum waarop de injectie van CO2 uiterlijk moet beginnen.</td>
+                  </tr>
+                  <tr>
                      <th>Herkomst definitie</th>
                      <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Toelichting</th>
+                     <td>Het gegeven heeft gewoonlijk een waarde op het moment dat de vergunning verleend is.
+                        De waarde staat op dat moment vast. Er is een uitzondering en dat is wanneer de vergunning
+                        nog niet is ingegaan. In dat geval is de uiterste injectiedatum pas bekend op het
+                        moment dat de vergunning is ingegaan.Het gegeven kan een nieuwe waarde krijgen wanneer
+                        de vergunning gewijzigd is. De oude waarde blijft behouden.De datum mag in de toekomst
+                        liggen.
+                     </td>
                   </tr>
                   <tr>
                      <th>Mogelijk geen waarde</th>
@@ -19821,10 +19907,18 @@
                      <td>onshore</td>
                   </tr>
                   <tr>
+                     <th>Herkomst</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
                      <th>Definitie</th>
                      <td>De aanduiding die aangeeft of het vergunninggebied aan de landzijde van de driemijlsgrens
                         ligt.
                      </td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst definitie</th>
+                     <td>BRO</td>
                   </tr>
                   <tr>
                      <th>Mogelijk geen waarde</th>
@@ -19867,10 +19961,18 @@
                      <td>aaneengesloten</td>
                   </tr>
                   <tr>
+                     <th>Herkomst</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
                      <th>Definitie</th>
                      <td>De aanduiding die aangeeft of het vergunninggebied bij verlening een aaneengesloten
                         geheel is.
                      </td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst definitie</th>
+                     <td>BRO</td>
                   </tr>
                   <tr>
                      <th>Mogelijk geen waarde</th>
@@ -19949,10 +20051,18 @@
                      <td>aaneengesloten</td>
                   </tr>
                   <tr>
+                     <th>Herkomst</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
                      <th>Definitie</th>
                      <td>De aanduiding die aangeeft of het vergunninggebied bij verlening een aaneengesloten
                         geheel is.
                      </td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst definitie</th>
+                     <td>BRO</td>
                   </tr>
                   <tr>
                      <th>Mogelijk geen waarde</th>
@@ -20031,8 +20141,16 @@
                      <td>naam verleend gebied</td>
                   </tr>
                   <tr>
+                     <th>Herkomst</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
                      <th>Definitie</th>
                      <td>De herkenbare naam die het gebied bij verlening heeft gekregen.</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst definitie</th>
+                     <td>BRO</td>
                   </tr>
                   <tr>
                      <th>Mogelijk geen waarde</th>
@@ -20075,10 +20193,18 @@
                      <td>aangeleverde begrenzing</td>
                   </tr>
                   <tr>
+                     <th>Herkomst</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
                      <th>Definitie</th>
                      <td>De begrenzing van het gebied op het aardoppervlak, zoals die is aangeleverd aan de
                         basisregistratie ondergrond.
                      </td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst definitie</th>
+                     <td>BRO</td>
                   </tr>
                   <tr>
                      <th>Mogelijk geen waarde</th>
@@ -20121,8 +20247,16 @@
                      <td>oppervlakte</td>
                   </tr>
                   <tr>
+                     <th>Herkomst</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
                      <th>Definitie</th>
                      <td>De oppervlakte van het gebied.</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst definitie</th>
+                     <td>BRO</td>
                   </tr>
                   <tr>
                      <th>Mogelijk geen waarde</th>

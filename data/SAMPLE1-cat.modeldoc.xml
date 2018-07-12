@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_491FA2C0_2621_4d18_B9BA_D66964A4BFBD"
       generator-version="1.46.0"
-      generator-date="2018-07-12T09:45:31Z">
+      generator-date="2018-07-12T10:16:49Z">
    <section type="DOMAIN" name="brocommon" id="global_package_Brocommon">
       <section type="IMAGEMAPS"
                name="brocommon-imagemap"
@@ -13235,7 +13235,7 @@ het object in de eigen administratie te kunnen vinden voordat het was geregistre
                         <item type="detail"
                               idref="detail_attribute_IseplMessages_VastgesteldeIngang_ingangsdatum">ingangsdatum</item>
                      </item>
-                     <item/>
+                     <item>De datum die het begin aangeeft van de periode waarin de vergunning geldig is.</item>
                      <item>
                         <item type="global" idref="global_class_Brocommon_Datum">Datum</item>
                      </item>
@@ -13246,7 +13246,7 @@ het object in de eigen administratie te kunnen vinden voordat het was geregistre
                         <item type="detail"
                               idref="detail_attribute_IseplMessages_VastgesteldeIngang_uitersteBoordatum">uiterste boordatum</item>
                      </item>
-                     <item/>
+                     <item>De datum waarop met boren moet zijn begonnen.</item>
                      <item>
                         <item type="global" idref="global_class_Brocommon_Datum">Datum</item>
                      </item>
@@ -13257,7 +13257,7 @@ het object in de eigen administratie te kunnen vinden voordat het was geregistre
                         <item type="detail"
                               idref="detail_attribute_IseplMessages_VastgesteldeIngang_uitersteTerughaaldatum">uiterste terughaaldatum</item>
                      </item>
-                     <item/>
+                     <item>De datum waarop de in de ondergrond gebrachte stoffen uiterlijk teruggehaald moeten zijn.</item>
                      <item>
                         <item type="global" idref="global_class_Brocommon_Datum">Datum</item>
                      </item>
@@ -13268,7 +13268,7 @@ het object in de eigen administratie te kunnen vinden voordat het was geregistre
                         <item type="detail"
                               idref="detail_attribute_IseplMessages_VastgesteldeIngang_uitersteInjectiedatum">uiterste injectiedatum</item>
                      </item>
-                     <item/>
+                     <item>De datum waarop de injectie van CO2 uiterlijk moet beginnen.</item>
                      <item>
                         <item type="global" idref="global_class_Brocommon_Datum">Datum</item>
                      </item>
@@ -13286,9 +13286,17 @@ het object in de eigen administratie te kunnen vinden voordat het was geregistre
                   <item>Naam</item>
                   <item>Vergunninggebied</item>
                </part>
+               <part type="CFG-DOC-HERKOMST">
+                  <item>Herkomst</item>
+                  <item>BRO</item>
+               </part>
                <part type="CFG-DOC-DEFINITIE">
                   <item>Definitie</item>
                   <item>Het gebied waar het recht betrekking op heeft.</item>
+               </part>
+               <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                  <item>Herkomst definitie</item>
+                  <item>BRO</item>
                </part>
             </content>
             <section type="SHORT-ATTRIBUTES">
@@ -13372,9 +13380,17 @@ het object in de eigen administratie te kunnen vinden voordat het was geregistre
                   <item>Naam</item>
                   <item>Vergunninggebied_VV</item>
                </part>
+               <part type="CFG-DOC-HERKOMST">
+                  <item>Herkomst</item>
+                  <item>BRO</item>
+               </part>
                <part type="CFG-DOC-DEFINITIE">
                   <item>Definitie</item>
                   <item>Het gebied waar het recht betrekking op heeft.</item>
+               </part>
+               <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                  <item>Herkomst definitie</item>
+                  <item>BRO</item>
                </part>
             </content>
             <section type="SHORT-ATTRIBUTES">
@@ -13449,9 +13465,17 @@ het object in de eigen administratie te kunnen vinden voordat het was geregistre
                   <item>Naam</item>
                   <item>Verleend gebied</item>
                </part>
+               <part type="CFG-DOC-HERKOMST">
+                  <item>Herkomst</item>
+                  <item>BRO</item>
+               </part>
                <part type="CFG-DOC-DEFINITIE">
                   <item>Definitie</item>
                   <item>Het gebied of een gebiedsdeel waarvoor de vergunning verleend is.</item>
+               </part>
+               <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                  <item>Herkomst definitie</item>
+                  <item>BRO</item>
                </part>
             </content>
             <section type="SHORT-ATTRIBUTES">
@@ -17235,9 +17259,18 @@ Wanneer de waarde van het attribuut onshore van de entiteit Mijnbouwwetvergunnin
                         <item>Herkomst</item>
                         <item>BRO</item>
                      </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>De datum die het begin aangeeft van de periode waarin de vergunning geldig is.</item>
+                     </part>
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
                         <item>Herkomst definitie</item>
                         <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-TOELICHTING">
+                        <item>Toelichting</item>
+                        <item>Het gegeven heeft gewoonlijk uiterlijk een waarde op het moment dat de vergunning verleend is. De waarde staat op dat moment vast. Er zijn twee uitzonderingen en dat is wanneer in het definitieve besluit een voorwaarde is opgenomen waaraan de vergunninghouder moet hebben voldaan voordat de vergunning ingaat. In dat geval gaat de vergunning pas in op het moment dat aan de voorwaarden is voldaan. De andere uitzondering is wanneer de ingangsdatum na de datum ligt waarop de vergunning is verleend. In dat geval gaat de vergunning pas in op het moment dat de ingangsdatum is bereikt.
+De datum mag in de toekomst liggen.</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -17278,9 +17311,18 @@ Wanneer de waarde van het attribuut onshore van de entiteit Mijnbouwwetvergunnin
                         <item>Herkomst</item>
                         <item>BRO</item>
                      </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>De datum waarop met boren moet zijn begonnen.</item>
+                     </part>
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
                         <item>Herkomst definitie</item>
                         <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-TOELICHTING">
+                        <item>Toelichting</item>
+                        <item>Het gegeven heeft gewoonlijk een waarde op het moment dat de vergunning verleend is. De waarde staat op dat moment vast. Er is een uitzondering en dat is wanneer de vergunning nog niet is ingegaan. In dat geval is de uiterste boordatum pas bekend op het moment dat de vergunning is ingegaan.
+Het gegeven kan een nieuwe waarde krijgen wanneer de vergunning gewijzigd is. De oude waarde blijft behouden.De datum mag in de toekomst liggen.</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -17321,9 +17363,18 @@ Wanneer de waarde van het attribuut onshore van de entiteit Mijnbouwwetvergunnin
                         <item>Herkomst</item>
                         <item>BRO</item>
                      </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>De datum waarop de in de ondergrond gebrachte stoffen uiterlijk teruggehaald moeten zijn.</item>
+                     </part>
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
                         <item>Herkomst definitie</item>
                         <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-TOELICHTING">
+                        <item>Toelichting</item>
+                        <item>Het gegeven heeft gewoonlijk een waarde op het moment dat de vergunning verleend is. De waarde staat op dat moment vast. Er is een uitzondering en dat is wanneer de vergunning nog niet is ingegaan. In dat geval is de uiterste terughaaldatum pas bekend op het moment dat de vergunning is ingegaan.
+Het gegeven kan een nieuwe waarde krijgen wanneer de vergunning gewijzigd is. De oude waarde blijft behouden.De datum mag in de toekomst liggen.</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -17364,9 +17415,17 @@ Wanneer de waarde van het attribuut onshore van de entiteit Mijnbouwwetvergunnin
                         <item>Herkomst</item>
                         <item>BRO</item>
                      </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>De datum waarop de injectie van CO2 uiterlijk moet beginnen.</item>
+                     </part>
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
                         <item>Herkomst definitie</item>
                         <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-TOELICHTING">
+                        <item>Toelichting</item>
+                        <item>Het gegeven heeft gewoonlijk een waarde op het moment dat de vergunning verleend is. De waarde staat op dat moment vast. Er is een uitzondering en dat is wanneer de vergunning nog niet is ingegaan. In dat geval is de uiterste injectiedatum pas bekend op het moment dat de vergunning is ingegaan.Het gegeven kan een nieuwe waarde krijgen wanneer de vergunning gewijzigd is. De oude waarde blijft behouden.De datum mag in de toekomst liggen.</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -17408,9 +17467,17 @@ Wanneer de waarde van het attribuut onshore van de entiteit Mijnbouwwetvergunnin
                         <item>Naam</item>
                         <item>onshore</item>
                      </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
                         <item>De aanduiding die aangeeft of het vergunninggebied aan de landzijde van de driemijlsgrens ligt.</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -17447,9 +17514,17 @@ Wanneer de waarde van het attribuut onshore van de entiteit Mijnbouwwetvergunnin
                         <item>Naam</item>
                         <item>aaneengesloten</item>
                      </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
                         <item>De aanduiding die aangeeft of het vergunninggebied bij verlening een aaneengesloten geheel is.</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -17532,9 +17607,17 @@ Wanneer de waarde van het attribuut onshore van de entiteit Mijnbouwwetvergunnin
                         <item>Naam</item>
                         <item>aaneengesloten</item>
                      </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
                         <item>De aanduiding die aangeeft of het vergunninggebied bij verlening een aaneengesloten geheel is.</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -17617,9 +17700,17 @@ Wanneer de waarde van het attribuut onshore van de entiteit Mijnbouwwetvergunnin
                         <item>Naam</item>
                         <item>naam verleend gebied</item>
                      </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
                         <item>De herkenbare naam die het gebied bij verlening heeft gekregen.</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -17656,9 +17747,17 @@ Wanneer de waarde van het attribuut onshore van de entiteit Mijnbouwwetvergunnin
                         <item>Naam</item>
                         <item>aangeleverde begrenzing</item>
                      </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
                         <item>De begrenzing van het gebied op het aardoppervlak, zoals die is aangeleverd aan de basisregistratie ondergrond.</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -17695,9 +17794,17 @@ Wanneer de waarde van het attribuut onshore van de entiteit Mijnbouwwetvergunnin
                         <item>Naam</item>
                         <item>oppervlakte</item>
                      </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
                         <item>De oppervlakte van het gebied.</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
